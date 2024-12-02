@@ -1,4 +1,6 @@
 import os
+import re
+import string
 import unicodedata
 
 import polars as pl
@@ -11,6 +13,19 @@ NAMESPACES = {
     "tei": "http://www.tei-c.org/ns/1.0",
     "xml": "http://www.w3.org/XML/1998/namespace",
 }
+
+def replace_sigmas(s: str):
+    return re.sub(r"ς|c", "σ", s)
+
+
+def remove_combining_fluent(string: str) -> str:
+    """
+    Source: https://gist.github.com/luizomf/54b58615cd674db44153470c369a8284
+    """
+    normalized = unicodedata.normalize('NFD', string)
+    return ''.join(
+        [l for l in normalized if not unicodedata.combining(l)]
+    ).casefold()
 
 
 def to_urn(s: str):
@@ -32,9 +47,15 @@ def get_dramatist(urn: str):
 
     if "tlg0085" in urn: return "Aeschylus"
 
-def strip_accents(s):
-   return ''.join(c for c in unicodedata.normalize('NFD', s)
-                  if unicodedata.category(c) != 'Mn')
+
+
+def clean_token(s: str):
+    no_punct = s.translate(str.maketrans('', '', string.punctuation))
+    no_grave_accute = remove_combining_fluent(no_punct)
+    normal_sigmas = replace_sigmas(no_grave_accute)
+
+    return normal_sigmas
+
 
 
 def iter_lines(title, urn, tree):
@@ -50,14 +71,17 @@ def iter_lines(title, urn, tree):
 
                 if speaker != "":
                     speakers.add(speaker)
+                    text = l.text.strip()
+                    tokens = [clean_token(t) for t in text.split()]
+
                     row = {
                         "n": n[0],
                         "urn": urn,
                         "dramatist": get_dramatist(urn),
                         "title": title,
-                        "title_en": translit(strip_accents(title), 'el', reversed=True),
                         "speaker": speaker,
-                        "text": l.text.strip(),
+                        "text": text,
+                        "tokens": tokens
                     }
 
                     rows.append(row)
@@ -77,26 +101,27 @@ df = pl.DataFrame(data)
 df.write_parquet('./greek-tragedy-by-line.parquet')
 
 for row in df.group_by("dramatist", "title").agg(pl.col("text")).iter_rows():
-    title = f"{row[0]}_{row[1].replace(" ", "_")}"
+    title = f"{row[0]}_{row[1].replace(" ", "-")}"
     text = row[2]
 
     with open(f"./corpus/{title}.txt", "w+") as f:
         for line in text:
             f.write(f"{line}\n")
 
-import os
-import spacy
 
-nlp = spacy.load("grc_perseus_lg")
+def lemmatize():
+    import spacy
 
-txts = [f"./corpus/{f}" for f in os.listdir("./corpus") if f.endswith(".txt")]
+    nlp = spacy.load("grc_perseus_lg")
 
-for txt in txts:
-    with open(txt) as f:
-        doc = nlp(f.read())
-        lemmata = [token.lemma_ for token in doc]
-        out = txt.replace(".txt", ".lemmatized.txt")
+    txts = [f"./corpus/{f}" for f in os.listdir("./corpus") if f.endswith(".txt")]
 
-        with open(out, 'w+') as g:
-            for lemma in lemmata:
-                g.write(f"{lemma}\n")
+    for txt in txts:
+        with open(txt) as f:
+            doc = nlp(f.read())
+            lemmata = [token.lemma_ for token in doc]
+            out = txt.replace(".txt", ".lemmatized.txt")
+
+            with open(out, 'w+') as g:
+                for lemma in lemmata:
+                    g.write(f"{lemma}\n")
