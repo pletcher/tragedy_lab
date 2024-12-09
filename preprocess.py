@@ -6,7 +6,6 @@ import unicodedata
 import polars as pl
 
 from lxml import etree
-from transliterate import translit
 
 DIR = "data"
 NAMESPACES = {
