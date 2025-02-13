@@ -8,7 +8,9 @@ import polars as pl
 
 from lxml import etree
 
-DIR = "data"
+HOMER_DIR = "homer_xml"
+TRAGEDY_DIR = "tragedy_xml"
+
 NAMESPACES = {
     "tei": "http://www.tei-c.org/ns/1.0",
     "xml": "http://www.w3.org/XML/1998/namespace",
@@ -32,10 +34,16 @@ def to_urn(s: str):
     return f"urn:cts:greekLit:{s.replace('.xml', '')}"
 
 
-FILES = [
-    (os.path.join(DIR, f), to_urn(f))
-    for f in os.listdir(DIR)
-    if os.path.isfile(os.path.join(DIR, f)) and f.endswith(".xml")
+TRAGEDY_FILES = [
+    (os.path.join(TRAGEDY_DIR, f), to_urn(f))
+    for f in os.listdir(TRAGEDY_DIR)
+    if os.path.isfile(os.path.join(TRAGEDY_DIR, f)) and f.endswith(".xml")
+]
+
+HOMER_FILES = [
+    (os.path.join(HOMER_DIR, f), to_urn(f))
+    for f in os.listdir(HOMER_DIR)
+    if os.path.isfile(os.path.join(HOMER_DIR, f)) and f.endswith(".xml")
 ]
 
 PERSONAE = []
@@ -72,12 +80,87 @@ def clean_token(s: str):
     return normal_sigmas
 
 
+TITLES = {
+    "Ichneutae": "Ichneutae",
+    "Ἀγαμέμνων": "Agamemnon",
+    "Αἴας": "Ajax",
+    "Ἄλκηστις": "Alcestis",
+    "Ἀνδρομάχη": "Andromache",
+    "Ἀντιγόνη": "Antigone",
+    "Βάκχαι": "Bacchae",
+    "Ἑκάβη": "Hecuba",
+    "Ἑλένη": "Helen",
+    "Ἑπτὰ ἐπὶ Θήβας": "Seven Against Thebes",
+    "Εὐμενίδες": "Eumenides",
+    "Ἠλέκτρα": "Electra",
+    "Ἡρακλεῖδαι": "Heracleidae",
+    "Ἡρακλῆς": "Heracles",
+    "Ἱκέτιδες": "Suppliants",
+    "Ἱππόλυτος": "Hippolytus",
+    "Ἰφιγένεια ἐν Αὐλίδι": "Iphigenia in Aulis",
+    "Ἰφιγένεια ἐν Ταύροις": "Iphigenia among the Taurians",
+    "Ἴων": "Ion",
+    "Κύκλωψ": "Cyclops",
+    "Μήδεια": "Medea",
+    "Οἰδίπους ἐπὶ Κολωνῷ": "Oedipus at Colonus",
+    "Οἰδίπους Τύραννος": "Oedipus Tyrannus",
+    "Ὀρέστης": "Orestes",
+    "Πέρσαι": "Persians",
+    "Προμηθεὺς δεσμώτης": "Prometheus Bound",
+    "Ῥῆσος": "Rhesus",
+    "Τραχίνιαι": "Trachiniae",
+    "Τρῳάδες": "Trojan Women",
+    "Φιλοκτήτης": "Philoctetes",
+    "Φοίνισσαι": "Phoenician Women",
+    "Χοηφóρoι": "Choephoroi",
+}
 
-def iter_lines(title, urn, tree):
+
+def iter_homer_lines(urn, tree):
+    rows = []
+
+    book_n = "1"
+
+    title = ""
+
+    if "tlg0012.tlg001" in urn:
+        title = "Iliad"
+    elif "tlg0012.tlg002" in urn:
+        title = "Odyssey"
+
+    if title == "":
+        raise RuntimeError(f"Invalid URN: {urn}")
+
+    for l in tree.iterfind(".//tei:l", namespaces=NAMESPACES):
+        text = ''.join(l.itertext()).strip()
+
+        if text is not None:
+            n = l.xpath("./@n")[0]
+            book_el = l.getparent()
+
+            possible_book_n = book_el.attrib.get('n')
+            if possible_book_n is not None and possible_book_n != book_n:
+                book_n = possible_book_n
+
+            row = dict(
+                urn=f"{urn}:{book_n}.{n}",
+                title=title,
+                book_n=book_n,
+                n=n,
+                text=text
+            )
+
+            rows.append(row)
+
+    return rows
+
+def iter_tragedy_lines(title, urn, tree):
     rows = []
 
     for l in tree.iterfind(".//tei:l", namespaces=NAMESPACES):
-        if l.text is not None:
+        text = ''.join(l.itertext()).strip()
+
+        if text is not None:
             n = l.xpath("./@n")
             speaker = l.xpath("../tei:speaker//text()", namespaces=NAMESPACES)
 
@@ -86,7 +169,6 @@ def iter_lines(title, urn, tree):
 
                 if speaker != "":
                     speakers.add(speaker)
-                    text = l.text.strip()
                     tokens = [clean_token(t) for t in text.split()]
                     dramatist = get_dramatist(urn)
 
@@ -94,7 +176,7 @@ def iter_lines(title, urn, tree):
                         "n": n[0],
                         "urn": urn,
                         "dramatist": dramatist,
-                        "title": title,
+                        "title": TITLES[title],
                         "speaker": speaker,
                         "gender": get_gender(dramatist, title, speaker),
                         "text": text,
@@ -106,26 +188,45 @@ def iter_lines(title, urn, tree):
     return rows
 
 
-def create_df():
+def create_tragedy_df():
     data = []
 
-    for f, urn in FILES:
+    for f, urn in TRAGEDY_FILES:
         tree = etree.parse(f)
         title = tree.xpath("//tei:titleStmt/tei:title/text()", namespaces=NAMESPACES)[0]
-        lines = iter_lines(title, urn, tree)
+        lines = iter_tragedy_lines(title, urn, tree)
         data += lines
 
     df = pl.DataFrame(data)
 
     return df
 
-def write_df():
-    df = create_df()
+def create_homer_df():
+    data = []
+
+    for f, urn in HOMER_FILES:
+        tree = etree.parse(f)
+        lines = iter_homer_lines(urn, tree)
+        data += lines
+    
+    df = pl.DataFrame(data)
+
+    return df
+
+
+def write_homer_df():
+    df = create_homer_df()
+
+    df.write_parquet('./homer.parquet')
+
+
+def write_tragedy_df():
+    df = create_tragedy_df()
 
     df.write_parquet('./greek-tragedy-by-line_with-gender.parquet')
 
 def write_corpus():
-    df = create_df()
+    df = create_tragedy_df()
 
     for row in df.group_by("dramatist", "title").agg(pl.col("text")).iter_rows():
         title = f"{row[0]}_{row[1].replace(" ", "-")}"
@@ -154,4 +255,4 @@ def lemmatize():
                     g.write(f"{lemma}\n")
 
 if __name__ == "__main__":
-    write_df()
+    write_homer_df()
