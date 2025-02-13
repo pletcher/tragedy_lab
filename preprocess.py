@@ -97,13 +97,13 @@ TITLES = {
     "Ἡρακλῆς": "Heracles",
     "Ἱκέτιδες": "Suppliants",
     "Ἱππόλυτος": "Hippolytus",
-    "Ἰφιγένεια ἐν Αὐλίδι": "Iphigenia in Aulis",
-    "Ἰφιγένεια ἐν Ταύροις": "Iphigenia among the Taurians",
+    "Ἰφιγένεια ἐν Αὐλίδι": "IA",
+    "Ἰφιγένεια ἐν Ταύροις": "IT",
     "Ἴων": "Ion",
     "Κύκλωψ": "Cyclops",
     "Μήδεια": "Medea",
-    "Οἰδίπους ἐπὶ Κολωνῷ": "Oedipus at Colonus",
-    "Οἰδίπους Τύραννος": "Oedipus Tyrannus",
+    "Οἰδίπους ἐπὶ Κολωνῷ": "OC",
+    "Οἰδίπους Τύραννος": "OT",
     "Ὀρέστης": "Orestes",
     "Πέρσαι": "Persians",
     "Προμηθεὺς δεσμώτης": "Prometheus Bound",
@@ -255,4 +255,4 @@ def lemmatize():
                     g.write(f"{lemma}\n")
 
 if __name__ == "__main__":
-    write_homer_df()
+    write_tragedy_df()
