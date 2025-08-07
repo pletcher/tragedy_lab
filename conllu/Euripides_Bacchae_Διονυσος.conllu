@@ -1,0 +1,108 @@
+# sentence: δράκων γενήσῃ μεταβαλών, δάμαρ τε σὴ ἐκθηριωθεῖσʼ ὄφεος ἀλλάξει τύπον,
+1	δράκων	δράκων	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	2	xcomp
+2	γενήσῃ	γίγνομαι	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Mid	2	ROOT
+3	μεταβαλών	μεταβάλλω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	2	advcl
+4	,	,	PUNCT	Z		2	dep
+5	δάμαρ	δάμαρ	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	2	dep
+6	τε	τε	CCONJ	C-		2	cc
+7	σὴ	σός	ADJ	Ps	Case=Dat|Gender=Fem|Number=Sing|Person=3|Poss=Yes	2	dep
+9	ἐκθηριωθεῖσʼ	ἐκθηριόω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	11	advcl
+10	ὄφεος	ὄφις	PROPN	Nb	Case=Gen|Gender=Masc|Number=Sing	12	nmod
+11	ἀλλάξει	ἀλλάσσω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	2	xcomp
+12	τύπον	τύπος	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	11	obj
+13	,	,	PUNCT	Z	Case=Acc|Gender=Masc|Number=Sing	2	dep
+# sentence: ἣν Ἄρεος ἔσχες Ἁρμονίαν θνητὸς γεγώς.
+15	ἣν	ὅς	PRON	Pr	Case=Acc|Gender=Fem|Number=Sing|PronType=Rel	17	obj
+16	Ἄρεος	Ἄρης	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	15	nmod
+17	ἔσχες	ἔχω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	17	ROOT
+18	Ἁρμονίαν	ἁρμονία	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	17	obj
+19	θνητὸς	θνητός	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	20	xcomp
+20	γεγώς	γίγνομαι	AUX	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	17	advcl
+21	.	.	PUNCT	Z		17	punct
+# sentence: 
+# sentence: ὄχον δὲ μόσχων, χρησμὸς ὡς λέγει Διός,
+23	ὄχον	ὄχος	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	31	obj
+24	δὲ	δέ	ADV	Df		26	discourse
+25	μόσχων	μόσχος	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	26	nmod
+26	,	,	PUNCT	Z	Polarity=Neg	27	orphan
+27	χρησμὸς	χρησμός	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	23	dep
+28	ὡς	ὡς	ADV	Dq	PronType=Rel	29	advmod
+29	λέγει	λέγω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	27	acl
+30	Διός	Ζεύς	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	29	dep
+31	,	,	PUNCT	Z		31	ROOT
+# sentence: ἐλᾷς μετʼ ἀλόχου, βαρβάρων ἡγούμενος.
+33	ἐλᾷς	ἐλαύνω	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	33	ROOT
+34	μετʼ	μετά	ADP	R-		35	case
+35	ἀλόχου	ἄλοχος	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	33	obl
+36	,	,	PUNCT	Z	Case=Acc|Gender=Masc|Number=Sing	33	advcl
+37	βαρβάρων	βάρβαρος	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	38	iobj
+38	ἡγούμενος	ἡγέομαι	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	33	advcl
+39	.	.	PUNCT	Z		33	punct
+# sentence: 
+# sentence: πολλὰς δὲ πέρσεις ἀναρίθμῳ στρατεύματι πόλεις·
+41	πολλὰς	πολύς	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	47	amod
+42	δὲ	δέ	ADV	Df		43	discourse
+43	πέρσεις	πέρσω	NOUN	Ne	Case=Dat|Gender=Masc|Number=Plur	43	ROOT
+44	ἀναρίθμῳ	ἀναρίθμῳ	ADJ	A-	Case=Dat|Degree=Pos|Number=Sing	45	amod
+45	στρατεύματι	στράτευμα	NOUN	Nb	Case=Dat|Gender=Neut|Number=Sing	46	obl
+47	πόλεις	πόλις	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	43	obj
+48	·	·	PUNCT	Z		43	punct
+# sentence: ὅταν δὲ Λοξίου χρηστήριον διαρπάσωσι, νόστον ἄθλιον πάλιν σχήσουσι·
+49	ὅταν	ὅταν	ADV	Dq	PronType=Rel	53	dep
+50	δὲ	δέ	ADV	Df		53	discourse
+51	Λοξίου	Λοξίας	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	52	nmod
+52	χρηστήριον	χρηστήριον	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	53	obj
+54	διαρπάσωσι	διαρπάζω	VERB	V-	Aspect=Perf|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	55	advcl
+55	,	,	PUNCT	Z		60	obj
+56	νόστον	νόστος	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	59	obj
+57	ἄθλιον	ἄθλιος	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc,Neut|Number=Sing	56	amod
+58	πάλιν	πάλιν	ADV	Df		59	advmod
+60	σχήσουσι	ἔχω	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	60	ROOT
+61	·	·	PUNCT	Z		60	punct
+# sentence: σὲ δʼ Ἄρης Ἁρμονίαν τε ῥύσεται μακάρων τʼ ἐς αἶαν σὸν καθιδρύσει βίον.
+62	σὲ	σύ	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=2|PronType=Prs	67	obj
+63	δʼ	δέ	ADV	Df		67	discourse
+64	Ἄρης	Ἄρης	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	67	nsubj
+65	Ἁρμονίαν	ἁρμονία	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	67	obj
+66	τε	τε	CCONJ	C-		67	cc
+67	ῥύσεται	ἐρύω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	67	ROOT
+69	μακάρων	μάκαρ	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	68	dep
+70	τʼ	τε	CCONJ	C-		67	cc
+71	ἐς	εἰς	ADP	R-		72	case
+72	αἶαν	αἶα	PROPN	Ne	Case=Acc|Gender=Fem|Number=Sing	74	obl
+73	σὸν	σός	ADJ	Ps	Case=Acc|Gender=Masc|Number=Sing|Person=2|Poss=Yes	74	obj
+74	καθιδρύσει	καθιδρύζω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	67	conj
+75	βίον	βίος	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	74	obj
+76	.	.	PUNCT	Z		67	punct
+# sentence: ταῦτʼ οὐχὶ θνητοῦ πατρὸς ἐκγεγὼς λέγω Διόνυσος, ἀλλὰ Ζηνός·
+78	ταῦτʼ	οὗτος	ADJ	Pd	Case=Acc|Gender=Neut|Number=Plur	82	obj
+79	οὐχὶ	οὐχί	ADV	Df	Polarity=Neg	81	advmod
+80	θνητοῦ	θνητός	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	81	amod
+81	πατρὸς	πατήρ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	82	xcomp
+82	ἐκγεγὼς	ἐκγίγνομαι	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	83	advcl
+83	λέγω	λέγω	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	83	ROOT
+85	Διόνυσος	Διόνυσος	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	83	nsubj
+86	,	,	PUNCT	Z	Case=Acc|Gender=Masc|Number=Sing	83	dep
+87	ἀλλὰ	ἀλλά	CCONJ	C-		86	cc
+88	Ζηνός	Ζεύς	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	86	conj
+89	·	·	PUNCT	Z		83	punct
+# sentence: εἰ δὲ σωφρονεῖν ἔγνωθʼ, ὅτʼ οὐκ ἠθέλετε
+90	εἰ	εἰ	SCONJ	G-		98	mark
+91	δὲ	δέ	ADV	Df		93	discourse
+92	σωφρονεῖν	σωφρονέω	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	93	xcomp
+94	ἔγνωθʼ	γιγνώσκω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Pass	93	dep
+95	,	,	PUNCT	Z	Case=Acc|Gender=Masc|Number=Sing	93	dep
+96	ὅτʼ	ὅτε	SCONJ	G-		98	mark
+97	οὐκ	οὐ	ADV	Df	Polarity=Neg	98	advmod
+98	ἠθέλετε	ἐθέλω	VERB	V-	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	95	advcl
+# sentence: , τὸν Διὸς γόνον εὐδαιμονεῖτʼ ἂν σύμμαχον κεκτημένοι.
+99	,	,	PUNCT	Z	Case=Acc|Gender=Masc|Number=Sing	105	advmod
+100	τὸν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	102	det
+101	Διὸς	Ζεύς	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	102	nmod
+102	γόνον	γόνος	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	103	obj
+104	εὐδαιμονεῖτʼ	εὐδαιμονίημι	VERB	V-	Mood=Opt|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	104	ROOT
+105	ἂν	ἄν	ADV	Df		104	advmod
+106	σύμμαχον	σύμμαχος	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	107	xcomp
+107	κεκτημένοι	κτάομαι	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	104	advcl
+108	.	.	PUNCT	Z		104	punct
+# sentence: 

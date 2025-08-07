@@ -1,0 +1,100 @@
+# sentence: ὦ πιστὰ πιστῶν ἥλικές θʼ ἥβης ἐμῆς Πέρσαι γεραιοί, τίνα πόλις πονεῖ πόνον; στένει, κέκοπται, καὶ χαράσσεται πέδον.
+1	ὦ	ὦ	INTJ	I-		2	discourse
+2	πιστὰ	πιστός	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	11	amod
+3	πιστῶν	πιστός	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	4	amod
+4	ἥλικές	ἧλιξ	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	2	conj
+5	θʼ	θ	CCONJ	C-		4	cc
+6	ἥβης	ἥβη	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	4	conj
+7	ἐμῆς	ἐμός	ADJ	Ps	Case=Gen|Gender=Fem|Number=Sing|Person=1|Poss=Yes	6	nmod
+9	Πέρσαι	Πέρσης	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	8	conj
+10	γεραιοί	γεραιός	ADJ	A-	Case=Voc|Degree=Pos|Gender=Masc|Number=Plur	9	amod
+11	,	,	PUNCT	Z		14	advmod
+12	τίνα	τίς	PRON	Pi	Case=Acc|Gender=Fem,Masc|Number=Sing|PronType=Int	15	det
+13	πόλις	πόλις	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	14	nsubj
+14	πονεῖ	πονέω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	ROOT
+15	πόνον	πόνος	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	14	obj
+16	;	;	PUNCT	Z		14	advmod
+18	στένει	στένω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	advcl
+19	,	,	PUNCT	Z		14	parataxis
+20	κέκοπται	κόπτω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	14	conj
+21	,	,	PUNCT	Z		14	conj
+23	καὶ	καί	CCONJ	C-		14	cc
+24	χαράσσεται	χαράσσω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	14	conj
+25	πέδον	πέδον	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	24	nsubj:pass
+26	.	.	PUNCT	Z		14	punct
+# sentence: λεύσσων δʼ ἄκοιτιν τὴν ἐμὴν τάφου πέλας ταρβῶ,
+28	λεύσσων	λεύσσω	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	34	advcl
+29	δʼ	δέ	ADV	Df		34	discourse
+30	ἄκοιτιν	ἄκοιτις	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	28	obj
+31	τὴν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	30	det
+32	ἐμὴν	ἐμός	ADJ	Ps	Case=Acc|Gender=Fem|Number=Sing|Person=1|Poss=Yes	30	nmod
+33	τάφου	τάφος	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	34	obl
+35	πέλας	πέλας	ADV	Df	Degree=Pos	36	advmod
+37	ταρβῶ	ταρβέω	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	37	ROOT
+38	,	,	PUNCT	Z		37	punct
+# sentence: χοὰς δὲ πρευμενὴς ἐδεξάμην.
+39	χοὰς	χοή	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	42	obj
+40	δὲ	δέ	ADV	Df		42	discourse
+41	πρευμενὴς	πρευμενής	VERB	V-	Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	42	dep
+43	ἐδεξάμην	δείκνυμι	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	43	ROOT
+44	.	.	PUNCT	Z		43	punct
+# sentence: ὑμεῖς δὲ θρηνεῖτʼ ἐγγὺς ἑστῶτες τάφου καὶ ψυχαγωγοῖς ὀρθιάζοντες γόοις οἰκτρῶς καλεῖσθέ μʼ·
+46	ὑμεῖς	ὑμεῖς	PRON	Pp	Case=Nom|Gender=Masc|Number=Plur|Person=2|PronType=Prs	48	nsubj
+47	δὲ	δέ	ADV	Df		48	discourse
+48	θρηνεῖτʼ	θρηνεῖτʼ	VERB	V-	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Pass	45	conj
+49	ἐγγὺς	ἐγγύς	ADP	R-		50	advmod
+50	ἑστῶτες	ἵστημι	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	48	advcl
+51	τάφου	τάφος	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	50	iobj
+53	καὶ	καί	CCONJ	C-		48	cc
+54	ψυχαγωγοῖς	ψυχαγωγός	ADJ	A-	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	55	amod
+56	ὀρθιάζοντες	ὀρθιάζω	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	58	advcl
+57	γόοις	γόος	NOUN	Nb	Case=Dat|Gender=Masc|Number=Plur	56	obl
+59	οἰκτρῶς	οἰκτρός	ADV	Df	Degree=Pos	60	advmod
+60	καλεῖσθέ	καλέω	VERB	V-	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Mid	48	advcl
+61	μʼ	ἐγώ	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=1|PronType=Prs	60	obj
+62	·	·	PUNCT	Z		48	punct
+# sentence: ἐστὶ δʼ οὐκ εὐέξοδον,
+63	ἐστὶ	εἰμί	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	66	cop
+64	δʼ	δέ	ADV	Df		66	discourse
+65	οὐκ	οὐ	ADV	Df	Polarity=Neg	66	advmod
+66	εὐέξοδον	εὐέξοδος	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	66	ROOT
+67	,	,	PUNCT	Z		66	conj
+# sentence: ἄλλως τε πάντως χοἰ κατὰ χθονὸς θεοὶ λαβεῖν ἀμείνους εἰσὶν ἢ μεθιέναι.
+69	ἄλλως	ἄλλως	ADV	Df	Degree=Pos	70	advmod
+71	τε	τε	CCONJ	C-		70	cc
+72	πάντως	πάντως	ADV	Df		77	advmod
+73	χοἰ	ὁ	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	76	amod
+74	κατὰ	κατά	ADP	R-		75	case
+75	χθονὸς	χθών	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	73	obl
+76	θεοὶ	θεός	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	77	nsubj
+78	λαβεῖν	λαμβάνω	VERB	V-	Aspect=Perf|Tense=Past|VerbForm=Inf|Voice=Act	79	dep
+80	ἀμείνους	ἀγαθός	ADJ	A-	Case=Nom|Degree=Cmp|Gender=Masc|Number=Plur	70	conj
+81	εἰσὶν	εἰμί	AUX	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	80	cop
+82	ἢ	ἤ	ADV	Df		80	advmod
+83	μεθιέναι	μεθίημι	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	82	ccomp
+84	.	.	PUNCT	Z		70	punct
+# sentence: ὅμως δʼ ἐκείνοις ἐνδυναστεύσας ἐγὼ
+86	ὅμως	ὅμως	ADV	Df		90	advmod
+87	δʼ	δέ	ADV	Df		90	discourse
+88	ἐκείνοις	ἐκεῖνος	ADJ	Pd	Case=Dat|Gender=Masc|Number=Plur	89	iobj
+89	ἐνδυναστεύσας	ἐνδυναστεύω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	90	advcl
+91	ἐγὼ	ἐγώ	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	92	nsubj
+# sentence: ἥκω.
+93	ἥκω	ἥκω	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	93	ROOT
+94	.	.	PUNCT	Z		93	punct
+# sentence: τάχυνε δʼ ὡς ἄμεμπτος ὦ χρόνου.
+95	τάχυνε	ταχύνω	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	95	ROOT
+96	δʼ	δέ	ADV	Df		95	discourse
+97	ὡς	ὡς	SCONJ	G-		98	mark
+98	ἄμεμπτος	ἄμεμπτος	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	95	ccomp
+99	ὦ	ὦ	INTJ	I-		100	discourse
+100	χρόνου	χρόνος	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	95	dep
+101	.	.	PUNCT	Z		95	punct
+# sentence: τί ἐστι Πέρσαις νεοχμὸν ἐμβριθὲς κακόν·
+103	τί	τίς	PRON	Pi	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	104	nsubj
+105	ἐστι	εἰμί	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	110	cop
+106	Πέρσαις	Πέρσης	NOUN	Nb	Case=Dat|Gender=Masc|Number=Plur	105	obl
+107	νεοχμὸν	νεοχμός	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	105	nmod
+108	ἐμβριθὲς	ἐμβριθής	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	105	advmod
+110	κακόν	κακός	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	103	appos
+111	·	·	PUNCT	Z		110	punct

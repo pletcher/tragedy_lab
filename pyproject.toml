@@ -5,6 +5,15 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "grecy>=1.0",
     "lxml>=6.0.0",
+    "lxml-stubs>=0.5.1",
+    "pip>=25.2",
     "polars>=1.32.0",
+    "spacy>=3.8.7",
+]
+
+[dependency-groups]
+dev = [
+    "tqdm>=4.67.1",
 ]

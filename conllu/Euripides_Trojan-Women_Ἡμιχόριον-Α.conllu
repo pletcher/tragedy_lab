@@ -1,0 +1,88 @@
+# sentence: Ἑκάβη, τί θροεῖς; τί δὲ θωΰσσεις;
+1	Ἑκάβη	Ἑκάβη	PROPN	Ne	Case=Voc|Gender=Fem|Number=Sing	2	vocative
+2	,	,	PUNCT	Z		2	ROOT
+3	τί	τίς	PRON	Pi	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	4	obl
+4	θροεῖς	θροέω	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp
+5	;	;	PUNCT	Z		4	cc
+6	τί	τίς	PRON	Pi	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	8	obl
+7	δὲ	δέ	ADV	Df		8	discourse
+8	θωΰσσεις	θωΰσσω	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj
+9	;	;	PUNCT	Z		4	cc
+# sentence: ποῖ λόγος ἥκει;
+11	ποῖ	ποῖ	ADV	Du	PronType=Int	13	advmod
+12	λόγος	λόγος	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	13	nsubj
+13	ἥκει	ἥκω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	ROOT
+14	;	;	PUNCT	Z		13	punct
+# sentence: διὰ γὰρ μελάθρων ἄιον οἴκτους οὓς οἰκτίζῃ.
+15	διὰ	διά	ADP	R-		17	case
+16	γὰρ	γάρ	ADV	Df		18	discourse
+17	μελάθρων	μέλαθρον	NOUN	Nb	Case=Gen|Gender=Neut|Number=Plur	18	obl
+19	ἄιον	ἀΐω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	19	ROOT
+20	οἴκτους	οἶκτος	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	19	obj
+21	οὓς	ὅς	PRON	Pr	Case=Acc|Gender=Masc|Number=Plur|PronType=Rel	22	obj
+22	οἰκτίζῃ	οἰκτίζω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	acl
+23	.	.	PUNCT	Z		19	punct
+# sentence: διὰ δὲ στέρνων φόβος ἄισσεν Τρῳάσιν,
+25	διὰ	διά	ADP	R-		27	case
+26	δὲ	δέ	ADV	Df		29	discourse
+27	στέρνων	στέρνον	NOUN	Nb	Case=Gen|Gender=Neut|Number=Plur	29	obl
+28	φόβος	φόβος	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	29	nsubj
+29	ἄισσεν	ἄισσεν	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	29	ROOT
+31	Τρῳάσιν	Τρῳάσις	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	30	nmod
+32	,	,	PUNCT	Z	Case=Acc|Gender=Masc|Number=Sing	29	punct
+# sentence: αἳ τῶνδʼ οἴκων εἴσω δουλείαν αἰάζουσιν
+33	αἳ	ὁ	PRON	Pr	Case=Nom|Gender=Fem|Number=Plur|PronType=Rel	37	nsubj
+34	τῶνδʼ	ὅδε	DET	Pd	Case=Gen|Number=Plur	35	det
+35	οἴκων	οἶκος	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	36	nmod
+36	εἴσω	εἴσω	ADV	Df	Degree=Pos	37	advmod
+38	δουλείαν	δουλεία	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	39	obj
+39	αἰάζουσιν	αἰάζουσις	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	39	ROOT
+# sentence: .
+40	.	.	PUNCT	Z		40	ROOT
+# sentence: κινεῖται κωπήρης χείρ;
+42	κινεῖται	κινέω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	42	ROOT
+43	κωπήρης	κωπήρη	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	44	amod
+44	χείρ	χείρ	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	42	nsubj:pass
+45	;	;	PUNCT	Z		42	punct
+# sentence: 
+# sentence: οἲ ἐγώ, τί θέλουσʼ,
+47	οἲ	οἴ	PRON	Pp	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	51	nsubj
+48	ἐγώ	ἐγώ	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	51	nsubj
+49	,	,	PUNCT	Z		51	iobj
+50	τί	τίς	PRON	Pi	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	51	obl
+51	θέλουσʼ	ἐθέλω	VERB	V-	Case=Nom|Gender=Fem|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	51	ROOT
+52	,	,	PUNCT	Z		51	punct
+# sentence: ἦ
+53	ἦ	ἦ	CCONJ	C-		53	ROOT
+# sentence: πού μʼ ἤδη ναυσθλώσουσιν πατρίας ἐκ γᾶς
+54	πού	πού	ADV	Du	PronType=Int	57	advmod
+55	μʼ	ἐγώ	PRON	Pp	Case=Acc|Gender=Fem|Number=Sing|Person=1|PronType=Prs	57	obj
+56	ἤδη	ἤδη	ADV	Df		57	advmod
+58	ναυσθλώσουσιν	ναυσθλώσου	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	57	ccomp
+59	πατρίας	πατρία	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	61	amod
+60	ἐκ	ἐκ	ADP	R-		61	case
+61	γᾶς	γῆ	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	58	obl
+# sentence: ;
+62	;	;	PUNCT	Z		62	ROOT
+# sentence: 
+# sentence: ἰὼ ἰώ.
+64	ἰὼ	ἰώ	INTJ	I-		66	vocative
+65	ἰώ	ἰώ	INTJ	I-		64	vocative
+66	.	.	PUNCT	Z		66	ROOT
+# sentence: μέλεαι μόχθων ἐπακουσόμεναι Τρῳάδες, ἔξω κομίζεσθʼ οἴκων
+68	μέλεαι	μέλω	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	71	amod
+69	μόχθων	μόχθος	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	70	iobj
+70	ἐπακουσόμεναι	ἐπακουσόμεναι	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Tense=Fut|VerbForm=Part|Voice=Mid	71	acl
+72	Τρῳάδες	Τρῳάς	PROPN	Nb	Case=Nom|Gender=Fem|Number=Plur	75	vocative
+73	,	,	PUNCT	Z		75	iobj
+74	ἔξω	ἔξω	ADV	Df		75	advmod
+75	κομίζεσθʼ	κομίζω	VERB	V-	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Mid	75	ROOT
+76	οἴκων	οἶκος	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	75	iobj
+# sentence: ·
+77	·	·	PUNCT	Z		77	ROOT
+# sentence: στέλλουσʼ Ἀργεῖοι νόστον.
+79	στέλλουσʼ	στέλλω	VERB	V-	Mood=Imp|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	79	ROOT
+80	Ἀργεῖοι	Ἀργεῖος	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	79	nsubj
+81	νόστον	νόστος	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	79	obj
+82	.	.	PUNCT	Z		79	punct
+# sentence: 

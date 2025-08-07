@@ -1,0 +1,70 @@
+# sentence: ὅ τοι κατόπτης, ὡς ἐμοὶ δοκεῖ, στρατοῦ πευθώ τινʼ ἡμῖν, ὦ φίλαι, νέαν φέρει, σπουδῇ διώκων πομπίμους χνόας ποδῶν.
+1	ὅ	ὅς	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	3	det
+2	τοι	σύ	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=2|PronType=Prs	3	det
+3	κατόπτης	κατόπτης	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	4	nsubj
+4	,	,	PUNCT	Z	Case=Acc|Gender=Masc|Number=Sing	11	iobj
+5	ὡς	ὡς	ADV	Dq	PronType=Rel	7	advmod
+6	ἐμοὶ	ἐγώ	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs	7	iobj
+7	δοκεῖ	δοκέω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl
+8	,	,	PUNCT	Z	Case=Acc|Gender=Masc|Number=Sing	11	advmod
+9	στρατοῦ	στρατός	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	10	nmod
+11	πευθώ	πευθώ	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	11	ROOT
+12	τινʼ	τις	CCONJ	V-		11	advcl
+13	ἡμῖν	ἡμεῖς	PRON	Pp	Case=Dat|Gender=Masc|Number=Plur|Person=1|PronType=Prs	12	iobj
+14	,	,	PUNCT	Z	Case=Acc|Gender=Masc|Number=Sing	11	dep
+15	ὦ	ὦ	INTJ	I-		16	discourse
+16	φίλαι	φίλος	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	11	vocative
+17	,	,	PUNCT	Z	Case=Acc|Gender=Masc|Number=Sing	11	parataxis
+18	νέαν	νέος	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	obj
+19	φέρει	φέρω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	ccomp
+20	,	,	PUNCT	Z		11	parataxis
+22	σπουδῇ	σπουδή	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	23	obl
+23	διώκων	διώκω	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	21	advcl
+24	πομπίμους	πόμπιμος	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	25	amod
+25	χνόας	χνόη	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	23	obj
+26	ποδῶν	πούς	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	25	nmod
+27	.	.	PUNCT	Z		11	punct
+# sentence: δράτω τι πόλις καὶ μὴ δράτω
+29	δράτω	δράω	VERB	V-	Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	29	ROOT
+30	τι	τίς	ADJ	Px	Case=Acc|Gender=Neut|Number=Sing	29	obj
+32	πόλις	πόλις	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	29	nsubj
+33	καὶ	καί	CCONJ	C-		29	cc
+34	μὴ	μή	ADV	Df	Polarity=Neg	35	advmod
+35	δράτω	δράω	VERB	V-	Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	29	conj
+# sentence: τοὺς
+37	τοὺς	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	37	ROOT
+# sentence: κλαίοντας Πολυνείκη
+38	κλαίοντας	κλαίω	VERB	V-	Case=Acc|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	38	ROOT
+39	Πολυνείκη	Πολυνείκη	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	38	obj
+# sentence: .
+40	.	.	PUNCT	Z		40	ROOT
+# sentence: ἡμεῖς μὲν ἴμεν καὶ συνθάψομεν
+42	ἡμεῖς	ἡμεῖς	PRON	Pp	Case=Nom|Gender=Masc|Number=Plur|Person=1|PronType=Prs	44	nsubj
+43	μὲν	μέν	ADV	Df		44	discourse
+44	ἴμεν	εἶμι	VERB	V-	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	41	csubj:pass
+45	καὶ	καί	CCONJ	C-		44	cc
+46	συνθάψομεν	συνθάπτω	VERB	V-	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	44	conj
+# sentence: αἵδε
+48	αἵδε	ὅδε	ADJ	Pd	Case=Nom|Gender=Fem|Number=Plur	48	ROOT
+# sentence: προπομποί
+49	προπομποί	προπομπός	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	49	ROOT
+# sentence: .
+50	.	.	PUNCT	Z		50	ROOT
+# sentence: καὶ γὰρ γενεᾷ κοινὸν τόδʼ ἄχος
+52	καὶ	καί	CCONJ	C-		55	cc
+53	γὰρ	γάρ	ADV	Df		55	discourse
+54	γενεᾷ	γενεά	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	55	nsubj
+56	κοινὸν	κοινός	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	58	amod
+57	τόδʼ	ὅδε	DET	Pd	Case=Nom|Gender=Neut|Number=Sing	58	det
+58	ἄχος	ἄχος	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	58	ROOT
+# sentence: , καὶ πόλις ἄλλως ἄλλοτʼ ἐπαινεῖ τὰ δίκαια.
+59	,	,	PUNCT	Z		59	ROOT
+60	καὶ	καί	CCONJ	C-		59	cc
+61	πόλις	πόλις	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	63	nsubj
+62	ἄλλως	ἄλλως	ADV	Df	Degree=Pos	63	advmod
+64	ἄλλοτʼ	ἄλλρός	ADV	Df		65	advmod
+65	ἐπαινεῖ	ἐπαινέω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	59	conj
+66	τὰ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Dem	67	det
+67	δίκαια	δίκαιος	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	65	obj
+68	.	.	PUNCT	Z		59	punct
+# sentence: 

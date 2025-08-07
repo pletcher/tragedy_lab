@@ -9,6 +9,8 @@ import polars as pl
 ## TODO: create dataframe for messenger speeches exclusively
 
 from lxml import etree
+from pathlib import Path
+from tqdm import tqdm
 
 HOMER_DIR = "homer_xml"
 TRAGEDY_DIR = "tragedy_xml"
@@ -161,7 +163,7 @@ def iter_tragedy_lines(title, urn, tree):
     rows = []
 
     for l in tree.iterfind(".//tei:l", namespaces=NAMESPACES):
-        text = "".join(l.itertext()).strip()
+        text = etree.tostring(l, method="text", encoding="unicode").strip()
 
         if text is not None:
             n = l.xpath("./@n")
@@ -197,7 +199,7 @@ def create_tragedy_df():
 
     for f, urn in TRAGEDY_FILES:
         tree = etree.parse(f)
-        title = tree.xpath("//tei:titleStmt/tei:title/text()", namespaces=NAMESPACES)[0]
+        title = tree.xpath("//tei:titleStmt/tei:title/text()", namespaces=NAMESPACES)[0]  # type: ignore
         lines = iter_tragedy_lines(title, urn, tree)
         data += lines
 
@@ -234,11 +236,11 @@ def write_tragedy_df():
 def write_corpus():
     df = create_tragedy_df()
 
-    for row in df.group_by("dramatist", "title").agg(pl.col("text")).iter_rows():
-        title = f"{row[0]}_{row[1].replace(" ", " - ")}"
-        text = row[2]
+    for row in df.group_by("dramatist", "title", "speaker").agg(pl.col("text")).iter_rows():
+        filename = f"{row[0]}_{row[1].replace(" ", "-")}_{row[2].replace(" ", "-")}"
+        text = row[3]
 
-        with open(f"./corpus/{title}.txt", "w+") as f:
+        with open(f"./corpus/{filename}.txt", "w+") as f:
             for line in text:
                 f.write(f"{line}\n")
 
@@ -246,20 +248,48 @@ def write_corpus():
 def lemmatize():
     import spacy
 
-    nlp = spacy.load("grc_perseus_lg")
+    nlp = spacy.load("grc_proiel_trf")
 
-    txts = [f"./corpus/{f}" for f in os.listdir("./corpus") if f.endswith(".txt")]
+    txts = [Path(f"./corpus/{f}") for f in os.listdir("./corpus") if f.endswith(".txt")]
 
-    for txt in txts:
-        with open(txt) as f:
+    for txt in tqdm(txts):
+        with txt.open() as f:
             doc = nlp(f.read())
-            lemmata = [token.lemma_ for token in doc]
-            out = txt.replace(".txt", ".lemmatized.txt")
 
-            with open(out, "w+") as g:
-                for lemma in lemmata:
-                    g.write(f"{lemma}\n")
+            out = Path(f"./conllu/{txt.name.replace('.txt', '.conllu')}")
+
+            with out.open("w+") as g:
+                for sent in doc.sents:
+                    g.write(f"# sentence: {re.sub(r"\s+", " ", sent.text.strip())}\n")
+
+                    for t in sent:
+                        if t.is_space:
+                            continue
+
+                        id_ = t.i + 1
+
+                        xpos = t.tag_
+
+                        if xpos is None:
+                            xpos = "_"
+
+                        feats = "_"
+
+                        if t.morph is not None:
+                            feats = str(t.morph)
+
+                        head_id = 0
+                        deprel = "root"
+
+                        if t.head is not None:
+                            head_id = t.head.i + 1
+                            deprel = t.dep_
+
+                        g.write(
+                            f"{id_}\t{t.text.strip() or "_"}\t{t.lemma_ or "_"}\t{t.pos_ or "_"}\t{xpos}\t{feats}\t{head_id}\t{deprel}\n"
+                        )
 
 
 if __name__ == "__main__":
-    write_tragedy_df()
+    write_corpus()
+    lemmatize()
