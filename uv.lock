@@ -12,6 +12,7 @@ dependencies = [
     { name = "lxml-stubs" },
     { name = "pip" },
     { name = "polars" },
+    { name = "pyconll" },
     { name = "spacy" },
 ]
 
@@ -27,6 +28,7 @@ requires-dist = [
     { name = "lxml-stubs", specifier = ">=0.5.1" },
     { name = "pip", specifier = ">=25.2" },
     { name = "polars", specifier = ">=1.32.0" },
+    { name = "pyconll", specifier = ">=3.2.0" },
     { name = "spacy", specifier = ">=3.8.7" },
 ]
 
@@ -437,6 +439,15 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/c3/65/938f21f77227e8d398d46fb10b9d1b3467be859468ce8db138fc3d50589c/preshed-3.0.10-cp313-cp313-musllinux_1_2_aarch64.whl", hash = "sha256:3e6728b2028bbe79565eb6cf676b5bae5ce1f9cc56e4bf99bb28ce576f88054d", size = 808593, upload-time = "2025-05-26T15:18:18.535Z" },
     { url = "https://files.pythonhosted.org/packages/6c/1c/2a3961fc88bc72300ff7e4ca54689bda90d2d77cc994167cc09a310480b6/preshed-3.0.10-cp313-cp313-musllinux_1_2_x86_64.whl", hash = "sha256:c4ef96cb28bf5f08de9c070143113e168efccbb68fd4961e7d445f734c051a97", size = 837333, upload-time = "2025-05-26T15:18:19.937Z" },
     { url = "https://files.pythonhosted.org/packages/fa/8c/d3e30f80b2ef21f267f09f0b7d18995adccc928ede5b73ea3fe54e1303f4/preshed-3.0.10-cp313-cp313-win_amd64.whl", hash = "sha256:97e0e2edfd25a7dfba799b49b3c5cc248ad0318a76edd9d5fd2c82aa3d5c64ed", size = 115769, upload-time = "2025-05-26T15:18:21.842Z" },
+]
+
+[[package]]
+name = "pyconll"
+version = "3.2.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/16/67/37e18cb1e47db43ed6ba51734e631d72e3fe59df64aedf435c471bbd27d4/pyconll-3.2.0.tar.gz", hash = "sha256:402aca6b8e769caea8440aa33a04adf5e0fe060a0fa128178a91f5b986107b19", size = 27721, upload-time = "2023-06-21T03:30:35.283Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/70/ca/722852b75919610fd01c293ffcbcf72eb58d0f4fec014fd67ec13a6b9dad/pyconll-3.2.0-py3-none-any.whl", hash = "sha256:6106a1136dfe6a524e41228b35b4f4aaae17bebe62d4aafc480feeb2b7ca769d", size = 27187, upload-time = "2023-06-21T03:30:33.861Z" },
 ]
 
 [[package]]
