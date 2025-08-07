@@ -6,6 +6,8 @@ import unicodedata
 
 import polars as pl
 
+## TODO: create dataframe for messenger speeches exclusively
+
 from lxml import etree
 
 HOMER_DIR = "homer_xml"
@@ -16,6 +18,7 @@ NAMESPACES = {
     "xml": "http://www.w3.org/XML/1998/namespace",
 }
 
+
 def replace_sigmas(s: str):
     return re.sub(r"ς|c", "σ", s)
 
@@ -24,10 +27,9 @@ def remove_combining_fluent(string: str) -> str:
     """
     Source: https://gist.github.com/luizomf/54b58615cd674db44153470c369a8284
     """
-    normalized = unicodedata.normalize('NFD', string)
-    return ''.join(
-        [l for l in normalized if not unicodedata.combining(l)]
-    ).casefold()
+    normalized = unicodedata.normalize("NFD", string)
+
+    return "".join([l for l in normalized if not unicodedata.combining(l)]).casefold()
 
 
 def to_urn(s: str):
@@ -56,24 +58,28 @@ with open("speakers_with_genders.csv", newline="") as f:
 
 speakers = set()
 
+
 def get_dramatist(urn: str):
-    if "tlg0006" in urn: return "Euripides"
+    if "tlg0006" in urn:
+        return "Euripides"
 
-    if "tlg0011" in urn: return "Sophocles"
+    if "tlg0011" in urn:
+        return "Sophocles"
 
-    if "tlg0085" in urn: return "Aeschylus"
+    if "tlg0085" in urn:
+        return "Aeschylus"
 
 
 def get_gender(dramatist: str, title: str, speaker: str):
-    by_dramatist = [r for r in PERSONAE if r['dramatist'] == dramatist]
-    by_title = [r for r in by_dramatist if r['title'] == title]
-    char = [r for r in by_title if r['speaker'] == speaker][0]
+    by_dramatist = [r for r in PERSONAE if r["dramatist"] == dramatist]
+    by_title = [r for r in by_dramatist if r["title"] == title]
+    char = [r for r in by_title if r["speaker"] == speaker][0]
 
-    return char['gender']
+    return char["gender"]
 
 
 def clean_token(s: str):
-    no_punct = s.translate(str.maketrans('', '', string.punctuation))
+    no_punct = s.translate(str.maketrans("", "", string.punctuation))
     no_grave_accute = remove_combining_fluent(no_punct)
     normal_sigmas = replace_sigmas(no_grave_accute)
 
@@ -132,33 +138,30 @@ def iter_homer_lines(urn, tree):
         raise RuntimeError(f"Invalid URN: {urn}")
 
     for l in tree.iterfind(".//tei:l", namespaces=NAMESPACES):
-        text = ''.join(l.itertext()).strip()
+        text = "".join(l.itertext()).strip()
 
         if text is not None:
             n = l.xpath("./@n")[0]
             book_el = l.getparent()
 
-            possible_book_n = book_el.attrib.get('n')
+            possible_book_n = book_el.attrib.get("n")
             if possible_book_n is not None and possible_book_n != book_n:
                 book_n = possible_book_n
 
             row = dict(
-                urn=f"{urn}:{book_n}.{n}",
-                title=title,
-                book_n=book_n,
-                n=n,
-                text=text
+                urn=f"{urn}:{book_n}.{n}", title=title, book_n=book_n, n=n, text=text
             )
 
             rows.append(row)
 
     return rows
 
+
 def iter_tragedy_lines(title, urn, tree):
     rows = []
 
     for l in tree.iterfind(".//tei:l", namespaces=NAMESPACES):
-        text = ''.join(l.itertext()).strip()
+        text = "".join(l.itertext()).strip()
 
         if text is not None:
             n = l.xpath("./@n")
@@ -169,7 +172,8 @@ def iter_tragedy_lines(title, urn, tree):
 
                 if speaker != "":
                     speakers.add(speaker)
-                    tokens = [clean_token(t) for t in text.split()]
+                    # join tokens for saving as parquet/avoiding "can't save Object type" errors
+                    tokens = " ".join([clean_token(t) for t in text.split()])
                     dramatist = get_dramatist(urn)
 
                     row = {
@@ -178,9 +182,9 @@ def iter_tragedy_lines(title, urn, tree):
                         "dramatist": dramatist,
                         "title": TITLES[title],
                         "speaker": speaker,
-                        "gender": get_gender(dramatist, title, speaker),
+                        "gender": get_gender(dramatist or "", title, speaker),
                         "text": text,
-                        "tokens": tokens
+                        "tokens": tokens,
                     }
 
                     rows.append(row)
@@ -201,6 +205,7 @@ def create_tragedy_df():
 
     return df
 
+
 def create_homer_df():
     data = []
 
@@ -208,7 +213,7 @@ def create_homer_df():
         tree = etree.parse(f)
         lines = iter_homer_lines(urn, tree)
         data += lines
-    
+
     df = pl.DataFrame(data)
 
     return df
@@ -217,19 +222,20 @@ def create_homer_df():
 def write_homer_df():
     df = create_homer_df()
 
-    df.write_parquet('./homer.parquet')
+    df.write_parquet("./homer.parquet")
 
 
 def write_tragedy_df():
     df = create_tragedy_df()
 
-    df.write_parquet('./greek-tragedy-by-line_with-gender.parquet')
+    df.write_parquet("./greek-tragedy-by-line_with-gender.parquet")
+
 
 def write_corpus():
     df = create_tragedy_df()
 
     for row in df.group_by("dramatist", "title").agg(pl.col("text")).iter_rows():
-        title = f"{row[0]}_{row[1].replace(" ", "-")}"
+        title = f"{row[0]}_{row[1].replace(" ", " - ")}"
         text = row[2]
 
         with open(f"./corpus/{title}.txt", "w+") as f:
@@ -250,9 +256,10 @@ def lemmatize():
             lemmata = [token.lemma_ for token in doc]
             out = txt.replace(".txt", ".lemmatized.txt")
 
-            with open(out, 'w+') as g:
+            with open(out, "w+") as g:
                 for lemma in lemmata:
                     g.write(f"{lemma}\n")
+
 
 if __name__ == "__main__":
     write_tragedy_df()
