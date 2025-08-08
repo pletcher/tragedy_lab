@@ -1,0 +1,34 @@
+# sentence: δεῦτʼ ἄγε,
+1	δεῦτʼ	δεῦτε	INTJ	Df	_	[1]	advmod	_	IsStop:False|IsPunct:False
+2	ἄγε	ἄγω	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	[1]	ROOT	_	IsStop:False|IsPunct:False
+3	,	,	PUNCT	Z	_	[1]	advcl	_	IsStop:False|IsPunct:True
+# sentence: Φαιήκων ἡγήτορες ἠδὲ μέδοντες
+1	Φαιήκων	Φαίαξ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	[1]	nmod	_	IsStop:False|IsPunct:False
+2	ἡγήτορες	ἡγήτωρ	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	[1]	ROOT	_	IsStop:False|IsPunct:False
+3	ἠδὲ	ἠδέ	CCONJ	C-	_	[1]	cc	_	IsStop:False|IsPunct:False
+4	μέδοντες	μέδων	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	[1]	conj	_	IsStop:False|IsPunct:False
+# sentence: ,
+1	,	,	PUNCT	Z	_	[]	amod	_	IsStop:False|IsPunct:True
+# sentence: εἰς ἀγορὴν ἰέναι, ὄφρα ξείνοιο πύθησθε,
+1	εἰς	εἰς	ADP	R-	_	[1]	case	_	IsStop:True|IsPunct:False
+2	ἀγορὴν	ἀγορά	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	[2]	obl	_	IsStop:False|IsPunct:False
+3	ἰέναι	εἶμι	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	[2]	ROOT	_	IsStop:False|IsPunct:False
+4	,	,	PUNCT	Z	_	[2]	advmod	_	IsStop:False|IsPunct:True
+5	ὄφρα	ὄφρα	SCONJ	G-	_	[6]	mark	_	IsStop:False|IsPunct:False
+6	ξείνοιο	ξένος	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	[6]	iobj	_	IsStop:False|IsPunct:False
+7	πύθησθε	πυνθάνομαι	VERB	V-	Aspect=Perf|Mood=Sub|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Mid	[2]	advcl	_	IsStop:False|IsPunct:False
+8	,	,	PUNCT	Z	_	[2]	punct	_	IsStop:False|IsPunct:True
+# sentence: ὃς νέον Ἀλκινόοιο δαΐφρονος ἵκετο δῶμα πόντον ἐπιπλαγχθείς, δέμας ἀθανάτοισιν ὁμοῖος.
+1	ὃς	ὅς	PRON	Pr	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	[4]	nsubj	_	IsStop:True|IsPunct:False
+2	νέον	νέος	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	[4]	advmod	_	IsStop:False|IsPunct:False
+3	Ἀλκινόοιο	Ἀλκίνοος	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	[0]	nmod	_	IsStop:False|IsPunct:False
+4	δαΐφρονος	δαίφρων	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	[2]	amod	_	IsStop:False|IsPunct:False
+5	ἵκετο	ἱκνέομαι	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Mid	[]	acl	_	IsStop:False|IsPunct:False
+6	δῶμα	δῶμα	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	[4]	obj	_	IsStop:False|IsPunct:False
+7	πόντον	Πόντος	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	[7]	obj	_	IsStop:False|IsPunct:False
+8	ἐπιπλαγχθείς	ἐπιπλάζομαι	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	[4]	advcl	_	IsStop:False|IsPunct:False
+9	,	,	PUNCT	Z	_	[4]	cc	_	IsStop:False|IsPunct:True
+10	δέμας	δέμας	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	[4]	obl	_	IsStop:False|IsPunct:False
+11	ἀθανάτοισιν	ἀθάνατος	ADJ	A-	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	[11]	iobj	_	IsStop:False|IsPunct:False
+12	ὁμοῖος	ὅμοιος	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	[9]	amod	_	IsStop:False|IsPunct:False
+13	.	.	PUNCT	Z	_	[4]	punct	_	IsStop:False|IsPunct:True

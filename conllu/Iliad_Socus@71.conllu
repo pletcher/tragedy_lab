@@ -1,0 +1,31 @@
+# sentence: ὦ Ὀδυσεῦ πολύαινε δόλων ἆτʼ ἠδὲ πόνοιο σήμερον ἢ δοιοῖσιν ἐπεύξεαι Ἱππασίδῃσι
+1	ὦ	ὦ	INTJ	I-	_	[1]	discourse	_	IsStop:True|IsPunct:False
+2	Ὀδυσεῦ	Ὀδυσσεύς	PROPN	Ne	Case=Voc|Gender=Masc|Number=Sing	[4]	vocative	_	IsStop:False|IsPunct:False
+3	πολύαινε	πολύαινε	PROPN	Ne	Case=Voc|Gender=Masc|Number=Sing	[1]	vocative	_	IsStop:False|IsPunct:False
+4	δόλων	δόλω	PROPN	Ne	Case=Voc|Gender=Masc|Number=Sing	[1]	nmod	_	IsStop:False|IsPunct:False
+5	ἆτʼ	ἄατος	ADJ	A-	Case=Voc|Degree=Pos|Gender=Masc|Number=Sing	[]	vocative	_	IsStop:False|IsPunct:False
+6	ἠδὲ	ἠδέ	CCONJ	C-	_	[4]	cc	_	IsStop:False|IsPunct:False
+7	πόνοιο	πόνος	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	[4]	dep	_	IsStop:False|IsPunct:False
+8	σήμερον	σήμερον	ADV	Df	_	[10]	advmod	_	IsStop:False|IsPunct:False
+9	ἢ	ἤ	CCONJ	C-	_	[10]	cc	_	IsStop:True|IsPunct:False
+10	δοιοῖσιν	δοιοί	ADJ	A-	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	[10]	dep	_	IsStop:False|IsPunct:False
+11	ἐπεύξεαι	ἐπεύξομαι	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Mid	[10]	ROOT	_	IsStop:False|IsPunct:False
+12	Ἱππασίδῃσι	Ἱππασίδη	NOUN	Nb	Case=Dat|Gender=Masc|Number=Plur	[10]	iobj	_	IsStop:False|IsPunct:False
+# sentence: τοιώδʼ ἄνδρε κατακτείνας καὶ τεύχεʼ ἀπούρας, ἤ κεν ἐμῷ ὑπὸ δουρὶ τυπεὶς ἀπὸ θυμὸν ὀλέσσῃς.
+1	τοιώδʼ	τοιόσδε	ADJ	A-	Case=Dat|Degree=Pos|Gender=Masc,Neut|Number=Sing	[1]	amod	_	IsStop:False|IsPunct:False
+2	ἄνδρε	ἀνήρ	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	[2]	obj	_	IsStop:False|IsPunct:False
+3	κατακτείνας	κατακτείνω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	[15]	advcl	_	IsStop:False|IsPunct:False
+4	καὶ	καί	CCONJ	C-	_	[2]	cc	_	IsStop:True|IsPunct:False
+5	τεύχεʼ	τεύχω	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	[5]	obj	_	IsStop:False|IsPunct:False
+6	ἀπούρας	ἀπαυράω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	[2]	conj	_	IsStop:False|IsPunct:False
+7	,	,	PUNCT	Z	_	[2]	appos	_	IsStop:False|IsPunct:True
+8	ἤ	ἤ	ADV	Df	_	[15]	discourse	_	IsStop:True|IsPunct:False
+9	κεν	ἄν	ADV	Df	_	[15]	advmod	_	IsStop:True|IsPunct:False
+10	ἐμῷ	ἐμός	ADJ	Ps	Case=Dat|Gender=Masc,Neut|Number=Sing|Person=1|Poss=Yes	[11]	nmod	_	IsStop:True|IsPunct:False
+11	ὑπὸ	ὑπό	ADP	R-	_	[11]	case	_	IsStop:True|IsPunct:False
+12	δουρὶ	δόρυ	NOUN	Nb	Case=Dat|Gender=Neut|Number=Sing	[12]	obl	_	IsStop:False|IsPunct:False
+13	τυπεὶς	τύπτω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	[15]	advcl	_	IsStop:False|IsPunct:False
+14	ἀπὸ	ἀπό	ADV	Df	_	[14]	case	_	IsStop:True|IsPunct:False
+15	θυμὸν	θυμός	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	[15]	obj	_	IsStop:False|IsPunct:False
+16	ὀλέσσῃς	ὄλλυμι	VERB	V-	Aspect=Perf|Mood=Sub|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	[15]	ROOT	_	IsStop:False|IsPunct:False
+17	.	.	PUNCT	Z	_	[15]	punct	_	IsStop:False|IsPunct:True

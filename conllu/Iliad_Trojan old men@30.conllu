@@ -1,0 +1,43 @@
+# sentence: οὐ νέμεσις Τρῶας καὶ ἐϋκνήμιδας Ἀχαιοὺς
+1	οὐ	οὐ	ADV	Df	Polarity=Neg	[1]	advmod	_	IsStop:True|IsPunct:False
+2	νέμεσις	νέμεσις	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	[1]	ROOT	_	IsStop:False|IsPunct:False
+3	Τρῶας	Τρώς	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	[1]	nmod	_	IsStop:False|IsPunct:False
+4	καὶ	καί	CCONJ	C-	_	[2]	cc	_	IsStop:True|IsPunct:False
+5	ἐϋκνήμιδας	ἐϋκνήμις	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	[5]	amod	_	IsStop:False|IsPunct:False
+6	Ἀχαιοὺς	Ἀχαιός	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	[2]	conj	_	IsStop:False|IsPunct:False
+# sentence: τοιῇδʼ ἀμφὶ γυναικὶ πολὺν χρόνον ἄλγεα πάσχειν·
+1	τοιῇδʼ	τοιόσδε	DET	Pd	Case=Acc|Gender=Fem|Number=Sing	[5]	det	_	IsStop:False|IsPunct:False
+2	ἀμφὶ	ἀμφί	ADP	R-	_	[2]	case	_	IsStop:False|IsPunct:False
+3	γυναικὶ	γυνή	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	[6]	obl	_	IsStop:False|IsPunct:False
+4	πολὺν	πολύς	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	[4]	amod	_	IsStop:False|IsPunct:False
+5	χρόνον	χρόνος	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	[6]	obl	_	IsStop:False|IsPunct:False
+6	ἄλγεα	ἄλγος	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	[6]	obj	_	IsStop:False|IsPunct:False
+7	πάσχειν	πάσχω	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	[6]	ROOT	_	IsStop:False|IsPunct:False
+8	·	·	PUNCT	Z	_	[6]	punct	_	IsStop:False|IsPunct:True
+# sentence: αἰνῶς ἀθανάτῃσι θεῇς εἰς ὦπα ἔοικεν·
+1	αἰνῶς	αἰνῶς	ADV	Df	Degree=Pos	[5]	advmod	_	IsStop:False|IsPunct:False
+2	ἀθανάτῃσι	ἀθάνατος	ADJ	A-	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	[5]	iobj	_	IsStop:False|IsPunct:False
+3	θεῇς	θεά	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	[1]	nmod	_	IsStop:False|IsPunct:False
+4	εἰς	εἰς	ADP	R-	_	[4]	case	_	IsStop:True|IsPunct:False
+5	ὦπα	ὤψ	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	[5]	obl	_	IsStop:False|IsPunct:False
+6	ἔοικεν	ἔοικα	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	[5]	ROOT	_	IsStop:False|IsPunct:False
+7	·	·	PUNCT	Z	_	[5]	punct	_	IsStop:False|IsPunct:True
+# sentence: ἀλλὰ καὶ ὧς τοίη περ ἐοῦσʼ ἐν νηυσὶ νεέσθω, μηδʼ ἡμῖν τεκέεσσί τʼ ὀπίσσω πῆμα λίποιτο.
+1	ἀλλὰ	ἀλλά	CCONJ	C-	_	[8]	cc	_	IsStop:True|IsPunct:False
+2	καὶ	καί	ADV	Df	_	[8]	advmod	_	IsStop:True|IsPunct:False
+3	ὧς	ὡς	ADV	Df	_	[8]	advmod	_	IsStop:True|IsPunct:False
+4	τοίη	τοῖος	ADJ	Pd	Case=Nom|Gender=Fem|Number=Sing	[8]	nsubj	_	IsStop:False|IsPunct:False
+5	περ	πέρ	ADV	Df	_	[3]	discourse	_	IsStop:False|IsPunct:False
+6	ἐοῦσʼ	εἰμί	AUX	V-	Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	[3]	cop	_	IsStop:False|IsPunct:False
+7	ἐν	ἐν	ADP	R-	_	[7]	case	_	IsStop:True|IsPunct:False
+8	νηυσὶ	ναῦς	NOUN	Nb	Case=Dat|Gender=Fem|Number=Plur	[8]	obl	_	IsStop:False|IsPunct:False
+9	νεέσθω	νέομαι	VERB	V-	Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	[8]	ROOT	_	IsStop:False|IsPunct:False
+10	,	,	PUNCT	Z	_	[8]	dep	_	IsStop:False|IsPunct:True
+11	μηδʼ	μηδέ	CCONJ	C-	_	[8]	cc	_	IsStop:False|IsPunct:False
+12	ἡμῖν	ἡμεῖς	PRON	Pp	Case=Dat|Gender=Masc|Number=Plur|Person=1|PronType=Prs	[8]	conj	_	IsStop:True|IsPunct:False
+13	τεκέεσσί	τέκος	NOUN	Nb	Case=Dat|Gender=Masc|Number=Plur	[11]	conj	_	IsStop:False|IsPunct:False
+14	τʼ	τε	CCONJ	C-	_	[11]	cc	_	IsStop:False|IsPunct:False
+15	ὀπίσσω	ὀπίσω	ADV	Df	_	[16]	advmod	_	IsStop:False|IsPunct:False
+16	πῆμα	πῆμα	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	[16]	obj	_	IsStop:False|IsPunct:False
+17	λίποιτο	λείπω	VERB	V-	Aspect=Perf|Mood=Opt|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Mid	[11]	conj	_	IsStop:False|IsPunct:False
+18	.	.	PUNCT	Z	_	[8]	punct	_	IsStop:False|IsPunct:True

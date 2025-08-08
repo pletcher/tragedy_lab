@@ -6,6 +6,8 @@ from typing import Literal
 import polars as pl
 import requests
 
+from .lemmatize import lemmatize
+
 
 class DICESClient:
     base_url = "http://dices.ub.uni-rostock.de/api/speeches/"
@@ -78,7 +80,7 @@ def get_speeches_by_title_and_speaker(
     return speeches_by_speaker
 
 
-def write_speeches_as_docs():
+def write_speeches_to_docs():
     homer_df = pl.read_parquet("./homer.parquet").cast(
         {"book_n": pl.UInt8, "n": pl.UInt16}
     )
@@ -95,6 +97,6 @@ def write_speeches_as_docs():
         with open(f"./homeric_corpus/Odyssey_{speaker}.txt", "w") as f:
             f.write("\n".join(lines))
 
-def speeches_to_conllu():
-	pass
+def write_speeches_to_conllu():
+	lemmatize("./homeric_corpus")
 

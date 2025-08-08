@@ -1,0 +1,44 @@
+# sentence: τίπτε Θέτι τανύπεπλε ἱκάνεις ἡμέτερον δῶ αἰδοίη τε φίλη τε;
+1	τίπτε	τίπτε	PRON	Pi	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	[3]	obl	_	IsStop:False|IsPunct:False
+2	Θέτι	Θέτις	PROPN	Nb	Case=Dat|Gender=Fem|Number=Sing	[3]	vocative	_	IsStop:False|IsPunct:False
+3	τανύπεπλε	τανύπεπλος	ADJ	A-	Case=Voc|Degree=Pos|Gender=Fem|Number=Sing	[1]	amod	_	IsStop:False|IsPunct:False
+4	ἱκάνεις	ἱκάνω	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	[3]	ROOT	_	IsStop:False|IsPunct:False
+5	ἡμέτερον	ἡμέτερος	ADJ	Ps	Case=Acc|Gender=Masc,Neut|Number=Sing|Person=1|Poss=Yes	[5]	nmod	_	IsStop:False|IsPunct:False
+6	δῶ	δῶμα	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	[3]	obl	_	IsStop:False|IsPunct:False
+7	αἰδοίη	αἰδοῖος	ADJ	A-	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	[]	amod	_	IsStop:False|IsPunct:False
+8	τε	τε	CCONJ	C-	_	[6]	cc	_	IsStop:True|IsPunct:False
+9	φίλη	φίλος	ADJ	A-	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	[6]	conj	_	IsStop:False|IsPunct:False
+10	τε	τε	CCONJ	C-	_	[6]	cc	_	IsStop:True|IsPunct:False
+11	;	;	PUNCT	Z	_	[3]	punct	_	IsStop:False|IsPunct:True
+# sentence: πάρος γε μὲν οὔ τι θαμίζεις.
+1	πάρος	πάρος	ADV	Df	_	[5]	advmod	_	IsStop:False|IsPunct:False
+2	γε	γε	ADV	Df	_	[5]	discourse	_	IsStop:True|IsPunct:False
+3	μὲν	μέν	ADV	Df	_	[5]	discourse	_	IsStop:True|IsPunct:False
+4	οὔ	οὐ	ADV	Df	Polarity=Neg	[5]	advmod	_	IsStop:True|IsPunct:False
+5	τι	τίς	ADJ	Px	Case=Acc|Gender=Neut|Number=Sing	[5]	obl	_	IsStop:True|IsPunct:False
+6	θαμίζεις	θαμίζω	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	[5]	ROOT	_	IsStop:False|IsPunct:False
+7	.	.	PUNCT	Z	_	[5]	punct	_	IsStop:False|IsPunct:True
+# sentence: ἀλλʼ ἕπεο προτέρω, ἵνα τοι πὰρ ξείνια θείω.
+1	ἀλλʼ	ἀλλά	CCONJ	C-	_	[1]	cc	_	IsStop:False|IsPunct:False
+2	ἕπεο	ἕπομαι	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Mid	[1]	ROOT	_	IsStop:False|IsPunct:False
+3	προτέρω	προτέρω	ADJ	A-	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	[1]	advmod	_	IsStop:False|IsPunct:False
+4	,	,	PUNCT	Z	_	[1]	iobj	_	IsStop:False|IsPunct:True
+5	ἵνα	ἵνα	SCONJ	G-	_	[8]	mark	_	IsStop:False|IsPunct:False
+6	τοι	σύ	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=2|PronType=Prs	[8]	iobj	_	IsStop:True|IsPunct:False
+7	πὰρ	παρά	ADP	R-	_	[7]	case	_	IsStop:True|IsPunct:False
+8	ξείνια	ξένιος	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	[8]	obj	_	IsStop:False|IsPunct:False
+9	θείω	τίθημι	VERB	V-	Aspect=Perf|Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	[1]	advcl	_	IsStop:False|IsPunct:False
+10	.	.	PUNCT	Z	_	[1]	punct	_	IsStop:False|IsPunct:True
+# sentence: 
+# sentence: Ἥφαιστε πρόμολʼ ὧδε·
+1	Ἥφαιστε	Ἥφαιστος	PROPN	Ne	Case=Voc|Gender=Masc|Number=Sing	[1]	vocative	_	IsStop:False|IsPunct:False
+2	πρόμολʼ	προβλώσκω	VERB	A-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	[1]	ROOT	_	IsStop:False|IsPunct:False
+3	ὧδε	ὧδε	ADV	Df	_	[1]	advmod	_	IsStop:False|IsPunct:False
+4	·	·	PUNCT	Z	_	[1]	punct	_	IsStop:False|IsPunct:True
+# sentence: Θέτις νύ τι σεῖο χατίζει.
+1	Θέτις	Θέτις	PROPN	Ne	Case=Nom|Gender=Fem|Number=Sing	[4]	nsubj	_	IsStop:False|IsPunct:False
+2	νύ	νῦν	ADV	Df	_	[4]	discourse	_	IsStop:False|IsPunct:False
+3	τι	τίς	DET	Px	Case=Nom|Gender=Neut|Number=Sing	[4]	obl	_	IsStop:True|IsPunct:False
+4	σεῖο	σύ	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=2|PronType=Prs	[4]	iobj	_	IsStop:True|IsPunct:False
+5	χατίζει	χατίζω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	[4]	ROOT	_	IsStop:False|IsPunct:False
+6	.	.	PUNCT	Z	_	[4]	punct	_	IsStop:False|IsPunct:True

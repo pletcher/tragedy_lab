@@ -1,0 +1,44 @@
+# sentence: αἰδὼς Ἀργεῖοι κάκʼ ἐλέγχεα εἶδος ἀγητοί
+1	αἰδὼς	αἰδώς	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	[0]	ROOT	_	IsStop:False|IsPunct:False
+2	Ἀργεῖοι	Ἀργεῖος	ADJ	A-	Case=Voc|Degree=Pos|Gender=Masc|Number=Plur	[0]	amod	_	IsStop:False|IsPunct:False
+3	κάκʼ	κακός	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	[3]	amod	_	IsStop:False|IsPunct:False
+4	ἐλέγχεα	ἔλεγχος	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	[0]	dep	_	IsStop:False|IsPunct:False
+5	εἶδος	εἶδος	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	[5]	obl	_	IsStop:False|IsPunct:False
+6	ἀγητοί	ἀγητός	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem,Masc|Number=Plur	[3]	amod	_	IsStop:False|IsPunct:False
+# sentence: ·
+1	·	·	PUNCT	Z	_	[0]	ROOT	_	IsStop:False|IsPunct:True
+# sentence: ὄφρα μὲν ἐς πόλεμον πωλέσκετο δῖος Ἀχιλλεύς,
+1	ὄφρα	ὄφρα	SCONJ	G-	_	[4]	mark	_	IsStop:False|IsPunct:False
+2	μὲν	μέν	ADV	Df	_	[4]	discourse	_	IsStop:True|IsPunct:False
+3	ἐς	εἰς	ADP	R-	_	[3]	case	_	IsStop:True|IsPunct:False
+4	πόλεμον	πόλεμος	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	[4]	obl	_	IsStop:False|IsPunct:False
+5	πωλέσκετο	πωλέομαι	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Mid	[7]	advcl	_	IsStop:False|IsPunct:False
+6	δῖος	δῖος	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	[6]	nmod	_	IsStop:False|IsPunct:False
+7	Ἀχιλλεύς	Ἀχιλλεύς	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	[4]	nsubj	_	IsStop:False|IsPunct:False
+8	,	,	PUNCT	Z	_	[]	amod	_	IsStop:False|IsPunct:True
+# sentence: οὐδέ ποτε Τρῶες πρὸ πυλάων Δαρδανιάων οἴχνεσκον·
+1	οὐδέ	οὐδέ	CCONJ	C-	_	[]	cc	_	IsStop:True|IsPunct:False
+2	ποτε	ποτε	ADV	Df	_	[]	advmod	_	IsStop:False|IsPunct:False
+3	Τρῶες	Τρώς	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	[]	nsubj	_	IsStop:False|IsPunct:False
+4	πρὸ	πρό	ADP	R-	_	[4]	case	_	IsStop:False|IsPunct:False
+5	πυλάων	πύλη	NOUN	Nb	Case=Gen|Gender=Fem|Number=Plur	[]	obl	_	IsStop:False|IsPunct:False
+6	Δαρδανιάων	Δαρδάνιος	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	[4]	amod	_	IsStop:False|IsPunct:False
+7	οἴχνεσκον	οἰχνέω	VERB	V-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	[6]	ROOT	_	IsStop:False|IsPunct:False
+8	·	·	PUNCT	Z	_	[6]	punct	_	IsStop:False|IsPunct:True
+# sentence: κείνου γὰρ ἐδείδισαν ὄβριμον ἔγχος·
+1	κείνου	ἐκεῖνος	ADJ	Pd	Case=Gen|Gender=Masc|Number=Sing	[2]	obl	_	IsStop:False|IsPunct:False
+2	γὰρ	γάρ	ADV	Df	_	[2]	discourse	_	IsStop:True|IsPunct:False
+3	ἐδείδισαν	δείδω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	[2]	ROOT	_	IsStop:False|IsPunct:False
+4	ὄβριμον	ὄβριμος	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	[4]	amod	_	IsStop:False|IsPunct:False
+5	ἔγχος	ἔγχος	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	[2]	obj	_	IsStop:False|IsPunct:False
+6	·	·	PUNCT	Z	_	[2]	punct	_	IsStop:False|IsPunct:True
+# sentence: νῦν δὲ ἑκὰς πόλιος κοίλῃς ἐπὶ νηυσὶ μάχονται.
+1	νῦν	νῦν	ADV	Df	_	[7]	advmod	_	IsStop:False|IsPunct:False
+2	δὲ	δέ	ADV	Df	_	[7]	discourse	_	IsStop:True|IsPunct:False
+3	ἑκὰς	ἑκάς	ADP	R-	_	[3]	case	_	IsStop:False|IsPunct:False
+4	πόλιος	πόλις	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	[7]	obl	_	IsStop:False|IsPunct:False
+5	κοίλῃς	κοῖλος	ADJ	A-	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	[3]	amod	_	IsStop:False|IsPunct:False
+6	ἐπὶ	ἐπί	ADP	R-	_	[6]	case	_	IsStop:True|IsPunct:False
+7	νηυσὶ	ναῦς	NOUN	Nb	Case=Dat|Gender=Fem|Number=Plur	[7]	obl	_	IsStop:False|IsPunct:False
+8	μάχονται	μάχομαι	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	[7]	ROOT	_	IsStop:False|IsPunct:False
+9	.	.	PUNCT	Z	_	[7]	punct	_	IsStop:False|IsPunct:True

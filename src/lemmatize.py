@@ -44,10 +44,10 @@ def write_sentence_to_conllu(f, sent):
             )
         )
 
-def lemmatize():
+def lemmatize(directory: str = "./tragic_corpus"):
     nlp = spacy.load("grc_proiel_trf")
 
-    txts = [Path(f"./corpus/{f}") for f in os.listdir("./corpus") if f.endswith(".txt")]
+    txts = [Path(f"{directory}/{f}") for f in os.listdir(directory) if f.endswith(".txt")]
 
     for txt in tqdm(txts):
         with txt.open() as f:
@@ -57,6 +57,4 @@ def lemmatize():
 
             with out.open("w+") as g:
                 for sent in doc.sents:
-
-
                     write_sentence_to_conllu(g, sent)

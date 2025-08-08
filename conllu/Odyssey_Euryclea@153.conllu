@@ -1,0 +1,1250 @@
+# sentence: τίπτε δέ τοι, φίλε τέκνον,
+1	τίπτε	τίπτε	ADV	Pi	PronType=Int	[3]	dep	_	IsStop:False|IsPunct:False
+2	δέ	δέ	ADV	Df	_	[3]	discourse	_	IsStop:True|IsPunct:False
+3	τοι	σύ	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=2|PronType=Prs	[3]	iobj	_	IsStop:True|IsPunct:False
+4	,	,	PUNCT	Z	_	[3]	ROOT	_	IsStop:False|IsPunct:True
+5	φίλε	φίλος	ADJ	A-	Case=Voc|Degree=Pos|Gender=Masc|Number=Sing	[5]	amod	_	IsStop:False|IsPunct:False
+6	τέκνον	τέκνον	NOUN	Nb	Case=Voc|Gender=Neut|Number=Sing	[3]	vocative	_	IsStop:False|IsPunct:False
+7	,	,	PUNCT	Z	_	[3]	cop	_	IsStop:False|IsPunct:True
+# sentence: ἐνὶ φρεσὶ τοῦτο νόημα ἔπλετο; πῇ δʼ ἐθέλεις ἰέναι πολλὴν ἐπὶ γαῖαν μοῦνος ἐὼν ἀγαπητός;
+1	ἐνὶ	εἷς	ADP	R-	_	[1]	case	_	IsStop:True|IsPunct:False
+2	φρεσὶ	φρήν	NOUN	Nb	Case=Dat|Gender=Fem|Number=Plur	[]	obl	_	IsStop:False|IsPunct:False
+3	τοῦτο	οὗτος	DET	Pd	Case=Nom|Gender=Neut|Number=Sing	[3]	det	_	IsStop:True|IsPunct:False
+4	νόημα	νόημα	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	[]	nsubj	_	IsStop:False|IsPunct:False
+5	ἔπλετο	πέλω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Mid	[4]	ROOT	_	IsStop:False|IsPunct:False
+6	;	;	PUNCT	Z	_	[4]	punct	_	IsStop:False|IsPunct:True
+7	πῇ	πῆ	ADV	Du	PronType=Int	[8]	advmod	_	IsStop:False|IsPunct:False
+8	δʼ	δέ	ADV	Df	_	[8]	discourse	_	IsStop:False|IsPunct:False
+9	ἐθέλεις	ἐθέλω	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	[4]	ccomp	_	IsStop:False|IsPunct:False
+10	ἰέναι	εἶμι	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	[8]	xcomp	_	IsStop:False|IsPunct:False
+11	πολλὴν	πολύς	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	[9]	amod	_	IsStop:False|IsPunct:False
+12	ἐπὶ	ἐπί	ADP	R-	_	[12]	case	_	IsStop:True|IsPunct:False
+13	γαῖαν	γῆ	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	[10]	obl	_	IsStop:False|IsPunct:False
+14	μοῦνος	μόνος	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	[15]	advmod	_	IsStop:False|IsPunct:False
+15	ἐὼν	εἰμί	AUX	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	[15]	cop	_	IsStop:True|IsPunct:False
+16	ἀγαπητός	ἀγαπητός	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	[4]	advcl	_	IsStop:False|IsPunct:False
+17	;	;	PUNCT	Z	_	[4]	punct	_	IsStop:False|IsPunct:True
+# sentence: ὁ δʼ ὤλετο τηλόθι πάτρης διογενὴς Ὀδυσεὺς ἀλλογνώτῳ ἐνὶ δήμῳ.
+1	ὁ	ὁ	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	[2]	nsubj	_	IsStop:True|IsPunct:False
+2	δʼ	δέ	ADV	Df	_	[2]	discourse	_	IsStop:False|IsPunct:False
+3	ὤλετο	ὄλλυμι	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Mid	[2]	ROOT	_	IsStop:False|IsPunct:False
+4	τηλόθι	τῆλε	ADV	Df	_	[4]	amod	_	IsStop:False|IsPunct:False
+5	πάτρης	πάτρα	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	[2]	obl	_	IsStop:False|IsPunct:False
+6	διογενὴς	διογενής	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	[2]	advcl	_	IsStop:False|IsPunct:False
+7	Ὀδυσεὺς	Ὀδυσσεύς	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	[5]	nsubj	_	IsStop:False|IsPunct:False
+8	ἀλλογνώτῳ	ἀλλόγνωτος	ADJ	A-	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	[9]	amod	_	IsStop:False|IsPunct:False
+9	ἐνὶ	εἷς	NUM	Ma	Case=Dat|Gender=Masc|Number=Sing	[9]	amod	_	IsStop:True|IsPunct:False
+10	δήμῳ	δῆμος	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	[5]	appos	_	IsStop:False|IsPunct:False
+11	.	.	PUNCT	Z	_	[2]	punct	_	IsStop:False|IsPunct:True
+# sentence: οἱ δέ τοι αὐτίκʼ ἰόντι κακὰ φράσσονται ὀπίσσω,
+1	οἱ	ὁ	PRON	Pr	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	[6]	nsubj	_	IsStop:True|IsPunct:False
+2	δέ	δέ	ADV	Df	_	[6]	discourse	_	IsStop:True|IsPunct:False
+3	τοι	σύ	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=2|PronType=Prs	[6]	iobj	_	IsStop:True|IsPunct:False
+4	αὐτίκʼ	αὐτίκα	ADV	Df	_	[4]	advmod	_	IsStop:False|IsPunct:False
+5	ἰόντι	εἶμι	VERB	V-	Case=Dat|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	[6]	advcl	_	IsStop:False|IsPunct:False
+6	κακὰ	κακός	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	[6]	obj	_	IsStop:False|IsPunct:False
+7	φράσσονται	φράζω	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	[]	ccomp	_	IsStop:False|IsPunct:False
+8	ὀπίσσω	ὀπίσω	ADV	Df	_	[6]	advmod	_	IsStop:False|IsPunct:False
+9	,	,	PUNCT	Z	_	[6]	dep	_	IsStop:False|IsPunct:True
+# sentence: ὥς κε δόλῳ φθίῃς, τάδε δʼ αὐτοὶ πάντα δάσονται.
+1	ὥς	ὡς	SCONJ	G-	_	[3]	mark	_	IsStop:True|IsPunct:False
+2	κε	ἄν	ADV	Df	_	[3]	advmod	_	IsStop:True|IsPunct:False
+3	δόλῳ	δόλος	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	[3]	obl	_	IsStop:False|IsPunct:False
+4	φθίῃς	φθία	VERB	V-	Aspect=Perf|Mood=Sub|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	[4]	advcl	_	IsStop:False|IsPunct:False
+5	,	,	PUNCT	Z	_	[9]	iobj	_	IsStop:False|IsPunct:True
+6	τάδε	ὅδε	DET	Pd	Case=Acc|Gender=Neut|Number=Plur	[8]	det	_	IsStop:True|IsPunct:False
+7	δʼ	δέ	ADV	Df	_	[9]	discourse	_	IsStop:False|IsPunct:False
+8	αὐτοὶ	αὐτός	ADJ	Pd	Case=Nom|Gender=Masc|Number=Plur	[9]	nsubj	_	IsStop:True|IsPunct:False
+9	πάντα	πᾶς	DET	Px	Case=Acc|Gender=Neut|Number=Plur	[9]	obj	_	IsStop:False|IsPunct:False
+10	δάσονται	δατέομαι	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	[9]	ROOT	_	IsStop:False|IsPunct:False
+11	.	.	PUNCT	Z	_	[9]	punct	_	IsStop:False|IsPunct:True
+# sentence: 
+# sentence: ἀλλὰ μένʼ αὖθʼ ἐπὶ σοῖσι καθήμενος·
+1	ἀλλὰ	ἀλλά	CCONJ	C-	_	[1]	cc	_	IsStop:True|IsPunct:False
+2	μένʼ	μένω	ADV	Df	_	[1]	ROOT	_	IsStop:False|IsPunct:False
+3	αὖθʼ	αὖτε	ADV	Df	_	[5]	advmod	_	IsStop:False|IsPunct:False
+4	ἐπὶ	ἐπί	ADP	R-	_	[4]	case	_	IsStop:True|IsPunct:False
+5	σοῖσι	σός	PRON	Ps	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	[5]	obl	_	IsStop:True|IsPunct:False
+6	καθήμενος	κάθημαι	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	[1]	advcl	_	IsStop:False|IsPunct:False
+7	·	·	PUNCT	Z	_	[1]	punct	_	IsStop:False|IsPunct:True
+# sentence: οὐδέ τί σε χρὴ πόντον ἐπʼ ἀτρύγετον κακὰ πάσχειν οὐδʼ ἀλάλησθαι.
+1	οὐδέ	οὐδέ	CCONJ	C-	_	[3]	cc	_	IsStop:True|IsPunct:False
+2	τί	τίς	ADJ	Px	Case=Acc|Gender=Neut|Number=Sing	[3]	obl	_	IsStop:True|IsPunct:False
+3	σε	σύ	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=2|PronType=Prs	[3]	nsubj	_	IsStop:True|IsPunct:False
+4	χρὴ	χρή	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	[3]	ROOT	_	IsStop:False|IsPunct:False
+5	πόντον	Πόντος	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	[8]	nsubj	_	IsStop:False|IsPunct:False
+6	ἐπʼ	ἐπί	ADP	R-	_	[6]	case	_	IsStop:False|IsPunct:False
+7	ἀτρύγετον	ἀτρύγετος	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	[4]	amod	_	IsStop:False|IsPunct:False
+8	κακὰ	κακός	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	[8]	obj	_	IsStop:False|IsPunct:False
+9	πάσχειν	πάσχω	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	[]	ccomp	_	IsStop:False|IsPunct:False
+10	οὐδʼ	οὐδέ	CCONJ	C-	_	[8]	cc	_	IsStop:False|IsPunct:False
+11	ἀλάλησθαι	ἀλάομαι	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Pass	[8]	conj	_	IsStop:False|IsPunct:False
+12	.	.	PUNCT	Z	_	[3]	punct	_	IsStop:False|IsPunct:True
+# sentence: νύμφα φίλη, σὺ μὲν ἄρ με κατάκτανε νηλέι χαλκῷ ἢ ἔα ἐν μεγάρῳ·
+1	νύμφα	νύμφη	PROPN	Ne	Case=Voc|Gender=Fem|Number=Sing	[2]	vocative	_	IsStop:False|IsPunct:False
+2	φίλη	φίλος	ADJ	A-	Case=Voc|Degree=Pos|Gender=Fem|Number=Sing	[0]	amod	_	IsStop:False|IsPunct:False
+3	,	,	PUNCT	Z	_	[7]	iobj	_	IsStop:False|IsPunct:True
+4	σὺ	σύ	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=2|PronType=Prs	[7]	nsubj	_	IsStop:True|IsPunct:False
+5	μὲν	μέν	ADV	Df	_	[7]	discourse	_	IsStop:True|IsPunct:False
+6	ἄρ	ἄρα	ADV	Df	_	[7]	discourse	_	IsStop:True|IsPunct:False
+7	με	ἐγώ	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=1|PronType=Prs	[7]	obj	_	IsStop:True|IsPunct:False
+8	κατάκτανε	κατακτείνω	VERB	V-	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	[7]	ROOT	_	IsStop:False|IsPunct:False
+9	νηλέι	νηλής	ADJ	A-	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	[9]	amod	_	IsStop:False|IsPunct:False
+10	χαλκῷ	χαλκός	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	[7]	obl	_	IsStop:False|IsPunct:False
+11	ἢ	ἤ	CCONJ	C-	_	[7]	cc	_	IsStop:True|IsPunct:False
+12	ἔα	ἐάω	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	[7]	conj	_	IsStop:True|IsPunct:False
+13	ἐν	ἐν	ADP	R-	_	[13]	case	_	IsStop:True|IsPunct:False
+14	μεγάρῳ	μέγαρον	NOUN	Nb	Case=Dat|Gender=Neut|Number=Sing	[11]	obl	_	IsStop:False|IsPunct:False
+15	·	·	PUNCT	Z	_	[7]	punct	_	IsStop:False|IsPunct:True
+# sentence: μῦθον δέ τοι οὐκ ἐπικεύσω.
+1	μῦθον	μῦθος	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	[4]	obj	_	IsStop:False|IsPunct:False
+2	δέ	δέ	ADV	Df	_	[4]	discourse	_	IsStop:True|IsPunct:False
+3	τοι	σύ	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=2|PronType=Prs	[4]	iobj	_	IsStop:True|IsPunct:False
+4	οὐκ	οὐ	ADV	Df	Polarity=Neg	[4]	advmod	_	IsStop:True|IsPunct:False
+5	ἐπικεύσω	ἐπικεύθω	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	[4]	ROOT	_	IsStop:False|IsPunct:False
+6	.	.	PUNCT	Z	_	[4]	punct	_	IsStop:False|IsPunct:True
+# sentence: 
+# sentence: ᾔδεʼ ἐγὼ τάδε πάντα,
+1	ᾔδεʼ	οἶδα	ADV	V-	_	[0]	ROOT	_	IsStop:False|IsPunct:False
+2	ἐγὼ	ἐγώ	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	[0]	nsubj	_	IsStop:True|IsPunct:False
+3	τάδε	ὅδε	ADJ	Pd	Case=Acc|Gender=Neut|Number=Plur	[0]	obj	_	IsStop:True|IsPunct:False
+4	πάντα	πᾶς	DET	Px	Case=Acc|Gender=Neut|Number=Plur	[2]	det	_	IsStop:False|IsPunct:False
+5	,	,	PUNCT	Z	_	[0]	parataxis	_	IsStop:False|IsPunct:True
+# sentence: πόρον δέ οἱ ὅσσʼ ἐκέλευε,
+1	πόρον	πόρος	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	[0]	ROOT	_	IsStop:False|IsPunct:False
+2	δέ	δέ	ADV	Df	_	[0]	discourse	_	IsStop:True|IsPunct:False
+3	οἱ	ὁ	PRON	Pp	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	[4]	iobj	_	IsStop:True|IsPunct:False
+4	ὅσσʼ	ὅσος	PRON	Pr	Case=Acc|Gender=Neut|Number=Plur|PronType=Rel	[4]	obj	_	IsStop:False|IsPunct:False
+5	ἐκέλευε	κελεύω	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	[0]	nsubj	_	IsStop:False|IsPunct:False
+6	,	,	PUNCT	Z	_	[0]	advmod	_	IsStop:False|IsPunct:True
+# sentence: 
+# sentence: σῖτον καὶ μέθυ ἡδύ
+1	σῖτον	σῖτος	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	[0]	ROOT	_	IsStop:False|IsPunct:False
+2	καὶ	καί	CCONJ	C-	_	[0]	cc	_	IsStop:True|IsPunct:False
+3	μέθυ	μέθυ	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	[0]	conj	_	IsStop:False|IsPunct:False
+4	ἡδύ	ἡδύς	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	[2]	amod	_	IsStop:False|IsPunct:False
+# sentence: ·
+1	·	·	PUNCT	Z	_	[0]	ROOT	_	IsStop:False|IsPunct:True
+# sentence: ἐμεῦ δʼ ἕλετο μέγαν ὅρκον μὴ πρὶν σοὶ ἐρέειν, πρὶν δωδεκάτην γε γενέσθαι ἢ σʼ αὐτὴν ποθέσαι καὶ ἀφορμηθέντος ἀκοῦσαι
+1	ἐμεῦ	ἐγώ	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=1|PronType=Prs	[2]	iobj	_	IsStop:True|IsPunct:False
+2	δʼ	δέ	ADV	Df	_	[2]	discourse	_	IsStop:False|IsPunct:False
+3	ἕλετο	αἱρέω	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Mid	[2]	ROOT	_	IsStop:False|IsPunct:False
+4	μέγαν	μέγας	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	[4]	amod	_	IsStop:False|IsPunct:False
+5	ὅρκον	ὅρκος	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	[2]	obj	_	IsStop:False|IsPunct:False
+6	μὴ	μή	ADV	Df	Polarity=Neg	[8]	advmod	_	IsStop:True|IsPunct:False
+7	πρὶν	πρίν	SCONJ	G-	_	[8]	mark	_	IsStop:False|IsPunct:False
+8	σοὶ	σύ	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=2|PronType=Prs	[8]	iobj	_	IsStop:True|IsPunct:False
+9	ἐρέειν	λέγω	VERB	V-	Tense=Fut|VerbForm=Inf|Voice=Act	[2]	ccomp	_	IsStop:False|IsPunct:False
+10	,	,	PUNCT	Z	_	[2]	parataxis	_	IsStop:False|IsPunct:True
+11	πρὶν	πρίν	SCONJ	G-	_	[13]	mark	_	IsStop:False|IsPunct:False
+12	δωδεκάτην	δωδέκατος	ADJ	Mo	Case=Acc|Gender=Fem|Number=Sing	[13]	xcomp	_	IsStop:False|IsPunct:False
+13	γε	γε	ADV	Df	_	[13]	discourse	_	IsStop:True|IsPunct:False
+14	γενέσθαι	γίγνομαι	VERB	V-	Aspect=Perf|Tense=Past|VerbForm=Inf|Voice=Mid	[9]	advcl	_	IsStop:False|IsPunct:False
+15	ἢ	ἤ	ADV	Df	_	[]	dep	_	IsStop:True|IsPunct:False
+16	σʼ	σύ	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=2|PronType=Prs	[17]	obj	_	IsStop:False|IsPunct:False
+17	αὐτὴν	αὐτός	PRON	Pp	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	[17]	obj	_	IsStop:True|IsPunct:False
+18	ποθέσαι	ποθέω	VERB	V-	Aspect=Perf|Tense=Past|VerbForm=Inf|Voice=Act	[14]	ccomp	_	IsStop:False|IsPunct:False
+19	καὶ	καί	CCONJ	C-	_	[17]	cc	_	IsStop:True|IsPunct:False
+20	ἀφορμηθέντος	ἀφορμάω	VERB	V-	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	[20]	advcl	_	IsStop:False|IsPunct:False
+21	ἀκοῦσαι	ἀκούω	VERB	V-	Aspect=Perf|Tense=Past|VerbForm=Inf|Voice=Act	[17]	conj	_	IsStop:False|IsPunct:False
+# sentence: ,
+1	,	,	PUNCT	Z	_	[]	advmod	_	IsStop:False|IsPunct:True
+# sentence: ὡς ἂν μὴ κλαίουσα κατὰ χρόα καλὸν ἰάπτῃς.
+1	ὡς	ὡς	ADV	Df	_	[3]	advmod	_	IsStop:True|IsPunct:False
+2	ἂν	ἄν	ADV	Df	_	[3]	advmod	_	IsStop:True|IsPunct:False
+3	μὴ	μή	ADV	Df	Polarity=Neg	[3]	advmod	_	IsStop:True|IsPunct:False
+4	κλαίουσα	κλαίω	VERB	V-	Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	[3]	ROOT	_	IsStop:False|IsPunct:False
+5	κατὰ	κατά	ADP	R-	_	[5]	case	_	IsStop:True|IsPunct:False
+6	χρόα	χρώς	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	[3]	obl	_	IsStop:False|IsPunct:False
+7	καλὸν	καλός	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc,Neut|Number=Sing	[5]	amod	_	IsStop:False|IsPunct:False
+8	ἰάπτῃς	ἰάπτῃς	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	[3]	nsubj	_	IsStop:False|IsPunct:False
+9	.	.	PUNCT	Z	_	[3]	punct	_	IsStop:False|IsPunct:True
+# sentence: ἀλλʼ ὑδρηναμένη, καθαρὰ χροῒ εἵμαθʼ ἑλοῦσα,
+1	ἀλλʼ	ἀλλά	CCONJ	C-	_	[6]	cc	_	IsStop:False|IsPunct:False
+2	ὑδρηναμένη	ὑδραίνω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	[6]	advcl	_	IsStop:False|IsPunct:False
+3	,	,	PUNCT	Z	_	[1]	cc	_	IsStop:False|IsPunct:True
+4	καθαρὰ	καθαρός	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	[4]	amod	_	IsStop:False|IsPunct:False
+5	χροῒ	χρώς	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	[6]	obl	_	IsStop:False|IsPunct:False
+6	εἵμαθʼ	εἷμα	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	[6]	obj	_	IsStop:False|IsPunct:False
+7	ἑλοῦσα	αἱρέω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	[7]	advcl	_	IsStop:False|IsPunct:False
+8	,	,	PUNCT	Z	_	[]	iobj	_	IsStop:False|IsPunct:True
+# sentence: εἰς ὑπερῷʼ ἀναβᾶσα σὺν ἀμφιπόλοισι γυναιξὶν εὔχεʼ Ἀθηναίῃ κούρῃ Διὸς αἰγιόχοιο
+1	εἰς	εἰς	ADP	R-	_	[1]	case	_	IsStop:True|IsPunct:False
+2	ὑπερῷʼ	ὑπερῴη	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	[2]	obl	_	IsStop:False|IsPunct:False
+3	ἀναβᾶσα	ἀναβαίνω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	[]	advcl	_	IsStop:False|IsPunct:False
+4	σὺν	σύν	ADP	R-	_	[5]	case	_	IsStop:True|IsPunct:False
+5	ἀμφιπόλοισι	ἀμφίπολος	ADJ	A-	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	[5]	amod	_	IsStop:False|IsPunct:False
+6	γυναιξὶν	γυνή	NOUN	Nb	Case=Dat|Gender=Fem|Number=Plur	[2]	obl	_	IsStop:False|IsPunct:False
+7	εὔχεʼ	εὔχομαι	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	[6]	ROOT	_	IsStop:False|IsPunct:False
+8	Ἀθηναίῃ	Ἀθήνη	PROPN	Ne	Case=Dat|Gender=Fem|Number=Sing	[6]	nsubj	_	IsStop:False|IsPunct:False
+9	κούρῃ	κόρη	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	[7]	appos	_	IsStop:False|IsPunct:False
+10	Διὸς	Ζεύς	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	[8]	nmod	_	IsStop:False|IsPunct:False
+11	αἰγιόχοιο	αἰγίοχος	PROPN	A-	Case=Gen|Gender=Masc|Number=Sing	[9]	amod	_	IsStop:False|IsPunct:False
+# sentence: ·
+1	·	·	PUNCT	Z	_	[0]	ROOT	_	IsStop:False|IsPunct:True
+# sentence: ἡ γάρ κέν μιν ἔπειτα καὶ ἐκ θανάτοιο σαώσαι.
+1	ἡ	ὁ	ADV	Df	_	[8]	discourse	_	IsStop:True|IsPunct:False
+2	γάρ	γάρ	ADV	Df	_	[8]	discourse	_	IsStop:True|IsPunct:False
+3	κέν	ἄν	ADV	Df	_	[8]	advmod	_	IsStop:True|IsPunct:False
+4	μιν	μιν	PRON	Pp	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	[8]	obj	_	IsStop:False|IsPunct:False
+5	ἔπειτα	ἔπειτα	ADV	Df	_	[8]	advmod	_	IsStop:False|IsPunct:False
+6	καὶ	καί	ADV	Df	_	[8]	advmod	_	IsStop:True|IsPunct:False
+7	ἐκ	ἐκ	ADP	R-	_	[7]	case	_	IsStop:True|IsPunct:False
+8	θανάτοιο	θάνατος	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	[8]	obl	_	IsStop:False|IsPunct:False
+9	σαώσαι	σώζω	VERB	V-	Aspect=Perf|Tense=Past|VerbForm=Inf|Voice=Act	[]	ccomp	_	IsStop:False|IsPunct:False
+10	.	.	PUNCT	Z	_	[8]	punct	_	IsStop:False|IsPunct:True
+# sentence: 
+# sentence: μηδὲ γέροντα κάκου κεκακωμένον·
+1	μηδὲ	μηδέ	CCONJ	C-	_	[0]	ROOT	_	IsStop:False|IsPunct:False
+2	γέροντα	γέρων	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	[0]	obj	_	IsStop:False|IsPunct:False
+3	κάκου	κακόω	ADJ	A-	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	[1]	amod	_	IsStop:False|IsPunct:False
+4	κεκακωμένον	κακόω	VERB	V-	Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	[1]	acl	_	IsStop:False|IsPunct:False
+5	·	·	PUNCT	Z	_	[0]	punct	_	IsStop:False|IsPunct:True
+# sentence: οὐ γὰρ ὀίω
+1	οὐ	οὐ	ADV	Df	Polarity=Neg	[2]	advmod	_	IsStop:True|IsPunct:False
+2	γὰρ	γάρ	ADV	Df	_	[2]	discourse	_	IsStop:True|IsPunct:False
+3	ὀίω	οἴομαι	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	[2]	ROOT	_	IsStop:False|IsPunct:False
+# sentence: πάγχυ θεοῖς μακάρεσσι γονὴν Ἀρκεισιάδαο ἔχθεσθʼ, ἀλλʼ ἔτι πού τις ἐπέσσεται ὅς κεν ἔχῃσι δώματά θʼ ὑψερεφέα καὶ ἀπόπροθι πίονας ἀγρούς.
+1	πάγχυ	πάγχυ	ADV	Df	_	[]	advmod	_	IsStop:False|IsPunct:False
+2	θεοῖς	θεός	NOUN	Nb	Case=Dat|Gender=Masc|Number=Plur	[3]	nmod	_	IsStop:False|IsPunct:False
+3	μακάρεσσι	μάκαρ	ADJ	A-	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	[1]	amod	_	IsStop:False|IsPunct:False
+4	γονὴν	γονή	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	[]	obl	_	IsStop:False|IsPunct:False
+5	Ἀρκεισιάδαο	Ἀρκεισιάδης	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	[3]	nmod	_	IsStop:False|IsPunct:False
+6	ἔχθεσθʼ	ἔχθομαι	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Mid	[]	ccomp	_	IsStop:False|IsPunct:False
+7	,	,	PUNCT	Z	_	[3]	appos	_	IsStop:False|IsPunct:True
+8	ἀλλʼ	ἀλλά	CCONJ	C-	_	[6]	cc	_	IsStop:False|IsPunct:False
+9	ἔτι	ἔτι	ADV	Df	_	[11]	advmod	_	IsStop:True|IsPunct:False
+10	πού	πού	ADV	Df	_	[11]	discourse	_	IsStop:False|IsPunct:False
+11	τις	τίς	ADJ	Px	Case=Nom|Gender=Masc|Number=Sing	[11]	nsubj	_	IsStop:True|IsPunct:False
+12	ἐπέσσεται	ἐπέσσω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	[6]	conj	_	IsStop:False|IsPunct:False
+13	ὅς	ὅς	PRON	Pr	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	[14]	nsubj	_	IsStop:True|IsPunct:False
+14	κεν	ἄν	ADV	Df	_	[14]	advmod	_	IsStop:True|IsPunct:False
+15	ἔχῃσι	ἔχω	VERB	V-	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	[11]	acl	_	IsStop:False|IsPunct:False
+16	δώματά	δῶμα	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	[]	obj	_	IsStop:False|IsPunct:False
+17	θʼ	θ	CCONJ	C-	_	[15]	cc	_	IsStop:False|IsPunct:False
+18	ὑψερεφέα	ὑψερεφεύς	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	[15]	amod	_	IsStop:False|IsPunct:False
+19	καὶ	καί	CCONJ	C-	_	[15]	cc	_	IsStop:True|IsPunct:False
+20	ἀπόπροθι	ἀπόπροθι	ADV	Df	_	[21]	amod	_	IsStop:False|IsPunct:False
+21	πίονας	πίων	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	[21]	amod	_	IsStop:False|IsPunct:False
+22	ἀγρούς	ἀγρός	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	[15]	conj	_	IsStop:False|IsPunct:False
+23	.	.	PUNCT	Z	_	[]	punct	_	IsStop:False|IsPunct:True
+# sentence: 
+# sentence: αἲ γὰρ δή ποτε, τέκνον, ἐπιφροσύνας ἀνέλοιο οἴκου κήδεσθαι καὶ κτήματα πάντα φυλάσσειν.
+1	αἲ	ὁ	SCONJ	G-	_	[4]	dep	_	IsStop:True|IsPunct:False
+2	γὰρ	γάρ	ADV	Df	_	[4]	discourse	_	IsStop:True|IsPunct:False
+3	δή	δή	ADV	Df	_	[4]	discourse	_	IsStop:True|IsPunct:False
+4	ποτε	ποτε	ADV	Df	_	[4]	advmod	_	IsStop:False|IsPunct:False
+5	,	,	PUNCT	Z	_	[8]	obl	_	IsStop:False|IsPunct:True
+6	τέκνον	τέκνον	NOUN	Nb	Case=Voc|Gender=Neut|Number=Sing	[8]	vocative	_	IsStop:False|IsPunct:False
+7	,	,	PUNCT	Z	_	[8]	advmod	_	IsStop:False|IsPunct:True
+8	ἐπιφροσύνας	ἐπιφροσύνη	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	[8]	obj	_	IsStop:False|IsPunct:False
+9	ἀνέλοιο	ἀναιρέω	VERB	V-	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Mid	[8]	ROOT	_	IsStop:False|IsPunct:False
+10	οἴκου	οἶκος	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	[10]	iobj	_	IsStop:False|IsPunct:False
+11	κήδεσθαι	κήδω	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Mid	[]	xcomp	_	IsStop:False|IsPunct:False
+12	καὶ	καί	CCONJ	C-	_	[10]	cc	_	IsStop:True|IsPunct:False
+13	κτήματα	κτῆμα	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	[14]	obj	_	IsStop:False|IsPunct:False
+14	πάντα	πᾶς	DET	Px	Case=Acc|Gender=Neut|Number=Plur	[12]	det	_	IsStop:False|IsPunct:False
+15	φυλάσσειν	φυλάσσω	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	[10]	conj	_	IsStop:False|IsPunct:False
+16	.	.	PUNCT	Z	_	[8]	punct	_	IsStop:False|IsPunct:True
+# sentence: 
+# sentence: ἀλλʼ ἄγε,
+1	ἀλλʼ	ἀλλά	CCONJ	C-	_	[1]	cc	_	IsStop:False|IsPunct:False
+2	ἄγε	ἄγω	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	[1]	ROOT	_	IsStop:False|IsPunct:False
+3	,	,	PUNCT	Z	_	[1]	punct	_	IsStop:False|IsPunct:True
+# sentence: τίς τοι ἔπειτα μετοιχομένη φάος οἴσει; δμῳὰς δʼ οὐκ εἴας προβλωσκέμεν, αἵ κεν ἔφαινον.
+1	τίς	τίς	PRON	Pi	Case=Nom|Gender=Masc|Number=Sing|PronType=Int	[5]	nsubj	_	IsStop:True|IsPunct:False
+2	τοι	σύ	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=2|PronType=Prs	[5]	iobj	_	IsStop:True|IsPunct:False
+3	ἔπειτα	ἔπειτα	ADV	Df	_	[5]	advmod	_	IsStop:False|IsPunct:False
+4	μετοιχομένη	μετοίχομαι	VERB	V-	Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	[5]	advcl	_	IsStop:False|IsPunct:False
+5	φάος	φάος	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	[5]	obj	_	IsStop:False|IsPunct:False
+6	οἴσει	φέρω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	[5]	ROOT	_	IsStop:False|IsPunct:False
+7	;	;	PUNCT	Z	_	[5]	advmod	_	IsStop:False|IsPunct:True
+8	δμῳὰς	δμωή	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	[11]	nsubj	_	IsStop:False|IsPunct:False
+9	δʼ	δέ	ADV	Df	_	[10]	discourse	_	IsStop:False|IsPunct:False
+10	οὐκ	οὐ	ADV	Df	Polarity=Neg	[10]	advmod	_	IsStop:True|IsPunct:False
+11	εἴας	ἐάω	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	[5]	conj	_	IsStop:False|IsPunct:False
+12	προβλωσκέμεν	προβλώσκω	VERB	V-	Aspect=Perf|Tense=Past|VerbForm=Inf|Voice=Act	[10]	ccomp	_	IsStop:False|IsPunct:False
+13	,	,	PUNCT	Z	_	[10]	dep	_	IsStop:False|IsPunct:True
+14	αἵ	ὁ	SCONJ	G-	_	[15]	mark	_	IsStop:True|IsPunct:False
+15	κεν	ἄν	ADV	Df	_	[15]	advmod	_	IsStop:True|IsPunct:False
+16	ἔφαινον	φαίνω	VERB	V-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	[10]	advcl	_	IsStop:False|IsPunct:False
+17	.	.	PUNCT	Z	_	[10]	punct	_	IsStop:False|IsPunct:True
+# sentence: 
+# sentence: ὤ μοι ἐγὼ σέο, τέκνον,
+1	ὤ	ὦ	INTJ	I-	_	[1]	discourse	_	IsStop:True|IsPunct:False
+2	μοι	ἐγώ	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs	[4]	vocative	_	IsStop:True|IsPunct:False
+3	ἐγὼ	ἐγώ	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	[4]	nsubj	_	IsStop:True|IsPunct:False
+4	σέο	σύ	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=2|PronType=Prs	[4]	det	_	IsStop:True|IsPunct:False
+5	,	,	PUNCT	Z	_	[4]	ROOT	_	IsStop:False|IsPunct:True
+6	τέκνον	τέκνον	NOUN	Nb	Case=Voc|Gender=Neut|Number=Sing	[4]	vocative	_	IsStop:False|IsPunct:False
+7	,	,	PUNCT	Z	_	[4]	parataxis	_	IsStop:False|IsPunct:True
+# sentence: ἀμήχανος·
+1	ἀμήχανος	ἀμήχανος	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	[0]	ROOT	_	IsStop:False|IsPunct:False
+2	·	·	PUNCT	Z	_	[0]	punct	_	IsStop:False|IsPunct:True
+# sentence: ἦ σε περὶ Ζεὺς ἀνθρώπων ἤχθηρε θεουδέα θυμὸν ἔχοντα
+1	ἦ	ἦ	CCONJ	C-	_	[]	cc	_	IsStop:True|IsPunct:False
+2	σε	σύ	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=2|PronType=Prs	[]	obj	_	IsStop:True|IsPunct:False
+3	περὶ	περί	ADP	R-	_	[]	case	_	IsStop:True|IsPunct:False
+4	Ζεὺς	Ζεύς	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	[]	nsubj	_	IsStop:False|IsPunct:False
+5	ἀνθρώπων	ἄνθρωπος	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	[5]	nmod	_	IsStop:False|IsPunct:False
+6	ἤχθηρε	ἐχθαίρω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	[5]	ROOT	_	IsStop:False|IsPunct:False
+7	θεουδέα	θεουδής	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	[7]	amod	_	IsStop:False|IsPunct:False
+8	θυμὸν	θυμός	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	[8]	obj	_	IsStop:False|IsPunct:False
+9	ἔχοντα	ἔχω	VERB	V-	Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	[5]	advcl	_	IsStop:False|IsPunct:False
+# sentence: .
+1	.	.	PUNCT	Z	_	[0]	ROOT	_	IsStop:False|IsPunct:True
+# sentence: οὐ γάρ πώ τις τόσσα βροτῶν Διὶ τερπικεραύνῳ πίονα μηρίʼ ἔκηʼ οὐδʼ ἐξαίτους ἑκατόμβας, ὅσσα σὺ τῷ ἐδίδους, ἀρώμενος ἧος ἵκοιο γῆράς τε λιπαρὸν θρέψαιό τε φαίδιμον υἱόν·
+1	οὐ	οὐ	ADV	Df	Polarity=Neg	[]	advmod	_	IsStop:True|IsPunct:False
+2	γάρ	γάρ	ADV	Df	_	[]	discourse	_	IsStop:True|IsPunct:False
+3	πώ	πω	ADV	Df	_	[]	advmod	_	IsStop:False|IsPunct:False
+4	τις	τίς	ADJ	Px	Case=Nom|Gender=Masc|Number=Sing	[]	nsubj	_	IsStop:True|IsPunct:False
+5	τόσσα	τόσος	ADJ	Pd	Case=Acc|Gender=Neut|Number=Plur	[]	dep	_	IsStop:False|IsPunct:False
+6	βροτῶν	βροτός	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	[4]	nmod	_	IsStop:False|IsPunct:False
+7	Διὶ	Ζεύς	PROPN	Ne	Case=Dat|Gender=Masc|Number=Sing	[]	iobj	_	IsStop:False|IsPunct:False
+8	τερπικεραύνῳ	τερπικέραυνος	ADJ	A-	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	[6]	amod	_	IsStop:False|IsPunct:False
+9	πίονα	πίων	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem,Masc|Number=Sing	[9]	amod	_	IsStop:False|IsPunct:False
+10	μηρίʼ	μηρία	NOUN	Nb	Case=Dat|Gender=Neut|Number=Sing	[10]	obj	_	IsStop:False|IsPunct:False
+11	ἔκηʼ	καίω	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	[]	parataxis	_	IsStop:False|IsPunct:False
+12	οὐδʼ	οὐδέ	CCONJ	C-	_	[9]	cc	_	IsStop:False|IsPunct:False
+13	ἐξαίτους	ἔξαιτος	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	[13]	amod	_	IsStop:False|IsPunct:False
+14	ἑκατόμβας	ἑκατόμβη	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	[9]	conj	_	IsStop:False|IsPunct:False
+15	,	,	PUNCT	Z	_	[]	amod	_	IsStop:False|IsPunct:True
+16	ὅσσα	ὅσος	PRON	Pr	Case=Acc|Gender=Neut|Number=Plur|PronType=Rel	[18]	obj	_	IsStop:False|IsPunct:False
+17	σὺ	σύ	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=2|PronType=Prs	[18]	nsubj	_	IsStop:True|IsPunct:False
+18	τῷ	ὁ	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	[18]	iobj	_	IsStop:True|IsPunct:False
+19	ἐδίδους	δίδωμι	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	[]	acl	_	IsStop:False|IsPunct:False
+20	,	,	PUNCT	Z	_	[22]	advmod	_	IsStop:False|IsPunct:True
+21	ἀρώμενος	ἀρόω	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	[19]	advcl	_	IsStop:False|IsPunct:False
+22	ἧος	ἕως	ADV	Df	_	[22]	advmod	_	IsStop:False|IsPunct:False
+23	ἵκοιο	ἱκνέομαι	VERB	V-	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Mid	[]	parataxis	_	IsStop:False|IsPunct:False
+24	γῆράς	γῆρας	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	[26]	obj	_	IsStop:False|IsPunct:False
+25	τε	τε	CCONJ	C-	_	[23]	cc	_	IsStop:True|IsPunct:False
+26	λιπαρὸν	λιπαρός	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	[23]	amod	_	IsStop:False|IsPunct:False
+27	θρέψαιό	τρέφω	VERB	V-	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Mid	[]	conj	_	IsStop:False|IsPunct:False
+28	τε	τε	CCONJ	C-	_	[23]	cc	_	IsStop:True|IsPunct:False
+29	φαίδιμον	φαίδιμος	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc,Neut|Number=Sing	[29]	amod	_	IsStop:False|IsPunct:False
+30	υἱόν	υἱός	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	[23]	conj	_	IsStop:False|IsPunct:False
+31	·	·	PUNCT	Z	_	[]	punct	_	IsStop:False|IsPunct:True
+# sentence: 
+# sentence: νῦν δέ τοι οἴῳ πάμπαν ἀφείλετο νόστιμον ἦμαρ.
+1	νῦν	νῦν	ADV	Df	_	[5]	advmod	_	IsStop:False|IsPunct:False
+2	δέ	δέ	ADV	Df	_	[5]	discourse	_	IsStop:True|IsPunct:False
+3	τοι	σύ	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=2|PronType=Prs	[5]	iobj	_	IsStop:True|IsPunct:False
+4	οἴῳ	οἶος	VERB	A-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	[5]	advmod	_	IsStop:False|IsPunct:False
+5	πάμπαν	πάμπαν	ADV	Df	_	[5]	advmod	_	IsStop:False|IsPunct:False
+6	ἀφείλετο	ἀφαιρέω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Mid	[5]	ROOT	_	IsStop:False|IsPunct:False
+7	νόστιμον	νόστιμος	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	[7]	amod	_	IsStop:False|IsPunct:False
+8	ἦμαρ	ἦμαρ	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	[5]	obj	_	IsStop:False|IsPunct:False
+9	.	.	PUNCT	Z	_	[5]	punct	_	IsStop:False|IsPunct:True
+# sentence: οὕτω που καὶ κείνῳ ἐφεψιόωντο γυναῖκες ξείνων τηλεδαπῶν, ὅτε τευ κλυτὰ δώμαθʼ ἵκοιτο,
+1	οὕτω	οὕτως	ADV	Df	_	[4]	advmod	_	IsStop:True|IsPunct:False
+2	που	ποῦ	ADV	Df	_	[4]	discourse	_	IsStop:False|IsPunct:False
+3	καὶ	καί	ADV	Df	_	[3]	advmod	_	IsStop:True|IsPunct:False
+4	κείνῳ	κενός	ADJ	Pd	Case=Dat|Gender=Masc|Number=Sing	[4]	iobj	_	IsStop:False|IsPunct:False
+5	ἐφεψιόωντο	ἐφεψιάομαι	VERB	V-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Mid	[4]	ROOT	_	IsStop:False|IsPunct:False
+6	γυναῖκες	γυνή	NOUN	Nb	Case=Nom|Gender=Fem|Number=Plur	[4]	nsubj	_	IsStop:False|IsPunct:False
+7	ξείνων	ξένος	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	[]	nmod	_	IsStop:False|IsPunct:False
+8	τηλεδαπῶν	τηλεδαπός	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	[6]	amod	_	IsStop:False|IsPunct:False
+9	,	,	PUNCT	Z	_	[4]	advcl	_	IsStop:False|IsPunct:True
+10	ὅτε	ὅτε	SCONJ	G-	_	[13]	mark	_	IsStop:False|IsPunct:False
+11	τευ	τίς	ADJ	Px	Case=Gen|Gender=Masc|Number=Sing	[13]	iobj	_	IsStop:True|IsPunct:False
+12	κλυτὰ	κλυτός	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	[12]	amod	_	IsStop:False|IsPunct:False
+13	δώμαθʼ	δῶμα	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	[13]	obj	_	IsStop:False|IsPunct:False
+14	ἵκοιτο	ἱκνέομαι	VERB	V-	Aspect=Perf|Mood=Opt|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Mid	[8]	advcl	_	IsStop:False|IsPunct:False
+15	,	,	PUNCT	Z	_	[4]	advcl	_	IsStop:False|IsPunct:True
+# sentence: ὡς σέθεν αἱ κύνες αἵδε καθεψιόωνται ἅπασαι
+1	ὡς	ὡς	ADV	Dq	PronType=Rel	[5]	advmod	_	IsStop:True|IsPunct:False
+2	σέθεν	σύ	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=2|PronType=Prs	[5]	iobj	_	IsStop:True|IsPunct:False
+3	αἱ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Dem	[3]	det	_	IsStop:True|IsPunct:False
+4	κύνες	κύων	NOUN	Nb	Case=Nom|Gender=Fem|Number=Plur	[5]	nsubj	_	IsStop:False|IsPunct:False
+5	αἵδε	ὅδε	DET	Pd	Case=Nom|Gender=Fem|Number=Plur	[3]	det	_	IsStop:True|IsPunct:False
+6	καθεψιόωνται	καθεψιάομαι	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	[5]	ROOT	_	IsStop:False|IsPunct:False
+7	ἅπασαι	ἅπας	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	[5]	advmod	_	IsStop:False|IsPunct:False
+# sentence: ,
+1	,	,	PUNCT	Z	_	[0]	ROOT	_	IsStop:False|IsPunct:True
+# sentence: τάων νῦν λώβην τε καὶ αἴσχεα πόλλʼ ἀλεείνων οὐκ ἐάας νίζειν
+1	τάων	ὁ	ADJ	Pd	Case=Gen|Gender=Fem|Number=Plur	[2]	nmod	_	IsStop:True|IsPunct:False
+2	νῦν	νῦν	ADV	Df	_	[7]	advmod	_	IsStop:False|IsPunct:False
+3	λώβην	λώβη	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	[7]	obj	_	IsStop:False|IsPunct:False
+4	τε	τε	CCONJ	C-	_	[2]	cc	_	IsStop:True|IsPunct:False
+5	καὶ	καί	CCONJ	C-	_	[2]	cc	_	IsStop:True|IsPunct:False
+6	αἴσχεα	αἶσχος	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	[2]	conj	_	IsStop:False|IsPunct:False
+7	πόλλʼ	πολύς	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	[2]	amod	_	IsStop:False|IsPunct:False
+8	ἀλεείνων	ἀλεείνω	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	[]	advcl	_	IsStop:False|IsPunct:False
+9	οὐκ	οὐ	ADV	Df	Polarity=Neg	[9]	advmod	_	IsStop:True|IsPunct:False
+10	ἐάας	ἐάη	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	[9]	ROOT	_	IsStop:False|IsPunct:False
+11	νίζειν	νίζω	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	[9]	ccomp	_	IsStop:False|IsPunct:False
+# sentence: ·
+1	·	·	PUNCT	Z	_	[0]	ROOT	_	IsStop:False|IsPunct:True
+# sentence: ἐμὲ δʼ οὐκ ἀέκουσαν ἄνωγε κούρη Ἰκαρίοιο,
+1	ἐμὲ	ἐγώ	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=1|PronType=Prs	[4]	obj	_	IsStop:True|IsPunct:False
+2	δʼ	δέ	ADV	Df	_	[4]	discourse	_	IsStop:False|IsPunct:False
+3	οὐκ	οὐ	ADV	Df	Polarity=Neg	[4]	advmod	_	IsStop:True|IsPunct:False
+4	ἀέκουσαν	ἄκων	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	[4]	advmod	_	IsStop:False|IsPunct:False
+5	ἄνωγε	ἄνωγα	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	[4]	ROOT	_	IsStop:False|IsPunct:False
+6	κούρη	κόρη	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	[4]	nsubj	_	IsStop:False|IsPunct:False
+7	Ἰκαρίοιο	Ἰκάριος	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	[5]	nmod	_	IsStop:False|IsPunct:False
+8	,	,	PUNCT	Z	_	[4]	punct	_	IsStop:False|IsPunct:True
+# sentence: περίφρων Πηνελόπεια
+1	περίφρων	περίφρων	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	[0]	ROOT	_	IsStop:False|IsPunct:False
+2	Πηνελόπεια	Πηνελόπεια	PROPN	Ne	Case=Nom|Gender=Fem|Number=Sing	[0]	appos	_	IsStop:False|IsPunct:False
+# sentence: .
+1	.	.	PUNCT	Z	_	[0]	ROOT	_	IsStop:False|IsPunct:True
+# sentence: τῷ σε πόδας νίψω ἅμα τʼ αὐτῆς Πηνελοπείης καὶ σέθεν εἵνεκʼ, ἐπεί μοι ὀρώρεται ἔνδοθι θυμὸς κήδεσιν.
+1	τῷ	ὁ	PRON	Pp	Case=Dat|Gender=Neut|Number=Sing|Person=3|PronType=Prs	[3]	iobj	_	IsStop:True|IsPunct:False
+2	σε	σύ	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=2|PronType=Prs	[3]	obj	_	IsStop:True|IsPunct:False
+3	πόδας	πούς	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	[3]	obj	_	IsStop:False|IsPunct:False
+4	νίψω	νίπτω	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	[3]	ROOT	_	IsStop:False|IsPunct:False
+5	ἅμα	ἅμα	ADV	Df	_	[3]	advcl	_	IsStop:False|IsPunct:False
+6	τʼ	τε	CCONJ	C-	_	[7]	cc	_	IsStop:False|IsPunct:False
+7	αὐτῆς	αὐτός	DET	Pd	Case=Gen|Gender=Fem|Number=Sing	[7]	det	_	IsStop:True|IsPunct:False
+8	Πηνελοπείης	Πηνελόπεια	PROPN	Ne	Case=Gen|Gender=Fem|Number=Sing	[3]	dep	_	IsStop:False|IsPunct:False
+9	καὶ	καί	CCONJ	C-	_	[]	cc	_	IsStop:True|IsPunct:False
+10	σέθεν	σύ	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=2|PronType=Prs	[]	conj	_	IsStop:True|IsPunct:False
+11	εἵνεκʼ	ἕνεκα	ADP	R-	_	[9]	case	_	IsStop:False|IsPunct:False
+12	,	,	PUNCT	Z	_	[9]	dislocated	_	IsStop:False|IsPunct:True
+13	ἐπεί	ἐπεί	SCONJ	G-	_	[14]	mark	_	IsStop:False|IsPunct:False
+14	μοι	ἐγώ	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs	[14]	obl	_	IsStop:True|IsPunct:False
+15	ὀρώρεται	ὄρνυμι	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	[9]	advcl	_	IsStop:False|IsPunct:False
+16	ἔνδοθι	ἔνδον	ADV	Df	_	[14]	dep	_	IsStop:False|IsPunct:False
+17	θυμὸς	θυμός	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	[14]	nsubj:pass	_	IsStop:False|IsPunct:False
+18	κήδεσιν	κῆδος	NOUN	Nb	Case=Dat|Gender=Neut|Number=Plur	[]	obl	_	IsStop:False|IsPunct:False
+19	.	.	PUNCT	Z	_	[3]	punct	_	IsStop:False|IsPunct:True
+# sentence: ἀλλʼ ἄγε νῦν ξυνίει ἔπος, ὅττι κεν εἴπω·
+1	ἀλλʼ	ἀλλά	CCONJ	C-	_	[3]	cc	_	IsStop:False|IsPunct:False
+2	ἄγε	ἄγω	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	[3]	vocative	_	IsStop:False|IsPunct:False
+3	νῦν	νῦν	ADV	Df	_	[3]	advmod	_	IsStop:False|IsPunct:False
+4	ξυνίει	συνίημι	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	[3]	ROOT	_	IsStop:False|IsPunct:False
+5	ἔπος	ἔπος	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	[3]	obj	_	IsStop:False|IsPunct:False
+6	,	,	PUNCT	Z	_	[3]	advmod	_	IsStop:False|IsPunct:True
+7	ὅττι	ὅστις	PRON	Pr	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	[8]	obj	_	IsStop:True|IsPunct:False
+8	κεν	ἄν	ADV	Df	_	[8]	advmod	_	IsStop:True|IsPunct:False
+9	εἴπω	λέγω	VERB	V-	Aspect=Perf|Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	[3]	ccomp	_	IsStop:False|IsPunct:False
+10	·	·	PUNCT	Z	_	[3]	punct	_	IsStop:False|IsPunct:True
+# sentence: πολλοὶ δὴ ξεῖνοι ταλαπείριοι ἐνθάδʼ ἵκοντο,
+1	πολλοὶ	πολύς	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	[5]	nsubj	_	IsStop:False|IsPunct:False
+2	δὴ	δή	ADV	Df	_	[5]	discourse	_	IsStop:True|IsPunct:False
+3	ξεῖνοι	ξένος	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	[5]	nsubj	_	IsStop:False|IsPunct:False
+4	ταλαπείριοι	ταλαπείριοι	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	[2]	amod	_	IsStop:False|IsPunct:False
+5	ἐνθάδʼ	ἐνθάδε	ADV	Df	_	[5]	advmod	_	IsStop:False|IsPunct:False
+6	ἵκοντο	ἱκνέομαι	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	[]	ccomp	_	IsStop:False|IsPunct:False
+7	,	,	PUNCT	Z	_	[0]	nmod	_	IsStop:False|IsPunct:True
+# sentence: ἀλλʼ οὔ πώ τινά φημι ἐοικότα ὧδε ἰδέσθαι ὡς σὺ δέμας φωνήν τε πόδας τʼ Ὀδυσῆϊ ἔοικας.
+1	ἀλλʼ	ἀλλά	CCONJ	C-	_	[4]	cc	_	IsStop:False|IsPunct:False
+2	οὔ	οὐ	ADV	Df	Polarity=Neg	[4]	advmod	_	IsStop:True|IsPunct:False
+3	πώ	πω	ADV	Df	_	[4]	advmod	_	IsStop:False|IsPunct:False
+4	τινά	τίς	PRON	Px	Case=Acc|Gender=Masc|Number=Sing|PronType=Int	[4]	nsubj	_	IsStop:True|IsPunct:False
+5	φημι	φημί	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	[4]	ROOT	_	IsStop:False|IsPunct:False
+6	ἐοικότα	ἔοικα	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	[4]	appos	_	IsStop:False|IsPunct:False
+7	ὧδε	ὧδε	ADV	Df	_	[7]	advmod	_	IsStop:False|IsPunct:False
+8	ἰδέσθαι	ὁράω	VERB	V-	Aspect=Perf|Tense=Past|VerbForm=Inf|Voice=Mid	[5]	xcomp	_	IsStop:False|IsPunct:False
+9	ὡς	ὡς	ADV	Dq	PronType=Rel	[10]	advmod	_	IsStop:True|IsPunct:False
+10	σὺ	σύ	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=2|PronType=Prs	[10]	nsubj	_	IsStop:True|IsPunct:False
+11	δέμας	δέμας	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	[]	dep	_	IsStop:False|IsPunct:False
+12	φωνήν	φωνή	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	[10]	conj	_	IsStop:False|IsPunct:False
+13	τε	τε	CCONJ	C-	_	[10]	cc	_	IsStop:True|IsPunct:False
+14	πόδας	πούς	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	[10]	conj	_	IsStop:False|IsPunct:False
+15	τʼ	τε	CCONJ	C-	_	[10]	cc	_	IsStop:False|IsPunct:False
+16	Ὀδυσῆϊ	Ὀδυσσεύς	PROPN	Ne	Case=Dat|Gender=Masc|Number=Sing	[16]	iobj	_	IsStop:False|IsPunct:False
+17	ἔοικας	ἔοικα	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	[10]	conj	_	IsStop:False|IsPunct:False
+18	.	.	PUNCT	Z	_	[4]	punct	_	IsStop:False|IsPunct:True
+# sentence: Αὐτόλυκʼ, αὐτὸς νῦν ὄνομʼ εὕρεο ὅττι κε θῆαι παιδὸς παιδὶ φίλῳ·
+1	Αὐτόλυκʼ	Αὐτόλυκος	PROPN	Ne	Case=Voc|Gender=Masc|Number=Sing	[5]	vocative	_	IsStop:False|IsPunct:False
+2	,	,	PUNCT	Z	_	[5]	advmod	_	IsStop:False|IsPunct:True
+3	αὐτὸς	αὐτός	ADJ	Pd	Case=Nom|Gender=Masc|Number=Sing	[5]	nsubj	_	IsStop:True|IsPunct:False
+4	νῦν	νῦν	ADV	Df	_	[5]	advmod	_	IsStop:False|IsPunct:False
+5	ὄνομʼ	ὄνομα	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	[5]	obj	_	IsStop:False|IsPunct:False
+6	εὕρεο	εὑρίσκω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Mid	[5]	ROOT	_	IsStop:False|IsPunct:False
+7	ὅττι	ὅστις	SCONJ	G-	_	[8]	mark	_	IsStop:True|IsPunct:False
+8	κε	ἄν	ADV	Df	_	[8]	advmod	_	IsStop:True|IsPunct:False
+9	θῆαι	τίθημι	VERB	V-	Aspect=Perf|Mood=Sub|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Mid	[5]	obj	_	IsStop:False|IsPunct:False
+10	παιδὸς	παῖς	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	[10]	nmod	_	IsStop:False|IsPunct:False
+11	παιδὶ	παῖς	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	[]	iobj	_	IsStop:False|IsPunct:False
+12	φίλῳ	φίλος	ADJ	A-	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	[10]	amod	_	IsStop:False|IsPunct:False
+13	·	·	PUNCT	Z	_	[5]	punct	_	IsStop:False|IsPunct:True
+# sentence: πολυάρητος δέ τοί ἐστιν.
+1	πολυάρητος	πολυάρητος	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	[0]	ROOT	_	IsStop:False|IsPunct:False
+2	δέ	δέ	ADV	Df	_	[0]	discourse	_	IsStop:True|IsPunct:False
+3	τοί	σύ	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=2|PronType=Prs	[0]	iobj	_	IsStop:True|IsPunct:False
+4	ἐστιν	εἰμί	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	[0]	cop	_	IsStop:True|IsPunct:False
+5	.	.	PUNCT	Z	_	[0]	punct	_	IsStop:False|IsPunct:True
+# sentence: ἦ μάλʼ Ὀδυσσεύς ἐσσι,
+1	ἦ	ἦ	ADV	Df	_	[2]	advmod	_	IsStop:True|IsPunct:False
+2	μάλʼ	μάλα	ADV	Df	_	[2]	advmod	_	IsStop:False|IsPunct:False
+3	Ὀδυσσεύς	Ὀδυσσεύς	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	[]	ccomp	_	IsStop:False|IsPunct:False
+4	ἐσσι	εἰμί	AUX	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	[2]	cop	_	IsStop:True|IsPunct:False
+5	,	,	PUNCT	Z	_	[2]	punct	_	IsStop:False|IsPunct:True
+# sentence: φίλον τέκος
+1	φίλον	φίλος	ADJ	A-	Case=Voc|Degree=Pos|Gender=Neut|Number=Sing	[1]	amod	_	IsStop:False|IsPunct:False
+2	τέκος	τέκος	NOUN	Nb	Case=Voc|Gender=Neut|Number=Sing	[1]	ROOT	_	IsStop:False|IsPunct:False
+# sentence: · οὐδέ σʼ ἐγώ γε πρὶν ἔγνων, πρὶν πάντα ἄνακτʼ ἐμὸν ἀμφαφάασθαι.
+1	·	·	PUNCT	Z	_	[6]	mark	_	IsStop:False|IsPunct:True
+2	οὐδέ	οὐδέ	ADV	C-	Polarity=Neg	[6]	advmod	_	IsStop:True|IsPunct:False
+3	σʼ	σύ	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=2|PronType=Prs	[6]	obj	_	IsStop:False|IsPunct:False
+4	ἐγώ	ἐγώ	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	[]	nsubj	_	IsStop:True|IsPunct:False
+5	γε	γε	ADV	Df	_	[]	discourse	_	IsStop:True|IsPunct:False
+6	πρὶν	πρίν	ADV	Df	_	[6]	advmod	_	IsStop:False|IsPunct:False
+7	ἔγνων	γιγνώσκω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	[6]	ROOT	_	IsStop:False|IsPunct:False
+8	,	,	PUNCT	Z	_	[6]	advmod	_	IsStop:False|IsPunct:True
+9	πρὶν	πρίν	SCONJ	G-	_	[12]	mark	_	IsStop:False|IsPunct:False
+10	πάντα	πᾶς	ADJ	Px	Case=Acc|Gender=Neut|Number=Plur	[12]	obj	_	IsStop:False|IsPunct:False
+11	ἄνακτʼ	ἄναξ	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	[12]	obj	_	IsStop:False|IsPunct:False
+12	ἐμὸν	ἐμός	ADJ	Ps	Case=Acc|Gender=Neut|Number=Sing|Person=1|Poss=Yes	[10]	nmod	_	IsStop:True|IsPunct:False
+13	ἀμφαφάασθαι	ἀμφαφάω	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Mid	[6]	advcl	_	IsStop:False|IsPunct:False
+14	.	.	PUNCT	Z	_	[6]	punct	_	IsStop:False|IsPunct:True
+# sentence: 
+# sentence: τέκνον ἐμόν, ποῖόν σε ἔπος φύγεν ἕρκος ὀδόντων.
+1	τέκνον	τέκνον	NOUN	Nb	Case=Voc|Gender=Neut|Number=Sing	[2]	vocative	_	IsStop:False|IsPunct:False
+2	ἐμόν	ἐμός	ADJ	Ps	Case=Acc|Gender=Neut|Number=Sing|Person=1|Poss=Yes	[0]	nmod	_	IsStop:True|IsPunct:False
+3	,	,	PUNCT	Z	_	[2]	ROOT	_	IsStop:False|IsPunct:True
+4	ποῖόν	ποῖος	PRON	Pi	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	[5]	det	_	IsStop:False|IsPunct:False
+5	σε	σύ	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=2|PronType=Prs	[6]	obj	_	IsStop:True|IsPunct:False
+6	ἔπος	ἔπος	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	[6]	nsubj	_	IsStop:False|IsPunct:False
+7	φύγεν	φεύγω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	[2]	acl	_	IsStop:False|IsPunct:False
+8	ἕρκος	ἕρκος	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	[6]	nsubj	_	IsStop:False|IsPunct:False
+9	ὀδόντων	ὀδούς	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	[7]	nmod	_	IsStop:False|IsPunct:False
+10	.	.	PUNCT	Z	_	[2]	punct	_	IsStop:False|IsPunct:True
+# sentence: οἶσθα μὲν οἷον ἐμὸν μένος ἔμπεδον οὐδʼ ἐπιεικτόν,
+1	οἶσθα	οἶδα	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	[0]	ROOT	_	IsStop:False|IsPunct:False
+2	μὲν	μέν	ADV	Df	_	[0]	discourse	_	IsStop:True|IsPunct:False
+3	οἷον	οἷος	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	[4]	det	_	IsStop:False|IsPunct:False
+4	ἐμὸν	ἐμός	ADJ	Ps	Case=Acc|Gender=Neut|Number=Sing|Person=1|Poss=Yes	[4]	nmod	_	IsStop:True|IsPunct:False
+5	μένος	μένος	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	[0]	obj	_	IsStop:False|IsPunct:False
+6	ἔμπεδον	ἔμπεδος	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	[4]	amod	_	IsStop:False|IsPunct:False
+7	οὐδʼ	οὐδέ	CCONJ	C-	_	[5]	cc	_	IsStop:False|IsPunct:False
+8	ἐπιεικτόν	ἐπιεικτός	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	[5]	conj	_	IsStop:False|IsPunct:False
+9	,	,	PUNCT	Z	_	[0]	advmod	_	IsStop:False|IsPunct:True
+# sentence: ἕξω δʼ ὡς ὅτε τις στερεὴ λίθος ἠὲ σίδηρος
+1	ἕξω	ἔχω	ADV	Df	_	[]	advmod	_	IsStop:False|IsPunct:False
+2	δʼ	δέ	ADV	Df	_	[0]	discourse	_	IsStop:False|IsPunct:False
+3	ὡς	ὡς	ADV	Dq	PronType=Rel	[0]	advmod	_	IsStop:True|IsPunct:False
+4	ὅτε	ὅτε	SCONJ	G-	_	[5]	mark	_	IsStop:False|IsPunct:False
+5	τις	τίς	DET	Px	Case=Nom|Gender=Masc|Number=Sing	[6]	det	_	IsStop:True|IsPunct:False
+6	στερεὴ	στερεὴ	VERB	A-	Aspect=Perf|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	[2]	advcl	_	IsStop:False|IsPunct:False
+7	λίθος	λίθος	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	[5]	nsubj	_	IsStop:False|IsPunct:False
+8	ἠὲ	ἤ	CCONJ	C-	_	[6]	cc	_	IsStop:True|IsPunct:False
+9	σίδηρος	σίδηρος	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	[6]	conj	_	IsStop:False|IsPunct:False
+# sentence: .
+1	.	.	PUNCT	Z	_	[0]	ROOT	_	IsStop:False|IsPunct:True
+# sentence: ἄλλο δέ τοι ἐρέω,
+1	ἄλλο	ἄλλος	ADJ	Px	Case=Acc|Gender=Neut|Number=Sing	[3]	obj	_	IsStop:True|IsPunct:False
+2	δέ	δέ	ADV	Df	_	[3]	discourse	_	IsStop:True|IsPunct:False
+3	τοι	σύ	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=2|PronType=Prs	[3]	iobj	_	IsStop:True|IsPunct:False
+4	ἐρέω	λέγω	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	[3]	ROOT	_	IsStop:False|IsPunct:False
+5	,	,	PUNCT	Z	_	[3]	punct	_	IsStop:False|IsPunct:True
+# sentence: σὺ δʼ ἐνὶ φρεσὶ βάλλεο σῇσιν·
+1	σὺ	σύ	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=2|PronType=Prs	[4]	nsubj	_	IsStop:True|IsPunct:False
+2	δʼ	δέ	ADV	Df	_	[4]	discourse	_	IsStop:False|IsPunct:False
+3	ἐνὶ	εἷς	ADP	R-	_	[3]	case	_	IsStop:True|IsPunct:False
+4	φρεσὶ	φρήν	NOUN	Nb	Case=Dat|Gender=Fem|Number=Plur	[4]	obl	_	IsStop:False|IsPunct:False
+5	βάλλεο	βάλλω	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Mid	[4]	ROOT	_	IsStop:False|IsPunct:False
+6	σῇσιν	σός	NUM	Ps	Case=Dat|Gender=Fem|Number=Plur	[4]	obl	_	IsStop:True|IsPunct:False
+7	·	·	PUNCT	Z	_	[4]	punct	_	IsStop:False|IsPunct:True
+# sentence: 
+# sentence: εἴ χʼ ὑπό σοι γε θεὸς δαμάσῃ μνηστῆρας ἀγαυούς,
+1	εἴ	εἰ	SCONJ	G-	_	[6]	mark	_	IsStop:True|IsPunct:False
+2	χʼ	ἄν	ADV	Df	_	[6]	advmod	_	IsStop:False|IsPunct:False
+3	ὑπό	ὑπό	ADP	R-	_	[3]	case	_	IsStop:True|IsPunct:False
+4	σοι	σύ	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=2|PronType=Prs	[6]	obl	_	IsStop:True|IsPunct:False
+5	γε	γε	ADV	Df	_	[3]	discourse	_	IsStop:True|IsPunct:False
+6	θεὸς	θεός	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	[6]	nsubj	_	IsStop:False|IsPunct:False
+7	δαμάσῃ	δαμάζω	VERB	V-	Aspect=Perf|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	[9]	advcl	_	IsStop:False|IsPunct:False
+8	μνηστῆρας	μνηστήρ	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	[6]	obj	_	IsStop:False|IsPunct:False
+9	ἀγαυούς	ἀγαυός	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	[7]	amod	_	IsStop:False|IsPunct:False
+10	,	,	PUNCT	Z	_	[9]	ROOT	_	IsStop:False|IsPunct:True
+# sentence: δὴ τότε τοι καταλέξω ἐνὶ μεγάροισι γυναῖκας, αἵ τέ σʼ ἀτιμάζουσι καὶ αἳ νηλείτιδές εἰσι.
+1	δὴ	δή	ADV	Df	_	[3]	advmod	_	IsStop:True|IsPunct:False
+2	τότε	τότε	ADV	Df	_	[3]	advmod	_	IsStop:False|IsPunct:False
+3	τοι	σύ	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=2|PronType=Prs	[3]	iobj	_	IsStop:True|IsPunct:False
+4	καταλέξω	καταλέγω	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	[3]	ROOT	_	IsStop:False|IsPunct:False
+5	ἐνὶ	εἷς	ADP	R-	_	[5]	case	_	IsStop:True|IsPunct:False
+6	μεγάροισι	μέγαρον	NOUN	Nb	Case=Dat|Gender=Neut|Number=Plur	[3]	obl	_	IsStop:False|IsPunct:False
+7	γυναῖκας	γυνή	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	[3]	obj	_	IsStop:False|IsPunct:False
+8	,	,	PUNCT	Z	_	[3]	dep	_	IsStop:False|IsPunct:True
+9	αἵ	ὁ	PRON	Pr	Case=Nom|Gender=Fem|Number=Plur|PronType=Rel	[11]	nsubj	_	IsStop:True|IsPunct:False
+10	τέ	τε	CCONJ	C-	_	[11]	cc	_	IsStop:True|IsPunct:False
+11	σʼ	σύ	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=2|PronType=Prs	[11]	obj	_	IsStop:False|IsPunct:False
+12	ἀτιμάζουσι	ἀτιμάζω	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	[]	acl	_	IsStop:False|IsPunct:False
+13	καὶ	καί	CCONJ	C-	_	[11]	cc	_	IsStop:True|IsPunct:False
+14	αἳ	ὁ	DET	Pr	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Dem	[14]	det	_	IsStop:True|IsPunct:False
+15	νηλείτιδές	νηλεῖτις	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	[11]	conj	_	IsStop:False|IsPunct:False
+16	εἰσι	εἰμί	AUX	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	[14]	cop	_	IsStop:True|IsPunct:False
+17	.	.	PUNCT	Z	_	[3]	punct	_	IsStop:False|IsPunct:True
+# sentence: οὐκ ἄν μιν νῦν, τέκνον, ἀναίτιον αἰτιόῳο.
+1	οὐκ	οὐ	ADV	Df	Polarity=Neg	[4]	advmod	_	IsStop:True|IsPunct:False
+2	ἄν	ἄν	ADV	Df	_	[4]	advmod	_	IsStop:True|IsPunct:False
+3	μιν	μιν	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	[4]	obj	_	IsStop:False|IsPunct:False
+4	νῦν	νῦν	ADV	Df	_	[4]	advmod	_	IsStop:False|IsPunct:False
+5	,	,	PUNCT	Z	_	[8]	nmod	_	IsStop:False|IsPunct:True
+6	τέκνον	τέκνον	NOUN	Nb	Case=Voc|Gender=Neut|Number=Sing	[4]	vocative	_	IsStop:False|IsPunct:False
+7	,	,	PUNCT	Z	_	[8]	advmod	_	IsStop:False|IsPunct:True
+8	ἀναίτιον	ἀναίτιος	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	[8]	xcomp	_	IsStop:False|IsPunct:False
+9	αἰτιόῳο	αἰτιάομαι	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Mid	[8]	ROOT	_	IsStop:False|IsPunct:False
+10	.	.	PUNCT	Z	_	[8]	punct	_	IsStop:False|IsPunct:True
+# sentence: οἶνον μὲν γὰρ πῖνε καθήμενος, ὄφρʼ ἔθελʼ αὐτός,
+1	οἶνον	οἶνος	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	[3]	obj	_	IsStop:False|IsPunct:False
+2	μὲν	μέν	ADV	Df	_	[3]	discourse	_	IsStop:True|IsPunct:False
+3	γὰρ	γάρ	ADV	Df	_	[3]	discourse	_	IsStop:True|IsPunct:False
+4	πῖνε	πίνω	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	[3]	ROOT	_	IsStop:False|IsPunct:False
+5	καθήμενος	κάθημαι	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	[3]	advcl	_	IsStop:False|IsPunct:False
+6	,	,	PUNCT	Z	_	[3]	advcl	_	IsStop:False|IsPunct:True
+7	ὄφρʼ	ὄφρα	SCONJ	G-	_	[7]	mark	_	IsStop:False|IsPunct:False
+8	ἔθελʼ	ἐθέλω	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	[3]	advcl	_	IsStop:False|IsPunct:False
+9	αὐτός	αὐτός	ADJ	Pd	Case=Nom|Gender=Masc|Number=Sing	[7]	nsubj	_	IsStop:True|IsPunct:False
+10	,	,	PUNCT	Z	_	[3]	punct	_	IsStop:False|IsPunct:True
+# sentence: σίτου δʼ οὐκέτʼ ἔφη πεινήμεναι·
+1	σίτου	σῖτος	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	[4]	iobj	_	IsStop:False|IsPunct:False
+2	δʼ	δέ	ADV	Df	_	[3]	discourse	_	IsStop:False|IsPunct:False
+3	οὐκέτʼ	οὐκέτι	ADV	Df	Polarity=Neg	[3]	advmod	_	IsStop:False|IsPunct:False
+4	ἔφη	φημί	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	[]	conj	_	IsStop:False|IsPunct:False
+5	πεινήμεναι	πεινάω	VERB	V-	Aspect=Perf|Tense=Past|VerbForm=Inf|Voice=Pass	[3]	xcomp	_	IsStop:False|IsPunct:False
+6	·	·	PUNCT	Z	_	[3]	punct	_	IsStop:False|IsPunct:True
+# sentence: εἴρετο γάρ μιν.
+1	εἴρετο	ἔρομαι	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Mid	[0]	ROOT	_	IsStop:False|IsPunct:False
+2	γάρ	γάρ	ADV	Df	_	[0]	discourse	_	IsStop:True|IsPunct:False
+3	μιν	μιν	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	[0]	obj	_	IsStop:False|IsPunct:False
+4	.	.	PUNCT	Z	_	[0]	punct	_	IsStop:False|IsPunct:True
+# sentence: 
+# sentence: ἀλλʼ ὅτε δὴ κοίτοιο καὶ ὕπνου μιμνήσκοιτο,
+1	ἀλλʼ	ἀλλά	CCONJ	C-	_	[7]	cc	_	IsStop:False|IsPunct:False
+2	ὅτε	ὅτε	SCONJ	G-	_	[6]	mark	_	IsStop:False|IsPunct:False
+3	δὴ	δή	ADV	Df	_	[6]	discourse	_	IsStop:True|IsPunct:False
+4	κοίτοιο	κοῖτος	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	[6]	iobj	_	IsStop:False|IsPunct:False
+5	καὶ	καί	CCONJ	C-	_	[3]	cc	_	IsStop:True|IsPunct:False
+6	ὕπνου	ὕπνος	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	[3]	conj	_	IsStop:False|IsPunct:False
+7	μιμνήσκοιτο	μιμνήσκω	VERB	V-	Mood=Opt|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	[7]	advcl	_	IsStop:False|IsPunct:False
+8	,	,	PUNCT	Z	_	[7]	ROOT	_	IsStop:False|IsPunct:True
+# sentence: 
+# sentence: ἡ μὲν δέμνιʼ ἄνωγεν ὑποστορέσαι δμῳῇσιν, αὐτὰρ ὅ γʼ, ὥς τις πάμπαν ὀϊζυρὸς καὶ ἄποτμος, οὐκ ἔθελʼ ἐν λέκτροισι καὶ ἐν ῥήγεσσι καθεύδειν, ἀλλʼ ἐν ἀδεψήτῳ βοέῃ καὶ κώεσιν οἰῶν ἔδραθʼ ἐνὶ προδόμῳ·
+1	ἡ	ὁ	PRON	Pp	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	[3]	nsubj	_	IsStop:True|IsPunct:False
+2	μὲν	μέν	ADV	Df	_	[3]	discourse	_	IsStop:True|IsPunct:False
+3	δέμνιʼ	δέμνιον	NOUN	Nb	Case=Dat|Gender=Neut|Number=Plur	[4]	obj	_	IsStop:False|IsPunct:False
+4	ἄνωγεν	ἄνωγα	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	[3]	ROOT	_	IsStop:False|IsPunct:False
+5	ὑποστορέσαι	ὑποστόρνυμι	VERB	V-	Aspect=Perf|Tense=Past|VerbForm=Inf|Voice=Act	[3]	ccomp	_	IsStop:False|IsPunct:False
+6	δμῳῇσιν	δμωή	NOUN	Nb	Case=Dat|Gender=Fem|Number=Plur	[4]	iobj	_	IsStop:False|IsPunct:False
+7	,	,	PUNCT	Z	_	[3]	cc	_	IsStop:False|IsPunct:True
+8	αὐτὰρ	ἀτάρ	ADV	Df	_	[17]	discourse	_	IsStop:False|IsPunct:False
+9	ὅ	ὅς	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	[17]	nsubj	_	IsStop:True|IsPunct:False
+10	γʼ	γε	ADV	Df	_	[8]	discourse	_	IsStop:False|IsPunct:False
+11	,	,	PUNCT	Z	_	[8]	amod	_	IsStop:False|IsPunct:True
+12	ὥς	ὡς	ADV	Dq	PronType=Rel	[14]	advmod	_	IsStop:True|IsPunct:False
+13	τις	τίς	ADJ	Px	Case=Nom|Gender=Masc|Number=Sing	[14]	det	_	IsStop:True|IsPunct:False
+14	πάμπαν	πάμπαν	ADV	Df	_	[14]	advmod	_	IsStop:False|IsPunct:False
+15	ὀϊζυρὸς	ὀϊζυρός	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	[10]	dep	_	IsStop:False|IsPunct:False
+16	καὶ	καί	CCONJ	C-	_	[14]	cc	_	IsStop:True|IsPunct:False
+17	ἄποτμος	ἄποτμος	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	[14]	conj	_	IsStop:False|IsPunct:False
+18	,	,	PUNCT	Z	_	[3]	dep	_	IsStop:False|IsPunct:True
+19	οὐκ	οὐ	ADV	Df	Polarity=Neg	[19]	advmod	_	IsStop:True|IsPunct:False
+20	ἔθελʼ	ἐθέλω	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	[3]	conj	_	IsStop:False|IsPunct:False
+21	ἐν	ἐν	ADP	R-	_	[21]	case	_	IsStop:True|IsPunct:False
+22	λέκτροισι	λέκτρον	NOUN	Nb	Case=Dat|Gender=Neut|Number=Plur	[25]	obl	_	IsStop:False|IsPunct:False
+23	καὶ	καί	CCONJ	C-	_	[21]	cc	_	IsStop:True|IsPunct:False
+24	ἐν	ἐν	ADP	R-	_	[24]	case	_	IsStop:True|IsPunct:False
+25	ῥήγεσσι	ῥῆγος	NOUN	Nb	Case=Dat|Gender=Neut|Number=Plur	[21]	conj	_	IsStop:False|IsPunct:False
+26	καθεύδειν	καθεύδω	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	[19]	xcomp	_	IsStop:False|IsPunct:False
+27	,	,	PUNCT	Z	_	[3]	dep	_	IsStop:False|IsPunct:True
+28	ἀλλʼ	ἀλλά	CCONJ	C-	_	[3]	cc	_	IsStop:False|IsPunct:False
+29	ἐν	ἐν	ADP	R-	_	[30]	case	_	IsStop:True|IsPunct:False
+30	ἀδεψήτῳ	ἀδέψητος	ADJ	A-	Case=Dat|Degree=Pos|Number=Sing	[30]	amod	_	IsStop:False|IsPunct:False
+31	βοέῃ	βοείη	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	[3]	conj	_	IsStop:False|IsPunct:False
+32	καὶ	καί	CCONJ	C-	_	[30]	cc	_	IsStop:True|IsPunct:False
+33	κώεσιν	κῶας	NOUN	Nb	Case=Dat|Gender=Neut|Number=Plur	[30]	conj	_	IsStop:False|IsPunct:False
+34	οἰῶν	ὄις	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	[32]	nmod	_	IsStop:False|IsPunct:False
+35	ἔδραθʼ	δαρθάνω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin|Voice=Act	[3]	conj	_	IsStop:False|IsPunct:False
+36	ἐνὶ	εἷς	NUM	Ma	Case=Dat|Gender=Masc,Neut|Number=Sing	[36]	nummod	_	IsStop:True|IsPunct:False
+37	προδόμῳ	πρόδομος	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	[34]	obl	_	IsStop:False|IsPunct:False
+38	·	·	PUNCT	Z	_	[3]	punct	_	IsStop:False|IsPunct:True
+# sentence: χλαῖναν δʼ ἐπιέσσαμεν ἡμεῖς.
+1	χλαῖναν	χλαῖνα	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	[2]	obj	_	IsStop:False|IsPunct:False
+2	δʼ	δέ	ADV	Df	_	[2]	discourse	_	IsStop:False|IsPunct:False
+3	ἐπιέσσαμεν	ἐπιέννυμι	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	[2]	ROOT	_	IsStop:False|IsPunct:False
+4	ἡμεῖς	ἡμεῖς	PRON	Pp	Case=Nom|Gender=Masc|Number=Plur|Person=1|PronType=Prs	[2]	nsubj	_	IsStop:True|IsPunct:False
+5	.	.	PUNCT	Z	_	[2]	punct	_	IsStop:False|IsPunct:True
+# sentence: 
+# sentence: ἀγρεῖθʼ,
+1	ἀγρεῖθʼ	ἀγρέω	VERB	V-	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	[0]	ROOT	_	IsStop:False|IsPunct:False
+2	,	,	PUNCT	Z	_	[0]	advcl	_	IsStop:False|IsPunct:True
+# sentence: αἱ μὲν δῶμα κορήσατε ποιπνύσασαι, ῥάσσατέ τʼ, ἔν τε θρόνοις εὐποιήτοισι τάπητας βάλλετε πορφυρέους·
+1	αἱ	ὁ	PRON	Pp	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	[3]	nsubj	_	IsStop:True|IsPunct:False
+2	μὲν	μέν	ADV	Df	_	[3]	discourse	_	IsStop:True|IsPunct:False
+3	δῶμα	δῶμα	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	[3]	obj	_	IsStop:False|IsPunct:False
+4	κορήσατε	κορέω	VERB	V-	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	[3]	ROOT	_	IsStop:False|IsPunct:False
+5	ποιπνύσασαι	ποιπνύω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	[3]	advcl	_	IsStop:False|IsPunct:False
+6	,	,	PUNCT	Z	_	[3]	cc	_	IsStop:False|IsPunct:True
+7	ῥάσσατέ	ῥαίνω	VERB	V-	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	[3]	conj	_	IsStop:False|IsPunct:False
+8	τʼ	τε	CCONJ	C-	_	[3]	cc	_	IsStop:False|IsPunct:False
+9	,	,	PUNCT	Z	_	[3]	dep	_	IsStop:False|IsPunct:True
+10	ἔν	ἐν	ADP	R-	_	[10]	case	_	IsStop:True|IsPunct:False
+11	τε	τε	CCONJ	C-	_	[3]	cc	_	IsStop:True|IsPunct:False
+12	θρόνοις	θρόνος	NOUN	Nb	Case=Dat|Gender=Masc|Number=Plur	[]	obl	_	IsStop:False|IsPunct:False
+13	εὐποιήτοισι	εὐποίητος	ADJ	A-	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	[11]	amod	_	IsStop:False|IsPunct:False
+14	τάπητας	τάπης	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	[]	obj	_	IsStop:False|IsPunct:False
+15	βάλλετε	βάλλω	VERB	V-	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	[3]	conj	_	IsStop:False|IsPunct:False
+16	πορφυρέους	πορφύρεος	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	[14]	amod	_	IsStop:False|IsPunct:False
+17	·	·	PUNCT	Z	_	[3]	punct	_	IsStop:False|IsPunct:True
+# sentence: αἱ δὲ σπόγγοισι τραπέζας πάσας ἀμφιμάσασθε,
+1	αἱ	ὁ	PRON	Pp	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	[]	nsubj	_	IsStop:True|IsPunct:False
+2	δὲ	δέ	ADV	Df	_	[]	discourse	_	IsStop:True|IsPunct:False
+3	σπόγγοισι	σπόγγος	NOUN	Nb	Case=Dat|Gender=Neut|Number=Plur	[]	obl	_	IsStop:False|IsPunct:False
+4	τραπέζας	τράπεζα	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	[]	obj	_	IsStop:False|IsPunct:False
+5	πάσας	πᾶς	DET	Px	Case=Acc|Gender=Fem|Number=Plur	[]	det	_	IsStop:False|IsPunct:False
+6	ἀμφιμάσασθε	ἀμφιμάομαι	VERB	V-	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Mid	[5]	ROOT	_	IsStop:False|IsPunct:False
+7	,	,	PUNCT	Z	_	[5]	advmod	_	IsStop:False|IsPunct:True
+# sentence: καθήρατε δὲ κρητῆρας καὶ δέπα ἀμφικύπελλα τετυγμένα·
+1	καθήρατε	καθαίρω	VERB	V-	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	[0]	ROOT	_	IsStop:False|IsPunct:False
+2	δὲ	δέ	ADV	Df	_	[0]	discourse	_	IsStop:True|IsPunct:False
+3	κρητῆρας	κρατήρ	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	[0]	obj	_	IsStop:False|IsPunct:False
+4	καὶ	καί	CCONJ	C-	_	[]	cc	_	IsStop:True|IsPunct:False
+5	δέπα	δέπας	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	[]	conj	_	IsStop:False|IsPunct:False
+6	ἀμφικύπελλα	ἀμφικύπελλος	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	[4]	amod	_	IsStop:False|IsPunct:False
+7	τετυγμένα	τεύχω	VERB	V-	Aspect=Perf|Case=Acc|Gender=Neut|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	[4]	acl	_	IsStop:False|IsPunct:False
+8	·	·	PUNCT	Z	_	[0]	punct	_	IsStop:False|IsPunct:True
+# sentence: ταὶ δὲ μεθʼ ὕδωρ ἔρχεσθε κρήνηνδε, καὶ οἴσετε θᾶσσον ἰοῦσαι.
+1	ταὶ	ὁ	PRON	Pp	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	[]	nsubj	_	IsStop:True|IsPunct:False
+2	δὲ	δέ	ADV	Df	_	[]	discourse	_	IsStop:True|IsPunct:False
+3	μεθʼ	μετά	ADP	R-	_	[3]	case	_	IsStop:False|IsPunct:False
+4	ὕδωρ	ὕδωρ	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	[]	obl	_	IsStop:False|IsPunct:False
+5	ἔρχεσθε	ἔρχομαι	VERB	V-	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Mid	[4]	ROOT	_	IsStop:False|IsPunct:False
+6	κρήνηνδε	κρήνη	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	[4]	dep	_	IsStop:False|IsPunct:False
+7	,	,	PUNCT	Z	_	[4]	dep	_	IsStop:False|IsPunct:True
+8	καὶ	καί	CCONJ	C-	_	[4]	cc	_	IsStop:True|IsPunct:False
+9	οἴσετε	φέρω	VERB	V-	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	[4]	conj	_	IsStop:False|IsPunct:False
+10	θᾶσσον	ταχύς	ADJ	A-	Case=Acc|Degree=Cmp|Gender=Neut|Number=Sing	[10]	advmod	_	IsStop:False|IsPunct:False
+11	ἰοῦσαι	εἶμι	VERB	V-	Case=Nom|Gender=Fem|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	[8]	advcl	_	IsStop:False|IsPunct:False
+12	.	.	PUNCT	Z	_	[4]	punct	_	IsStop:False|IsPunct:True
+# sentence: οὐ γὰρ δὴν μνηστῆρες ἀπέσσονται μεγάροιο,
+1	οὐ	οὐ	ADV	Df	Polarity=Neg	[4]	advmod	_	IsStop:True|IsPunct:False
+2	γὰρ	γάρ	ADV	Df	_	[4]	discourse	_	IsStop:True|IsPunct:False
+3	δὴν	δήν	ADV	Df	_	[4]	advmod	_	IsStop:False|IsPunct:False
+4	μνηστῆρες	μνηστήρ	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	[4]	nsubj	_	IsStop:False|IsPunct:False
+5	ἀπέσσονται	ἄπειμι	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	[4]	ROOT	_	IsStop:False|IsPunct:False
+6	μεγάροιο	μέγαρον	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	[4]	iobj	_	IsStop:False|IsPunct:False
+7	,	,	PUNCT	Z	_	[4]	advcl	_	IsStop:False|IsPunct:True
+# sentence: ἀλλὰ
+1	ἀλλὰ	ἀλλά	CCONJ	C-	_	[0]	ROOT	_	IsStop:True|IsPunct:False
+# sentence: μάλʼ ἦρι νέονται, ἐπεὶ καὶ πᾶσιν ἑορτή
+1	μάλʼ	μάλα	ADV	Df	_	[2]	advmod	_	IsStop:False|IsPunct:False
+2	ἦρι	ἦρι	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	[2]	iobj	_	IsStop:False|IsPunct:False
+3	νέονται	νέω	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	[2]	ROOT	_	IsStop:False|IsPunct:False
+4	,	,	PUNCT	Z	_	[2]	obl	_	IsStop:False|IsPunct:True
+5	ἐπεὶ	ἐπεί	SCONJ	G-	_	[7]	mark	_	IsStop:False|IsPunct:False
+6	καὶ	καί	ADV	Df	_	[7]	advmod	_	IsStop:True|IsPunct:False
+7	πᾶσιν	πᾶς	ADJ	Px	Case=Dat|Gender=Masc|Number=Plur	[7]	orphan	_	IsStop:False|IsPunct:False
+8	ἑορτή	ἑορτή	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	[2]	nsubj	_	IsStop:False|IsPunct:False
+# sentence: .
+1	.	.	PUNCT	Z	_	[0]	ROOT	_	IsStop:False|IsPunct:True
+# sentence: τοιγὰρ ἐγώ τοι, τέκνον, ἀληθείην καταλέξω.
+1	τοιγὰρ	τοιγάρ	ADV	Df	_	[3]	advmod	_	IsStop:False|IsPunct:False
+2	ἐγώ	ἐγώ	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	[3]	nsubj	_	IsStop:True|IsPunct:False
+3	τοι	σύ	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=2|PronType=Prs	[3]	iobj	_	IsStop:True|IsPunct:False
+4	,	,	PUNCT	Z	_	[7]	iobj	_	IsStop:False|IsPunct:True
+5	τέκνον	τέκνον	NOUN	Nb	Case=Voc|Gender=Neut|Number=Sing	[3]	vocative	_	IsStop:False|IsPunct:False
+6	,	,	PUNCT	Z	_	[7]	advmod	_	IsStop:False|IsPunct:True
+7	ἀληθείην	ἀλήθεια	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	[7]	obj	_	IsStop:False|IsPunct:False
+8	καταλέξω	καταλέγω	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	[7]	ROOT	_	IsStop:False|IsPunct:False
+9	.	.	PUNCT	Z	_	[7]	punct	_	IsStop:False|IsPunct:True
+# sentence: πεντήκοντά τοί εἰσιν ἐνὶ μεγάροισι γυναῖκες δμῳαί, τὰς μέν τʼ ἔργα διδάξαμεν ἐργάζεσθαι
+1	πεντήκοντά	πεντήκοντα	NUM	Ma	_	[]	dep	_	IsStop:False|IsPunct:False
+2	τοί	σύ	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=2|PronType=Prs	[4]	iobj	_	IsStop:True|IsPunct:False
+3	εἰσιν	εἰμί	AUX	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	[4]	cop	_	IsStop:True|IsPunct:False
+4	ἐνὶ	εἷς	ADP	R-	_	[4]	case	_	IsStop:True|IsPunct:False
+5	μεγάροισι	μέγαρον	NOUN	Nb	Case=Dat|Gender=Neut|Number=Plur	[0]	obl	_	IsStop:False|IsPunct:False
+6	γυναῖκες	γυνή	NOUN	Nb	Case=Nom|Gender=Fem|Number=Plur	[0]	nsubj	_	IsStop:False|IsPunct:False
+7	δμῳαί	δμωή	NOUN	Nb	Case=Nom|Gender=Fem|Number=Plur	[7]	xcomp	_	IsStop:False|IsPunct:False
+8	,	,	PUNCT	Z	_	[13]	iobj	_	IsStop:False|IsPunct:True
+9	τὰς	ὁ	PRON	Pp	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	[12]	obj	_	IsStop:True|IsPunct:False
+10	μέν	μέν	ADV	Df	_	[8]	discourse	_	IsStop:True|IsPunct:False
+11	τʼ	τε	CCONJ	C-	_	[12]	cc	_	IsStop:False|IsPunct:False
+12	ἔργα	ἔργον	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	[13]	obj	_	IsStop:False|IsPunct:False
+13	διδάξαμεν	διδάσκω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	[12]	ROOT	_	IsStop:False|IsPunct:False
+14	ἐργάζεσθαι	ἐργάζομαι	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Mid	[12]	xcomp	_	IsStop:False|IsPunct:False
+# sentence: ,
+1	,	,	PUNCT	Z	_	[0]	ROOT	_	IsStop:False|IsPunct:True
+# sentence: εἴριά τε ξαίνειν καὶ δουλοσύνην ἀνέχεσθαι
+1	εἴριά	ἔριον	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	[2]	obj	_	IsStop:False|IsPunct:False
+2	τε	τε	CCONJ	C-	_	[0]	cc	_	IsStop:True|IsPunct:False
+3	ξαίνειν	ξαίνω	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	[]	conj	_	IsStop:False|IsPunct:False
+4	καὶ	καί	CCONJ	C-	_	[2]	cc	_	IsStop:True|IsPunct:False
+5	δουλοσύνην	δουλοσύνη	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	[5]	obj	_	IsStop:False|IsPunct:False
+6	ἀνέχεσθαι	ἀνέχω	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Mid	[2]	conj	_	IsStop:False|IsPunct:False
+# sentence: ·
+1	·	·	PUNCT	Z	_	[0]	ROOT	_	IsStop:False|IsPunct:True
+# sentence: τάων δώδεκα πᾶσαι ἀναιδείης ἐπέβησαν,
+1	τάων	ὁ	ADJ	Pd	Case=Gen|Gender=Fem|Number=Plur	[4]	iobj	_	IsStop:True|IsPunct:False
+2	δώδεκα	δώδεκα	NUM	Ma	_	[2]	nummod	_	IsStop:False|IsPunct:False
+3	πᾶσαι	πᾶς	ADJ	Px	Case=Nom|Gender=Fem|Number=Plur	[4]	nsubj	_	IsStop:False|IsPunct:False
+4	ἀναιδείης	ἀναιδεία	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	[4]	iobj	_	IsStop:False|IsPunct:False
+5	ἐπέβησαν	ἐπιβαίνω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	[4]	ROOT	_	IsStop:False|IsPunct:False
+6	,	,	PUNCT	Z	_	[4]	advcl	_	IsStop:False|IsPunct:True
+# sentence: 
+# sentence: οὔτʼ ἐμὲ τίουσαι οὔτʼ αὐτὴν Πηνελόπειαν
+1	οὔτʼ	οὔτε	CCONJ	C-	_	[2]	cc	_	IsStop:False|IsPunct:False
+2	ἐμὲ	ἐγώ	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=1|PronType=Prs	[2]	obj	_	IsStop:True|IsPunct:False
+3	τίουσαι	τίουζω	VERB	V-	Case=Nom|Gender=Fem|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	[2]	ROOT	_	IsStop:False|IsPunct:False
+4	οὔτʼ	οὔτε	CCONJ	C-	_	[2]	cc	_	IsStop:False|IsPunct:False
+5	αὐτὴν	αὐτός	DET	Pd	Case=Acc|Gender=Fem|Number=Sing	[5]	det	_	IsStop:True|IsPunct:False
+6	Πηνελόπειαν	Πηνελόπεια	PROPN	Ne	Case=Acc|Gender=Fem|Number=Sing	[2]	conj	_	IsStop:False|IsPunct:False
+# sentence: .
+1	.	.	PUNCT	Z	_	[0]	ROOT	_	IsStop:False|IsPunct:True
+# sentence: Τηλέμαχος δὲ νέον μὲν ἀέξετο,
+1	Τηλέμαχος	Τηλέμαχος	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	[4]	nsubj:pass	_	IsStop:False|IsPunct:False
+2	δὲ	δέ	ADV	Df	_	[4]	discourse	_	IsStop:True|IsPunct:False
+3	νέον	νέος	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	[4]	advmod	_	IsStop:False|IsPunct:False
+4	μὲν	μέν	ADV	Df	_	[4]	discourse	_	IsStop:True|IsPunct:False
+5	ἀέξετο	ἀέξω	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	[]	conj	_	IsStop:False|IsPunct:False
+6	,	,	PUNCT	Z	_	[4]	punct	_	IsStop:False|IsPunct:True
+# sentence: οὐδέ ἑ μήτηρ σημαίνειν εἴασκεν ἐπὶ δμῳῇσι γυναιξίν.
+1	οὐδέ	οὐδέ	ADV	Df	Polarity=Neg	[]	dep	_	IsStop:True|IsPunct:False
+2	ἑ	οὗ	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	[]	dep	_	IsStop:False|IsPunct:False
+3	μήτηρ	μήτηρ	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	[]	nsubj	_	IsStop:False|IsPunct:False
+4	σημαίνειν	σημαίνω	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	[4]	xcomp	_	IsStop:False|IsPunct:False
+5	εἴασκεν	ἐάω	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	[]	acl	_	IsStop:False|IsPunct:False
+6	ἐπὶ	ἐπί	ADP	R-	_	[6]	case	_	IsStop:True|IsPunct:False
+7	δμῳῇσι	δμωή	NOUN	Nb	Case=Dat|Gender=Fem|Number=Plur	[4]	obl	_	IsStop:False|IsPunct:False
+8	γυναιξίν	γυνή	NOUN	Nb	Case=Dat|Gender=Fem|Number=Plur	[6]	nmod	_	IsStop:False|IsPunct:False
+9	.	.	PUNCT	Z	_	[4]	punct	_	IsStop:False|IsPunct:True
+# sentence: 
+# sentence: ἀλλʼ ἄγʼ ἐγὼν ἀναβᾶσʼ ὑπερώϊα σιγαλόεντα εἴπω σῇ ἀλόχῳ, τῇ τις θεὸς ὕπνον ἐπῶρσε.
+1	ἀλλʼ	ἀλλά	CCONJ	C-	_	[3]	cc	_	IsStop:False|IsPunct:False
+2	ἄγʼ	ἄγω	ADV	Df	_	[3]	vocative	_	IsStop:False|IsPunct:False
+3	ἐγὼν	ἐγώ	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	[3]	nsubj	_	IsStop:True|IsPunct:False
+4	ἀναβᾶσʼ	ἀναβαίνω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	[6]	advcl	_	IsStop:False|IsPunct:False
+5	ὑπερώϊα	ὑπερῷον	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	[3]	obj	_	IsStop:False|IsPunct:False
+6	σιγαλόεντα	σιγαλόεις	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	[4]	amod	_	IsStop:False|IsPunct:False
+7	εἴπω	λέγω	VERB	V-	Aspect=Perf|Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	[6]	ROOT	_	IsStop:False|IsPunct:False
+8	σῇ	σός	ADJ	Ps	Case=Dat|Gender=Fem|Number=Sing|Person=3|Poss=Yes	[8]	nmod	_	IsStop:True|IsPunct:False
+9	ἀλόχῳ	ἄλοχος	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	[6]	iobj	_	IsStop:False|IsPunct:False
+10	,	,	PUNCT	Z	_	[8]	appos	_	IsStop:False|IsPunct:True
+11	τῇ	ὁ	PRON	Pr	Case=Dat|Gender=Fem|Number=Sing|PronType=Rel	[14]	iobj	_	IsStop:True|IsPunct:False
+12	τις	τίς	DET	Px	Case=Nom|Gender=Masc|Number=Sing	[12]	det	_	IsStop:True|IsPunct:False
+13	θεὸς	θεός	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	[14]	nsubj	_	IsStop:False|IsPunct:False
+14	ὕπνον	ὕπνος	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	[14]	obj	_	IsStop:False|IsPunct:False
+15	ἐπῶρσε	ἐπόρνυμι	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	[9]	acl	_	IsStop:False|IsPunct:False
+16	.	.	PUNCT	Z	_	[6]	punct	_	IsStop:False|IsPunct:True
+# sentence: 
+# sentence: ναὶ δὴ ταῦτά γε, τέκνον ἐμόν, κατὰ μοῖραν ἔειπες.
+1	ναὶ	ναί	INTJ	I-	_	[7]	vocative	_	IsStop:False|IsPunct:False
+2	δὴ	δή	ADV	Df	_	[2]	discourse	_	IsStop:True|IsPunct:False
+3	ταῦτά	οὗτος	ADJ	Pd	Case=Acc|Gender=Neut|Number=Plur	[0]	obl	_	IsStop:True|IsPunct:False
+4	γε	γε	ADV	Df	_	[2]	discourse	_	IsStop:True|IsPunct:False
+5	,	,	PUNCT	Z	_	[2]	appos	_	IsStop:False|IsPunct:True
+6	τέκνον	τέκνον	NOUN	Nb	Case=Voc|Gender=Neut|Number=Sing	[2]	appos	_	IsStop:False|IsPunct:False
+7	ἐμόν	ἐμός	ADJ	Ps	Case=Acc|Gender=Neut|Number=Sing|Person=1|Poss=Yes	[5]	nmod	_	IsStop:True|IsPunct:False
+8	,	,	PUNCT	Z	_	[10]	obl	_	IsStop:False|IsPunct:True
+9	κατὰ	κατά	ADP	R-	_	[9]	case	_	IsStop:True|IsPunct:False
+10	μοῖραν	μοῖρα	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	[10]	obl	_	IsStop:False|IsPunct:False
+11	ἔειπες	εἶπον	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	[10]	ROOT	_	IsStop:False|IsPunct:False
+12	.	.	PUNCT	Z	_	[10]	punct	_	IsStop:False|IsPunct:True
+# sentence: ἀλλʼ ἄγε τοι χλαῖνάν τε χιτῶνά τε εἵματʼ ἐνείκω,
+1	ἀλλʼ	ἀλλά	CCONJ	C-	_	[8]	cc	_	IsStop:False|IsPunct:False
+2	ἄγε	ἄγω	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	[8]	vocative	_	IsStop:False|IsPunct:False
+3	τοι	σύ	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=2|PronType=Prs	[8]	iobj	_	IsStop:True|IsPunct:False
+4	χλαῖνάν	χλαῖνα	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	[8]	obj	_	IsStop:False|IsPunct:False
+5	τε	τε	CCONJ	C-	_	[3]	cc	_	IsStop:True|IsPunct:False
+6	χιτῶνά	χιτών	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	[3]	conj	_	IsStop:False|IsPunct:False
+7	τε	τε	CCONJ	C-	_	[3]	cc	_	IsStop:True|IsPunct:False
+8	εἵματʼ	εἷμα	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	[3]	conj	_	IsStop:False|IsPunct:False
+9	ἐνείκω	φέρω	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	[8]	ROOT	_	IsStop:False|IsPunct:False
+10	,	,	PUNCT	Z	_	[8]	advcl	_	IsStop:False|IsPunct:True
+# sentence: 
+# sentence: μηδʼ οὕτω ῥάκεσιν πεπυκασμένος εὐρέας ὤμους ἕσταθʼ ἐνὶ μεγάροισι·
+1	μηδʼ	μηδέ	CCONJ	C-	_	[3]	cc	_	IsStop:False|IsPunct:False
+2	οὕτω	οὕτως	ADV	Df	_	[3]	advmod	_	IsStop:True|IsPunct:False
+3	ῥάκεσιν	ῥάκεσις	NOUN	Nb	Case=Dat|Gender=Neut|Number=Plur	[3]	obl	_	IsStop:False|IsPunct:False
+4	πεπυκασμένος	πυκάζω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Mid	[]	advcl	_	IsStop:False|IsPunct:False
+5	εὐρέας	εὐρύς	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	[5]	amod	_	IsStop:False|IsPunct:False
+6	ὤμους	ὦμος	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	[3]	obj	_	IsStop:False|IsPunct:False
+7	ἕσταθʼ	ἵστημι	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin|Voice=Act	[]	conj	_	IsStop:False|IsPunct:False
+8	ἐνὶ	εἷς	ADP	R-	_	[8]	case	_	IsStop:True|IsPunct:False
+9	μεγάροισι	μέγαρον	NOUN	Nb	Case=Dat|Gender=Neut|Number=Plur	[6]	obl	_	IsStop:False|IsPunct:False
+10	·	·	PUNCT	Z	_	[]	punct	_	IsStop:False|IsPunct:True
+# sentence: νεμεσσητὸν δέ κεν εἴη.
+1	νεμεσσητὸν	νεμεσητός	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	[0]	ROOT	_	IsStop:False|IsPunct:False
+2	δέ	δέ	ADV	Df	_	[0]	discourse	_	IsStop:True|IsPunct:False
+3	κεν	ἄν	ADV	Df	_	[0]	advmod	_	IsStop:True|IsPunct:False
+4	εἴη	εἰμί	AUX	V-	Mood=Opt|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	[0]	cop	_	IsStop:True|IsPunct:False
+5	.	.	PUNCT	Z	_	[0]	punct	_	IsStop:False|IsPunct:True
+# sentence: 
+# sentence: ἔγρεο, Πηνελόπεια, φίλον τέκος, ὄφρα ἴδηαι ὀφθαλμοῖσι τεοῖσι τά τʼ ἔλδεαι ἤματα πάντα.
+1	ἔγρεο	ἐγείρω	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Mid	[0]	ROOT	_	IsStop:False|IsPunct:False
+2	,	,	PUNCT	Z	_	[0]	iobj	_	IsStop:False|IsPunct:True
+3	Πηνελόπεια	Πηνελόπεια	PROPN	Ne	Case=Voc|Gender=Fem|Number=Sing	[0]	vocative	_	IsStop:False|IsPunct:False
+4	,	,	PUNCT	Z	_	[0]	parataxis	_	IsStop:False|IsPunct:True
+5	φίλον	φίλος	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc,Neut|Number=Sing	[5]	amod	_	IsStop:False|IsPunct:False
+6	τέκος	τέκος	NOUN	Nb	Case=Voc|Gender=Neut|Number=Sing	[0]	vocative	_	IsStop:False|IsPunct:False
+7	,	,	PUNCT	Z	_	[0]	parataxis	_	IsStop:False|IsPunct:True
+8	ὄφρα	ὄφρα	SCONJ	G-	_	[8]	mark	_	IsStop:False|IsPunct:False
+9	ἴδηαι	εἶδον	VERB	V-	Aspect=Perf|Mood=Sub|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Mid	[0]	advcl	_	IsStop:False|IsPunct:False
+10	ὀφθαλμοῖσι	ὀφθαλμός	NOUN	Nb	Case=Dat|Gender=Masc|Number=Plur	[]	obl	_	IsStop:False|IsPunct:False
+11	τεοῖσι	τεός	ADJ	A-	Case=Dat|Degree=Pos|Gender=Fem,Masc|Number=Plur	[9]	amod	_	IsStop:False|IsPunct:False
+12	τά	ὁ	PRON	Pr	Case=Acc|Gender=Neut|Number=Plur|PronType=Rel	[9]	det	_	IsStop:True|IsPunct:False
+13	τʼ	τε	CCONJ	C-	_	[9]	cc	_	IsStop:False|IsPunct:False
+14	ἔλδεαι	ἔλδομαι	VERB	V-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	[9]	conj	_	IsStop:False|IsPunct:False
+15	ἤματα	ἦμαρ	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	[13]	obl	_	IsStop:False|IsPunct:False
+16	πάντα	πᾶς	DET	Px	Case=Acc|Gender=Neut|Number=Plur	[14]	det	_	IsStop:False|IsPunct:False
+17	.	.	PUNCT	Z	_	[0]	punct	_	IsStop:False|IsPunct:True
+# sentence: ἦλθʼ Ὀδυσεὺς καὶ οἶκον ἱκάνεται,
+1	ἦλθʼ	ἔρχομαι	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	[0]	ROOT	_	IsStop:False|IsPunct:False
+2	Ὀδυσεὺς	Ὀδυσσεύς	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	[0]	nsubj	_	IsStop:False|IsPunct:False
+3	καὶ	καί	CCONJ	C-	_	[0]	cc	_	IsStop:True|IsPunct:False
+4	οἶκον	οἶκος	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	[4]	obj	_	IsStop:False|IsPunct:False
+5	ἱκάνεται	ἱκάνω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	[0]	conj	_	IsStop:False|IsPunct:False
+6	,	,	PUNCT	Z	_	[0]	advmod	_	IsStop:False|IsPunct:True
+# sentence: ὀψέ περ ἐλθών.
+1	ὀψέ	ὀψέ	ADV	Df	_	[2]	advmod	_	IsStop:False|IsPunct:False
+2	περ	πέρ	ADV	Df	_	[0]	discourse	_	IsStop:False|IsPunct:False
+3	ἐλθών	ἔρχομαι	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	[3]	advcl	_	IsStop:False|IsPunct:False
+4	.	.	PUNCT	Z	_	[3]	ROOT	_	IsStop:False|IsPunct:True
+# sentence: μνηστῆρας δʼ ἔκτεινεν ἀγήνορας, οἵ θʼ ἑὸν οἶκον κήδεσκον καὶ κτήματʼ ἔδον βιόωντό τε παῖδα.
+1	μνηστῆρας	μνηστήρ	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	[2]	obj	_	IsStop:False|IsPunct:False
+2	δʼ	δέ	ADV	Df	_	[2]	discourse	_	IsStop:False|IsPunct:False
+3	ἔκτεινεν	κτείνω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	[2]	ROOT	_	IsStop:False|IsPunct:False
+4	ἀγήνορας	ἀγήνωρ	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	[2]	obj	_	IsStop:False|IsPunct:False
+5	,	,	PUNCT	Z	_	[2]	advcl	_	IsStop:False|IsPunct:True
+6	οἵ	ὅς	PRON	Pr	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	[]	nsubj	_	IsStop:True|IsPunct:False
+7	θʼ	θ	CCONJ	C-	_	[]	cc	_	IsStop:False|IsPunct:False
+8	ἑὸν	ἑός	AUX	V-	Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	[8]	acl	_	IsStop:False|IsPunct:False
+9	οἶκον	οἶκος	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	[]	dep	_	IsStop:False|IsPunct:False
+10	κήδεσκον	κήδω	VERB	V-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	[2]	advcl	_	IsStop:False|IsPunct:False
+11	καὶ	καί	CCONJ	C-	_	[9]	cc	_	IsStop:True|IsPunct:False
+12	κτήματʼ	κτῆμα	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	[12]	obj	_	IsStop:False|IsPunct:False
+13	ἔδον	ἐσθίω	VERB	V-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	[9]	conj	_	IsStop:False|IsPunct:False
+14	βιόωντό	βιάζω	VERB	V-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Mid	[9]	conj	_	IsStop:False|IsPunct:False
+15	τε	τε	CCONJ	C-	_	[2]	cc	_	IsStop:True|IsPunct:False
+16	παῖδα	παῖς	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	[0]	conj	_	IsStop:False|IsPunct:False
+17	.	.	PUNCT	Z	_	[2]	punct	_	IsStop:False|IsPunct:True
+# sentence: οὔ τί σε λωβεύω,
+1	οὔ	οὐ	ADV	Df	Polarity=Neg	[3]	advmod	_	IsStop:True|IsPunct:False
+2	τί	τίς	PRON	Px	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	[3]	obl	_	IsStop:True|IsPunct:False
+3	σε	σύ	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=2|PronType=Prs	[3]	obj	_	IsStop:True|IsPunct:False
+4	λωβεύω	λωβεύω	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	[3]	ROOT	_	IsStop:False|IsPunct:False
+5	,	,	PUNCT	Z	_	[3]	punct	_	IsStop:False|IsPunct:True
+# sentence: τέκνον φίλον, ἀλλʼ ἔτυμόν τοι ἦλθʼ Ὀδυσεὺς καὶ οἶκον ἱκάνεται, ὡς ἀγορεύω
+1	τέκνον	τέκνον	NOUN	Nb	Case=Voc|Gender=Neut|Number=Sing	[2]	vocative	_	IsStop:False|IsPunct:False
+2	φίλον	φίλος	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc,Neut|Number=Sing	[0]	amod	_	IsStop:False|IsPunct:False
+3	,	,	PUNCT	Z	_	[2]	ROOT	_	IsStop:False|IsPunct:True
+4	ἀλλʼ	ἀλλά	CCONJ	C-	_	[2]	cc	_	IsStop:False|IsPunct:False
+5	ἔτυμόν	ἔτυμος	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	[]	advmod	_	IsStop:False|IsPunct:False
+6	τοι	σύ	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=2|PronType=Prs	[4]	iobj	_	IsStop:True|IsPunct:False
+7	ἦλθʼ	ἔρχομαι	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	[]	ccomp	_	IsStop:False|IsPunct:False
+8	Ὀδυσεὺς	Ὀδυσσεύς	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	[6]	nsubj	_	IsStop:False|IsPunct:False
+9	καὶ	καί	CCONJ	C-	_	[6]	cc	_	IsStop:True|IsPunct:False
+10	οἶκον	οἶκος	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	[10]	obj	_	IsStop:False|IsPunct:False
+11	ἱκάνεται	ἱκάνω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	[6]	conj	_	IsStop:False|IsPunct:False
+12	,	,	PUNCT	Z	_	[2]	dep	_	IsStop:False|IsPunct:True
+13	ὡς	ὡς	ADV	Dq	PronType=Rel	[13]	advmod	_	IsStop:True|IsPunct:False
+14	ἀγορεύω	ἀγορεύω	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	[11]	advcl	_	IsStop:False|IsPunct:False
+# sentence: ,
+1	,	,	PUNCT	Z	_	[0]	ROOT	_	IsStop:False|IsPunct:True
+# sentence: ὁ ξεῖνος, τὸν πάντες ἀτίμων ἐν μεγάροισι
+1	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	[1]	det	_	IsStop:True|IsPunct:False
+2	ξεῖνος	ξένος	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	[]	nsubj	_	IsStop:False|IsPunct:False
+3	,	,	PUNCT	Z	_	[5]	advmod	_	IsStop:False|IsPunct:True
+4	τὸν	ὁ	PRON	Pr	Case=Acc|Gender=Masc|Number=Sing|PronType=Rel	[5]	obj	_	IsStop:True|IsPunct:False
+5	πάντες	πᾶς	ADJ	Px	Case=Nom|Gender=Masc|Number=Plur	[5]	nsubj	_	IsStop:False|IsPunct:False
+6	ἀτίμων	ἄτιμος	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	[]	advcl	_	IsStop:False|IsPunct:False
+7	ἐν	ἐν	ADP	R-	_	[7]	case	_	IsStop:True|IsPunct:False
+8	μεγάροισι	μέγαρον	NOUN	Nb	Case=Dat|Gender=Neut|Number=Plur	[5]	obl	_	IsStop:False|IsPunct:False
+# sentence: .
+1	.	.	PUNCT	Z	_	[0]	ROOT	_	IsStop:False|IsPunct:True
+# sentence: Τηλέμαχος δʼ ἄρα μιν πάλαι ᾔδεεν ἔνδον ἐόντα, ἀλλὰ σαοφροσύνῃσι νοήματα πατρὸς ἔκευθεν,
+1	Τηλέμαχος	Τηλέμαχος	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	[5]	nsubj	_	IsStop:False|IsPunct:False
+2	δʼ	δέ	ADV	Df	_	[5]	discourse	_	IsStop:False|IsPunct:False
+3	ἄρα	ἆρα	ADV	Df	_	[5]	discourse	_	IsStop:True|IsPunct:False
+4	μιν	μιν	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	[5]	obj	_	IsStop:False|IsPunct:False
+5	πάλαι	πάλαι	ADV	Df	_	[5]	advmod	_	IsStop:False|IsPunct:False
+6	ᾔδεεν	οἶδα	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	[5]	ROOT	_	IsStop:False|IsPunct:False
+7	ἔνδον	ἔνδον	ADV	Df	_	[5]	advmod	_	IsStop:False|IsPunct:False
+8	ἐόντα	εἰμί	AUX	V-	Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	[6]	cop	_	IsStop:True|IsPunct:False
+9	,	,	PUNCT	Z	_	[0]	amod	_	IsStop:False|IsPunct:True
+10	ἀλλὰ	ἀλλά	CCONJ	C-	_	[5]	cc	_	IsStop:True|IsPunct:False
+11	σαοφροσύνῃσι	σαοφροσύνη	NOUN	Nb	Case=Dat|Gender=Fem|Number=Plur	[13]	obl	_	IsStop:False|IsPunct:False
+12	νοήματα	νόημα	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	[13]	obj	_	IsStop:False|IsPunct:False
+13	πατρὸς	πατήρ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	[11]	nmod	_	IsStop:False|IsPunct:False
+14	ἔκευθεν	ἔκευθεν	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	[5]	conj	_	IsStop:False|IsPunct:False
+15	,	,	PUNCT	Z	_	[5]	dep	_	IsStop:False|IsPunct:True
+# sentence: ὄφρʼ ἀνδρῶν τίσαιτο βίην ὑπερηνορεόντων.
+1	ὄφρʼ	ὄφρα	SCONJ	G-	_	[2]	mark	_	IsStop:False|IsPunct:False
+2	ἀνδρῶν	ἀνήρ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	[3]	nmod	_	IsStop:False|IsPunct:False
+3	τίσαιτο	τίω	VERB	V-	Aspect=Perf|Mood=Opt|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Mid	[2]	ROOT	_	IsStop:False|IsPunct:False
+4	βίην	βία	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	[2]	obj	_	IsStop:False|IsPunct:False
+5	ὑπερηνορεόντων	ὑπερηνορέων	VERB	V-	Case=Gen|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	[3]	acl	_	IsStop:False|IsPunct:False
+6	.	.	PUNCT	Z	_	[2]	punct	_	IsStop:False|IsPunct:True
+# sentence: οὐκ ἴδον,
+1	οὐκ	οὐ	ADV	Df	Polarity=Neg	[1]	advmod	_	IsStop:True|IsPunct:False
+2	ἴδον	ὁράω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	[1]	ROOT	_	IsStop:False|IsPunct:False
+3	,	,	PUNCT	Z	_	[1]	parataxis	_	IsStop:False|IsPunct:True
+# sentence: οὐ πυθόμην, ἀλλὰ στόνον οἶον ἄκουσα κτεινομένων·
+1	οὐ	οὐ	ADV	Df	Polarity=Neg	[1]	advmod	_	IsStop:True|IsPunct:False
+2	πυθόμην	πυνθάνομαι	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Mid	[1]	ROOT	_	IsStop:False|IsPunct:False
+3	,	,	PUNCT	Z	_	[1]	parataxis	_	IsStop:False|IsPunct:True
+4	ἀλλὰ	ἀλλά	CCONJ	C-	_	[2]	cc	_	IsStop:True|IsPunct:False
+5	στόνον	στόνος	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	[6]	obj	_	IsStop:False|IsPunct:False
+6	οἶον	οἶος	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	[4]	amod	_	IsStop:False|IsPunct:False
+7	ἄκουσα	ἀκούω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	[2]	conj	_	IsStop:False|IsPunct:False
+8	κτεινομένων	κτεινομένω	VERB	V-	Case=Gen|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	[6]	advcl	_	IsStop:False|IsPunct:False
+9	·	·	PUNCT	Z	_	[1]	punct	_	IsStop:False|IsPunct:True
+# sentence: ἡμεῖς δὲ μυχῷ θαλάμων εὐπήκτων ἥμεθʼ ἀτυζόμεναι,
+1	ἡμεῖς	ἡμεῖς	PRON	Pp	Case=Nom|Gender=Masc|Number=Plur|Person=1|PronType=Prs	[]	nsubj	_	IsStop:True|IsPunct:False
+2	δὲ	δέ	ADV	Df	_	[]	discourse	_	IsStop:True|IsPunct:False
+3	μυχῷ	μυχός	NOUN	Nb	Case=Dat|Gender=Neut|Number=Sing	[]	obl	_	IsStop:False|IsPunct:False
+4	θαλάμων	θάλαμος	NOUN	Nb	Case=Gen|Gender=Neut|Number=Plur	[2]	nmod	_	IsStop:False|IsPunct:False
+5	εὐπήκτων	εὔπηκτος	ADJ	A-	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	[3]	amod	_	IsStop:False|IsPunct:False
+6	ἥμεθʼ	ἧμαι	AUX	V-	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Mid	[]	cop	_	IsStop:False|IsPunct:False
+7	ἀτυζόμεναι	ἀτύζομαι	VERB	V-	Case=Nom|Gender=Fem|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	[5]	advcl	_	IsStop:False|IsPunct:False
+8	,	,	PUNCT	Z	_	[]	punct	_	IsStop:False|IsPunct:True
+# sentence: σανίδες δʼ ἔχον εὖ ἀραρυῖαι, πρίν γʼ ὅτε δή με σὸς υἱὸς ἀπὸ μεγάροιο κάλεσσε Τηλέμαχος·
+1	σανίδες	σανίς	NOUN	Nb	Case=Nom|Gender=Fem|Number=Plur	[2]	nsubj	_	IsStop:False|IsPunct:False
+2	δʼ	δέ	ADV	Df	_	[2]	discourse	_	IsStop:False|IsPunct:False
+3	ἔχον	ἔχω	VERB	V-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	[2]	ROOT	_	IsStop:False|IsPunct:False
+4	εὖ	εὖ	ADV	Df	_	[4]	advmod	_	IsStop:False|IsPunct:False
+5	ἀραρυῖαι	ἀραρίσκω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	[2]	xcomp	_	IsStop:False|IsPunct:False
+6	,	,	PUNCT	Z	_	[0]	appos	_	IsStop:False|IsPunct:True
+7	πρίν	πρίν	SCONJ	G-	_	[15]	mark	_	IsStop:False|IsPunct:False
+8	γʼ	γε	ADV	Df	_	[15]	discourse	_	IsStop:False|IsPunct:False
+9	ὅτε	ὅτε	SCONJ	G-	_	[15]	mark	_	IsStop:False|IsPunct:False
+10	δή	δή	ADV	Df	_	[15]	discourse	_	IsStop:True|IsPunct:False
+11	με	ἐγώ	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=1|PronType=Prs	[15]	obj	_	IsStop:True|IsPunct:False
+12	σὸς	σός	ADJ	Ps	Case=Nom|Gender=Masc|Number=Sing|Person=2|Poss=Yes	[12]	nmod	_	IsStop:True|IsPunct:False
+13	υἱὸς	υἱός	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	[15]	nsubj	_	IsStop:False|IsPunct:False
+14	ἀπὸ	ἀπό	ADP	R-	_	[14]	case	_	IsStop:True|IsPunct:False
+15	μεγάροιο	μέγαρον	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	[15]	obl	_	IsStop:False|IsPunct:False
+16	κάλεσσε	καλέω	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	[2]	advcl	_	IsStop:False|IsPunct:False
+17	Τηλέμαχος	Τηλέμαχος	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	[]	nsubj	_	IsStop:False|IsPunct:False
+18	·	·	PUNCT	Z	_	[2]	punct	_	IsStop:False|IsPunct:True
+# sentence: τὸν γάρ ῥα πατὴρ προέηκε καλέσσαι.
+1	τὸν	ὁ	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	[5]	obj	_	IsStop:True|IsPunct:False
+2	γάρ	γάρ	ADV	Df	_	[4]	discourse	_	IsStop:True|IsPunct:False
+3	ῥα	ἄρα	ADV	Df	_	[4]	discourse	_	IsStop:True|IsPunct:False
+4	πατὴρ	πατήρ	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	[4]	nsubj	_	IsStop:False|IsPunct:False
+5	προέηκε	προΐημι	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	[4]	ROOT	_	IsStop:False|IsPunct:False
+6	καλέσσαι	καλέω	VERB	V-	Aspect=Perf|Tense=Past|VerbForm=Inf|Voice=Act	[4]	xcomp	_	IsStop:False|IsPunct:False
+7	.	.	PUNCT	Z	_	[4]	punct	_	IsStop:False|IsPunct:True
+# sentence: εὗρον ἔπειτʼ Ὀδυσῆα μετὰ κταμένοισι νέκυσσιν ἑσταόθʼ·
+1	εὗρον	εὑρίσκω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	[0]	ROOT	_	IsStop:False|IsPunct:False
+2	ἔπειτʼ	ἔπειτα	ADV	Df	_	[0]	advmod	_	IsStop:False|IsPunct:False
+3	Ὀδυσῆα	Ὀδυσσεύς	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	[0]	obj	_	IsStop:False|IsPunct:False
+4	μετὰ	μετά	ADP	R-	_	[4]	case	_	IsStop:True|IsPunct:False
+5	κταμένοισι	κτείνω	VERB	V-	Case=Dat|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	[]	advcl	_	IsStop:False|IsPunct:False
+6	νέκυσσιν	νέκυς	NOUN	Nb	Case=Dat|Gender=Masc|Number=Plur	[4]	obl	_	IsStop:False|IsPunct:False
+7	ἑσταόθʼ	ἵστημι	VERB	V-	Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	[0]	xcomp	_	IsStop:False|IsPunct:False
+8	·	·	PUNCT	Z	_	[0]	punct	_	IsStop:False|IsPunct:True
+# sentence: οἱ δέ μιν ἀμφί, κραταίπεδον οὖδας ἔχοντες,
+1	οἱ	ὁ	PRON	Pp	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	[8]	nsubj	_	IsStop:True|IsPunct:False
+2	δέ	δέ	ADV	Df	_	[8]	discourse	_	IsStop:True|IsPunct:False
+3	μιν	μιν	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	[7]	obj	_	IsStop:False|IsPunct:False
+4	ἀμφί	ἀμφί	ADP	R-	_	[7]	case	_	IsStop:False|IsPunct:False
+5	,	,	PUNCT	Z	_	[7]	xcomp	_	IsStop:False|IsPunct:True
+6	κραταίπεδον	κραταίπεδος	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	[6]	amod	_	IsStop:False|IsPunct:False
+7	οὖδας	οὖδας	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	[7]	obj	_	IsStop:False|IsPunct:False
+8	ἔχοντες	ἔχω	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	[8]	advcl	_	IsStop:False|IsPunct:False
+9	,	,	PUNCT	Z	_	[8]	ROOT	_	IsStop:False|IsPunct:True
+# sentence: 
+# sentence: κείατʼ ἐπʼ ἀλλήλοισιν·
+1	κείατʼ	κεῖμαι	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pqp|VerbForm=Fin|Voice=Mid	[0]	ROOT	_	IsStop:False|IsPunct:False
+2	ἐπʼ	ἐπί	ADP	R-	_	[2]	case	_	IsStop:False|IsPunct:False
+3	ἀλλήλοισιν	ἀλλήλων	PRON	Pc	Case=Dat|Gender=Masc|Number=Plur|PronType=Rcp	[0]	obl	_	IsStop:False|IsPunct:False
+4	·	·	PUNCT	Z	_	[0]	punct	_	IsStop:False|IsPunct:True
+# sentence: ἰδοῦσά κε θυμὸν ἰάνθης.
+1	ἰδοῦσά	ὁράω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	[3]	advcl	_	IsStop:False|IsPunct:False
+2	κε	ἄν	ADV	Df	_	[3]	advmod	_	IsStop:True|IsPunct:False
+3	θυμὸν	θυμός	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	[3]	obj	_	IsStop:False|IsPunct:False
+4	ἰάνθης	ἰαίνω	VERB	V-	Aspect=Perf|Mood=Sub|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Pass	[3]	ROOT	_	IsStop:False|IsPunct:False
+5	.	.	PUNCT	Z	_	[3]	punct	_	IsStop:False|IsPunct:True
+# sentence: νῦν δʼ οἱ μὲν δὴ πάντες ἐπʼ αὐλείῃσι θύρῃσιν ἀθρόοι, αὐτὰρ ὁ δῶμα θεειοῦται περικαλλές, πῦρ μέγα κηάμενος·
+1	νῦν	νῦν	ADV	Df	_	[]	advmod	_	IsStop:False|IsPunct:False
+2	δʼ	δέ	ADV	Df	_	[]	discourse	_	IsStop:False|IsPunct:False
+3	οἱ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	[5]	det	_	IsStop:True|IsPunct:False
+4	μὲν	μέν	ADV	Df	_	[5]	discourse	_	IsStop:True|IsPunct:False
+5	δὴ	δή	ADV	Df	_	[5]	discourse	_	IsStop:True|IsPunct:False
+6	πάντες	πᾶς	ADJ	Px	Case=Nom|Gender=Masc|Number=Plur	[]	nsubj:pass	_	IsStop:False|IsPunct:False
+7	ἐπʼ	ἐπί	ADP	R-	_	[8]	case	_	IsStop:False|IsPunct:False
+8	αὐλείῃσι	αὔλειος	ADJ	A-	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	[8]	amod	_	IsStop:False|IsPunct:False
+9	θύρῃσιν	θύρα	NOUN	Nb	Case=Dat|Gender=Fem|Number=Plur	[5]	nmod	_	IsStop:False|IsPunct:False
+10	ἀθρόοι	ἀθρόος	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	[]	advmod	_	IsStop:False|IsPunct:False
+11	,	,	PUNCT	Z	_	[14]	advmod	_	IsStop:False|IsPunct:True
+12	αὐτὰρ	ἀτάρ	ADV	Df	_	[14]	discourse	_	IsStop:False|IsPunct:False
+13	ὁ	ὁ	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	[14]	nsubj	_	IsStop:True|IsPunct:False
+14	δῶμα	δῶμα	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	[14]	obj	_	IsStop:False|IsPunct:False
+15	θεειοῦται	θειόω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	[14]	ROOT	_	IsStop:False|IsPunct:False
+16	περικαλλές	περικαλλής	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	[14]	advmod	_	IsStop:False|IsPunct:False
+17	,	,	PUNCT	Z	_	[14]	obl	_	IsStop:False|IsPunct:True
+18	πῦρ	πῦρ	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	[19]	obj	_	IsStop:False|IsPunct:False
+19	μέγα	μέγας	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	[17]	amod	_	IsStop:False|IsPunct:False
+20	κηάμενος	καίω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Mid	[14]	advcl	_	IsStop:False|IsPunct:False
+21	·	·	PUNCT	Z	_	[14]	punct	_	IsStop:False|IsPunct:True
+# sentence: σὲ δέ με προέηκε καλέσσαι.
+1	σὲ	σύ	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=2|PronType=Prs	[3]	nsubj	_	IsStop:True|IsPunct:False
+2	δέ	δέ	ADV	Df	_	[3]	discourse	_	IsStop:True|IsPunct:False
+3	με	ἐγώ	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=1|PronType=Prs	[4]	obj	_	IsStop:True|IsPunct:False
+4	προέηκε	προΐημι	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	[3]	ROOT	_	IsStop:False|IsPunct:False
+5	καλέσσαι	καλέω	VERB	V-	Aspect=Perf|Tense=Past|VerbForm=Inf|Voice=Act	[3]	xcomp	_	IsStop:False|IsPunct:False
+6	.	.	PUNCT	Z	_	[3]	punct	_	IsStop:False|IsPunct:True
+# sentence: 
+# sentence: ἀλλʼ ἕπευ,
+1	ἀλλʼ	ἀλλά	CCONJ	C-	_	[1]	cc	_	IsStop:False|IsPunct:False
+2	ἕπευ	ἕπομαι	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	[1]	ROOT	_	IsStop:False|IsPunct:False
+3	,	,	PUNCT	Z	_	[1]	dep	_	IsStop:False|IsPunct:True
+# sentence: ὄφρα σφῶϊν ἐϋφροσύνης ἐπιβῆτον ἀμφοτέρω φίλον ἦτορ, ἐπεὶ κακὰ πολλὰ πέποσθε.
+1	ὄφρα	ὄφρα	SCONJ	G-	_	[3]	mark	_	IsStop:False|IsPunct:False
+2	σφῶϊν	σφεῖς	PRON	Pp	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	[3]	iobj	_	IsStop:True|IsPunct:False
+3	ἐϋφροσύνης	εὐφροσύνη	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	[3]	iobj	_	IsStop:False|IsPunct:False
+4	ἐπιβῆτον	ἐπιβαίνω	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	[3]	ROOT	_	IsStop:False|IsPunct:False
+5	ἀμφοτέρω	ἀμφότερος	ADJ	A-	Case=Dat|Gender=Masc|Number=Sing	[]	iobj	_	IsStop:False|IsPunct:False
+6	φίλον	φίλος	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	[6]	amod	_	IsStop:False|IsPunct:False
+7	ἦτορ	ἦτορ	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	[]	nsubj	_	IsStop:False|IsPunct:False
+8	,	,	PUNCT	Z	_	[3]	dep	_	IsStop:False|IsPunct:True
+9	ἐπεὶ	ἐπεί	SCONJ	G-	_	[11]	mark	_	IsStop:False|IsPunct:False
+10	κακὰ	κακός	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	[11]	obj	_	IsStop:False|IsPunct:False
+11	πολλὰ	πολύς	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	[9]	amod	_	IsStop:False|IsPunct:False
+12	πέποσθε	πάσχω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Mid	[7]	advcl	_	IsStop:False|IsPunct:False
+13	.	.	PUNCT	Z	_	[3]	punct	_	IsStop:False|IsPunct:True
+# sentence: νῦν δʼ ἤδη τόδε μακρὸν ἐέλδωρ ἐκτετέλεσται·
+1	νῦν	νῦν	ADV	Df	_	[6]	advmod	_	IsStop:False|IsPunct:False
+2	δʼ	δέ	ADV	Df	_	[6]	discourse	_	IsStop:False|IsPunct:False
+3	ἤδη	ἤδη	ADV	Df	_	[6]	advmod	_	IsStop:False|IsPunct:False
+4	τόδε	ὅδε	DET	Pd	Case=Nom|Gender=Neut|Number=Sing	[5]	det	_	IsStop:True|IsPunct:False
+5	μακρὸν	μακρός	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	[5]	amod	_	IsStop:False|IsPunct:False
+6	ἐέλδωρ	ἔλδωρ	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	[6]	nsubj:pass	_	IsStop:False|IsPunct:False
+7	ἐκτετέλεσται	ἐκτελέω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	[6]	ROOT	_	IsStop:False|IsPunct:False
+8	·	·	PUNCT	Z	_	[6]	punct	_	IsStop:False|IsPunct:True
+# sentence: 
+# sentence: ἦλθε μὲν αὐτὸς ζωὸς ἐφέστιος,
+1	ἦλθε	ἔρχομαι	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	[0]	ROOT	_	IsStop:False|IsPunct:False
+2	μὲν	μέν	ADV	Df	_	[0]	discourse	_	IsStop:True|IsPunct:False
+3	αὐτὸς	αὐτός	ADJ	Pd	Case=Nom|Gender=Masc|Number=Sing	[0]	nsubj	_	IsStop:True|IsPunct:False
+4	ζωὸς	ζωός	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	[4]	advmod	_	IsStop:False|IsPunct:False
+5	ἐφέστιος	ἐφέστιος	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	[0]	advcl	_	IsStop:False|IsPunct:False
+6	,	,	PUNCT	Z	_	[0]	punct	_	IsStop:False|IsPunct:True
+# sentence: εὗρε δὲ καὶ σὲ καὶ παῖδʼ ἐν μεγάροισι·
+1	εὗρε	εὑρίσκω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	[0]	ROOT	_	IsStop:False|IsPunct:False
+2	δὲ	δέ	ADV	Df	_	[0]	discourse	_	IsStop:True|IsPunct:False
+3	καὶ	καί	ADV	Df	_	[3]	advmod	_	IsStop:True|IsPunct:False
+4	σὲ	σύ	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=2|PronType=Prs	[0]	obj	_	IsStop:True|IsPunct:False
+5	καὶ	καί	CCONJ	C-	_	[]	cc	_	IsStop:True|IsPunct:False
+6	παῖδʼ	παῖς	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	[]	conj	_	IsStop:False|IsPunct:False
+7	ἐν	ἐν	ADP	R-	_	[7]	case	_	IsStop:True|IsPunct:False
+8	μεγάροισι	μέγαρον	NOUN	Nb	Case=Dat|Gender=Neut|Number=Plur	[5]	obl	_	IsStop:False|IsPunct:False
+9	·	·	PUNCT	Z	_	[0]	punct	_	IsStop:False|IsPunct:True
+# sentence: κακῶς δʼ οἵ πέρ μιν ἔρεζον
+1	κακῶς	κακῶς	ADV	Df	Degree=Pos	[5]	advmod	_	IsStop:False|IsPunct:False
+2	δʼ	δέ	ADV	Df	_	[5]	discourse	_	IsStop:False|IsPunct:False
+3	οἵ	ὅς	PRON	Pr	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	[5]	nsubj	_	IsStop:True|IsPunct:False
+4	πέρ	πέρ	ADV	Df	_	[2]	discourse	_	IsStop:False|IsPunct:False
+5	μιν	μιν	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	[5]	obj	_	IsStop:False|IsPunct:False
+6	ἔρεζον	ῥέζω	VERB	V-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	[5]	ROOT	_	IsStop:False|IsPunct:False
+# sentence: μνηστῆρες
+1	μνηστῆρες	μνηστήρ	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	[0]	ROOT	_	IsStop:False|IsPunct:False
+# sentence: , τοὺς πάντας ἐτίσατο ᾧ ἐνὶ οἴκῳ.
+1	,	,	PUNCT	Z	_	[3]	advmod	_	IsStop:False|IsPunct:True
+2	τοὺς	ὁ	PRON	Pp	Case=Acc|Gender=Masc|Number=Plur|PronType=Rel	[3]	obj	_	IsStop:True|IsPunct:False
+3	πάντας	πᾶς	ADJ	Px	Case=Acc|Gender=Masc|Number=Plur	[3]	obj	_	IsStop:False|IsPunct:False
+4	ἐτίσατο	τίνω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Mid	[3]	ROOT	_	IsStop:False|IsPunct:False
+5	ᾧ	ὅς	PRON	Pr	Case=Dat|Gender=Masc|Number=Sing|PronType=Rel	[6]	det	_	IsStop:True|IsPunct:False
+6	ἐνὶ	εἷς	NUM	Ma	Case=Dat|Gender=Masc|Number=Sing	[6]	nummod	_	IsStop:True|IsPunct:False
+7	οἴκῳ	οἶκος	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	[3]	obl	_	IsStop:False|IsPunct:False
+8	.	.	PUNCT	Z	_	[3]	punct	_	IsStop:False|IsPunct:True
+# sentence: τέκνον ἐμόν, ποῖόν σε ἔπος φύγεν ἕρκος ὀδόντων,
+1	τέκνον	τέκνον	NOUN	Nb	Case=Voc|Gender=Neut|Number=Sing	[2]	vocative	_	IsStop:False|IsPunct:False
+2	ἐμόν	ἐμός	ADJ	Ps	Case=Acc|Gender=Neut|Number=Sing|Person=1|Poss=Yes	[0]	nmod	_	IsStop:True|IsPunct:False
+3	,	,	PUNCT	Z	_	[9]	amod	_	IsStop:False|IsPunct:True
+4	ποῖόν	ποῖος	PRON	Pi	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	[5]	det	_	IsStop:False|IsPunct:False
+5	σε	σύ	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=2|PronType=Prs	[6]	obj	_	IsStop:True|IsPunct:False
+6	ἔπος	ἔπος	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	[6]	nsubj	_	IsStop:False|IsPunct:False
+7	φύγεν	φεύγω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	[2]	acl	_	IsStop:False|IsPunct:False
+8	ἕρκος	ἕρκος	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	[5]	appos	_	IsStop:False|IsPunct:False
+9	ὀδόντων	ὀδούς	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	[7]	nmod	_	IsStop:False|IsPunct:False
+10	,	,	PUNCT	Z	_	[9]	ROOT	_	IsStop:False|IsPunct:True
+# sentence: 
+# sentence: ἣ πόσιν ἔνδον ἐόντα παρʼ ἐσχάρῃ οὔ ποτʼ ἔφησθα οἴκαδʼ ἐλεύσεσθαι·
+1	ἣ	ὁ	CCONJ	C-	_	[8]	cc	_	IsStop:True|IsPunct:False
+2	πόσιν	πούς	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	[8]	vocative	_	IsStop:False|IsPunct:False
+3	ἔνδον	ἔνδον	ADV	Df	_	[5]	advmod	_	IsStop:False|IsPunct:False
+4	ἐόντα	εἰμί	AUX	V-	Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	[2]	cop	_	IsStop:True|IsPunct:False
+5	παρʼ	παρά	ADP	R-	_	[5]	case	_	IsStop:False|IsPunct:False
+6	ἐσχάρῃ	ἐσχάρα	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	[1]	nmod	_	IsStop:False|IsPunct:False
+7	οὔ	οὐ	ADV	Df	Polarity=Neg	[8]	advmod	_	IsStop:True|IsPunct:False
+8	ποτʼ	πρός	ADV	Df	_	[8]	advmod	_	IsStop:False|IsPunct:False
+9	ἔφησθα	φημί	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	[8]	ROOT	_	IsStop:False|IsPunct:False
+10	οἴκαδʼ	οἴκαδε	ADV	Df	_	[10]	advmod	_	IsStop:False|IsPunct:False
+11	ἐλεύσεσθαι	ἔρχομαι	VERB	V-	Tense=Fut|VerbForm=Inf|Voice=Mid	[]	xcomp	_	IsStop:False|IsPunct:False
+12	·	·	PUNCT	Z	_	[8]	punct	_	IsStop:False|IsPunct:True
+# sentence: θυμὸς δέ τοι αἰὲν ἄπιστος.
+1	θυμὸς	θυμός	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	[4]	nsubj	_	IsStop:False|IsPunct:False
+2	δέ	δέ	ADV	Df	_	[4]	discourse	_	IsStop:True|IsPunct:False
+3	τοι	σύ	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=2|PronType=Prs	[4]	iobj	_	IsStop:True|IsPunct:False
+4	αἰὲν	ἀεί	ADV	Df	_	[4]	advmod	_	IsStop:False|IsPunct:False
+5	ἄπιστος	ἄπιστος	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	[4]	ROOT	_	IsStop:False|IsPunct:False
+6	.	.	PUNCT	Z	_	[4]	punct	_	IsStop:False|IsPunct:True
+# sentence: ἀλλʼ ἄγε τοι καὶ σῆμα ἀριφραδὲς ἄλλο τι εἴπω,
+1	ἀλλʼ	ἀλλά	CCONJ	C-	_	[8]	cc	_	IsStop:False|IsPunct:False
+2	ἄγε	ἄγω	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	[8]	vocative	_	IsStop:False|IsPunct:False
+3	τοι	σύ	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=2|PronType=Prs	[8]	iobj	_	IsStop:True|IsPunct:False
+4	καὶ	καί	CCONJ	C-	_	[8]	advmod	_	IsStop:True|IsPunct:False
+5	σῆμα	σῆμα	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	[8]	obj	_	IsStop:False|IsPunct:False
+6	ἀριφραδὲς	ἀριφραδής	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	[4]	amod	_	IsStop:False|IsPunct:False
+7	ἄλλο	ἄλλος	DET	Px	Case=Acc|Gender=Neut|Number=Sing	[8]	obj	_	IsStop:True|IsPunct:False
+8	τι	τίς	DET	Px	Case=Acc|Gender=Neut|Number=Sing	[6]	det	_	IsStop:True|IsPunct:False
+9	εἴπω	λέγω	VERB	V-	Aspect=Perf|Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	[8]	ROOT	_	IsStop:False|IsPunct:False
+10	,	,	PUNCT	Z	_	[4]	acl	_	IsStop:False|IsPunct:True
+# sentence: οὐλήν, τήν ποτέ μιν σῦς ἤλασε λευκῷ ὀδόντι.
+1	οὐλήν	οὐλή	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	[]	appos	_	IsStop:False|IsPunct:False
+2	,	,	PUNCT	Z	_	[0]	appos	_	IsStop:False|IsPunct:True
+3	τήν	ὁ	PRON	Pr	Case=Acc|Gender=Fem|Number=Sing|PronType=Rel	[6]	obj	_	IsStop:True|IsPunct:False
+4	ποτέ	ποτε	ADV	Df	_	[6]	advmod	_	IsStop:False|IsPunct:False
+5	μιν	μιν	PRON	Pp	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	[6]	obj	_	IsStop:False|IsPunct:False
+6	σῦς	ὗς	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	[6]	nsubj	_	IsStop:False|IsPunct:False
+7	ἤλασε	ἐλαύνω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	[1]	acl	_	IsStop:False|IsPunct:False
+8	λευκῷ	λευκός	ADJ	A-	Case=Dat|Degree=Pos|Gender=Masc,Neut|Number=Sing	[8]	amod	_	IsStop:False|IsPunct:False
+9	ὀδόντι	ὀδούς	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	[6]	obl	_	IsStop:False|IsPunct:False
+10	.	.	PUNCT	Z	_	[0]	punct	_	IsStop:False|IsPunct:True
+# sentence: τὴν ἀπονίζουσα φρασάμην,
+1	τὴν	ὁ	PRON	Pp	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	[2]	obj	_	IsStop:True|IsPunct:False
+2	ἀπονίζουσα	ἀπονίζω	VERB	V-	Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	[2]	advcl	_	IsStop:False|IsPunct:False
+3	φρασάμην	φράζω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Mid	[2]	ROOT	_	IsStop:False|IsPunct:False
+4	,	,	PUNCT	Z	_	[2]	punct	_	IsStop:False|IsPunct:True
+# sentence: ἔθελον δὲ σοὶ αὐτῇ εἰπέμεν
+1	ἔθελον	ἐθέλω	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	[4]	advcl	_	IsStop:False|IsPunct:False
+2	δὲ	δέ	ADV	Df	_	[0]	discourse	_	IsStop:True|IsPunct:False
+3	σοὶ	σύ	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=2|PronType=Prs	[]	iobj	_	IsStop:True|IsPunct:False
+4	αὐτῇ	αὐτός	PRON	Pp	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	[]	nsubj	_	IsStop:True|IsPunct:False
+5	εἰπέμεν	λέγω	VERB	V-	Aspect=Perf|Tense=Past|VerbForm=Inf|Voice=Act	[4]	ROOT	_	IsStop:False|IsPunct:False
+# sentence: ·
+1	·	·	PUNCT	Z	_	[0]	ROOT	_	IsStop:False|IsPunct:True
+# sentence: ἀλλά με κεῖνος ἑλὼν ἐπὶ μάστακα χερσὶν οὐκ ἔα εἰπέμεναι πολυϊδρείῃσι νόοιο
+1	ἀλλά	ἀλλά	CCONJ	C-	_	[]	cc	_	IsStop:True|IsPunct:False
+2	με	ἐγώ	PRON	Pp	Case=Acc|Gender=Fem|Number=Sing|Person=1|PronType=Prs	[3]	obj	_	IsStop:True|IsPunct:False
+3	κεῖνος	ἐκεῖνος	ADJ	Pd	Case=Nom|Gender=Masc|Number=Sing	[3]	nsubj	_	IsStop:False|IsPunct:False
+4	ἑλὼν	αἱρέω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	[]	advcl	_	IsStop:False|IsPunct:False
+5	ἐπὶ	ἐπί	ADP	R-	_	[5]	case	_	IsStop:True|IsPunct:False
+6	μάστακα	μάσταξ	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	[3]	obl	_	IsStop:False|IsPunct:False
+7	χερσὶν	χείρ	NOUN	Nb	Case=Dat|Gender=Fem|Number=Plur	[3]	obl	_	IsStop:False|IsPunct:False
+8	οὐκ	οὐ	ADV	Df	Polarity=Neg	[8]	advmod	_	IsStop:True|IsPunct:False
+9	ἔα	ἐάω	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	[8]	ROOT	_	IsStop:True|IsPunct:False
+10	εἰπέμεναι	λέγω	VERB	V-	Aspect=Perf|Tense=Past|VerbForm=Inf|Voice=Pass	[8]	ccomp	_	IsStop:False|IsPunct:False
+11	πολυϊδρείῃσι	πολυϊδρείη	NOUN	Nb	Case=Dat|Gender=Fem|Number=Plur	[9]	obl	_	IsStop:False|IsPunct:False
+12	νόοιο	νόος	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	[10]	nmod	_	IsStop:False|IsPunct:False
+# sentence: .
+1	.	.	PUNCT	Z	_	[0]	ROOT	_	IsStop:False|IsPunct:True
+# sentence: 
+# sentence: ἀλλʼ ἕπευ·
+1	ἀλλʼ	ἀλλά	CCONJ	C-	_	[1]	cc	_	IsStop:False|IsPunct:False
+2	ἕπευ	ἕπομαι	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	[1]	ROOT	_	IsStop:False|IsPunct:False
+3	·	·	PUNCT	Z	_	[1]	punct	_	IsStop:False|IsPunct:True
+# sentence: αὐτὰρ ἐγὼν ἐμέθεν περιδώσομαι αὐτῆς, αἴ κέν σʼ ἐξαπάφω, κτεῖναί μʼ οἰκτίστῳ ὀλέθρῳ.
+1	αὐτὰρ	ἀτάρ	ADV	Df	_	[3]	discourse	_	IsStop:False|IsPunct:False
+2	ἐγὼν	ἐγώ	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	[3]	nsubj	_	IsStop:True|IsPunct:False
+3	ἐμέθεν	ἐγώ	PRON	Pp	Case=Gen|Gender=Fem|Number=Sing|Person=1|PronType=Prs	[3]	iobj	_	IsStop:True|IsPunct:False
+4	περιδώσομαι	περιδίδωμι	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Mid	[3]	ROOT	_	IsStop:False|IsPunct:False
+5	αὐτῆς	αὐτός	PRON	Pp	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	[3]	iobj	_	IsStop:True|IsPunct:False
+6	,	,	PUNCT	Z	_	[3]	iobj	_	IsStop:False|IsPunct:True
+7	αἴ	εἰ	SCONJ	G-	_	[9]	mark	_	IsStop:True|IsPunct:False
+8	κέν	ἄν	ADV	Df	_	[9]	advmod	_	IsStop:True|IsPunct:False
+9	σʼ	σύ	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=2|PronType=Prs	[9]	obj	_	IsStop:False|IsPunct:False
+10	ἐξαπάφω	ἐξαπαφίσκω	VERB	V-	Aspect=Perf|Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	[3]	advcl	_	IsStop:False|IsPunct:False
+11	,	,	PUNCT	Z	_	[3]	iobj	_	IsStop:False|IsPunct:True
+12	κτεῖναί	κτείνω	VERB	V-	Aspect=Perf|Tense=Past|VerbForm=Inf|Voice=Act	[3]	ccomp	_	IsStop:False|IsPunct:False
+13	μʼ	ἐγώ	PRON	Pp	Case=Acc|Gender=Fem|Number=Sing|Person=1|PronType=Prs	[11]	obj	_	IsStop:False|IsPunct:False
+14	οἰκτίστῳ	οἴκτιστος	ADJ	A-	Case=Dat|Degree=Pos|Gender=Masc,Neut|Number=Sing	[14]	amod	_	IsStop:False|IsPunct:False
+15	ὀλέθρῳ	ὄλεθρος	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	[11]	obl	_	IsStop:False|IsPunct:False
+16	.	.	PUNCT	Z	_	[3]	punct	_	IsStop:False|IsPunct:True
