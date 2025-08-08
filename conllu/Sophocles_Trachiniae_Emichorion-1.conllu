@@ -1,10 +1,21 @@
 # sentence: πότερον ἐγὼ μάταιος,
-1	πότερον	πότερον	ADV	Du	PronType=Int	[2]	advmod	_	_
+1	πότερον	πότερον	ADV	Du	PronType=Int	[2]	advmod	_	IsStop:False|IsPunct:False
+2	ἐγὼ	ἐγώ	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	[2]	nsubj	_	IsStop:True|IsPunct:False
+3	μάταιος	μάταιος	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem,Masc|Number=Sing	[2]	ROOT	_	IsStop:False|IsPunct:False
+4	,	,	PUNCT	Z	_	[2]	punct	_	IsStop:False|IsPunct:True
 # sentence: ἢ
-1	ἢ	ἤ	CCONJ	C-		[]	ROOT	_	_
+1	ἢ	ἤ	CCONJ	C-	_	[0]	ROOT	_	IsStop:True|IsPunct:False
 # sentence: κλύω τινὸς οἴκτου διʼ οἴκων ἀρτίως ὁρμωμένου
-1	κλύω	κλύω	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	[]	ROOT	_	_
+1	κλύω	κλύω	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	[0]	ROOT	_	IsStop:False|IsPunct:False
+2	τινὸς	τίς	DET	Px	Case=Gen|Gender=Masc|Number=Sing	[0]	det	_	IsStop:True|IsPunct:False
+3	οἴκτου	οἶκτος	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	[0]	xcomp	_	IsStop:False|IsPunct:False
+4	διʼ	διά	ADP	R-	_	[4]	case	_	IsStop:False|IsPunct:False
+5	οἴκων	οἶκος	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	[6]	obl	_	IsStop:False|IsPunct:False
+6	ἀρτίως	ἄρτιος	ADV	Df	_	[6]	advmod	_	IsStop:False|IsPunct:False
+7	ὁρμωμένου	ὁρμάω	VERB	V-	Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	[2]	acl	_	IsStop:False|IsPunct:False
 # sentence: ;
-1	;	;	PUNCT	Z		[]	ROOT	_	_
+1	;	;	PUNCT	Z	_	[0]	ROOT	_	IsStop:False|IsPunct:True
 # sentence: τί φημι;
-1	τί	τίς	PRON	Pi	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	[1]	obj	_	_
+1	τί	τίς	PRON	Pi	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	[1]	obj	_	IsStop:True|IsPunct:False
+2	φημι	φημί	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	[1]	ROOT	_	IsStop:False|IsPunct:False
+3	;	;	PUNCT	Z	_	[1]	punct	_	IsStop:False|IsPunct:True

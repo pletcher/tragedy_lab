@@ -10,7 +10,8 @@ from lxml import etree
 from pathlib import Path
 from tqdm import tqdm
 
-from .transliterate import transliterate
+from src.util.transliterate import transliterate
+
 
 HOMER_DIR = "homer_xml"
 TRAGEDY_DIR = "tragedy_xml"
@@ -236,55 +237,13 @@ def write_tragedy_df():
 def write_corpus():
     df = create_tragedy_df()
 
-    for row in df.group_by("dramatist", "title", "speaker").agg(pl.col("text")).iter_rows():
+    for row in (
+        df.group_by("dramatist", "title", "speaker").agg(pl.col("text")).iter_rows()
+    ):
         speaker = transliterate(row[2].replace(" ", "-"))
-        filename = f"{row[0]}_{row[1].replace(" ", "-")}_{speaker}"
+        filename = f"{row[0]}_{row[1].replace(" ", " - ")}_{speaker}"
         text = row[3]
 
         with open(f"./corpus/{filename}.txt", "w+") as f:
             for line in text:
                 f.write(f"{line}\n")
-
-
-def lemmatize():
-    import spacy
-
-    nlp = spacy.load("grc_proiel_trf")
-
-    txts = [Path(f"./corpus/{f}") for f in os.listdir("./corpus") if f.endswith(".txt")]
-
-    for txt in tqdm(txts):
-        with txt.open() as f:
-            doc = nlp(f.read())
-
-            out = Path(f"./conllu/{txt.name.replace('.txt', '.conllu')}")
-
-            with out.open("w+") as g:
-                for sent in doc.sents:
-                    g.write(f"# sentence: {re.sub(r"\s+", " ", sent.text.strip())}\n")
-
-                    sentence_tokens_with_index = enumerate([t for t in sent if not t.is_space])
-                    for idx, t in sentence_tokens_with_index:
-                        id_ = idx + 1
-                        form = t.text.strip() or "_"
-                        lemma = t.lemma_ or "_"
-                        upos = t.pos_ or "_"
-                        xpos = t.tag_ or "_"
-                        feats = "_"
-
-                        if t.morph is not None:
-                            feats = str(t.morph)
-
-                        head_id = 0
-                        deprel = "root"
-
-                        if t.head is not None:
-                            head_id = [h[0] for h in sentence_tokens_with_index if h[1].i == t.head.i]
-                            deprel = t.dep_
-
-                        g.write(
-                            unicodedata.normalize(
-                                "NFC",
-                                f"{id_}\t{form}\t{lemma}\t{upos}\t{xpos}\t{feats}\t{head_id}\t{deprel}\t_\t_\n"
-                            )
-                        )

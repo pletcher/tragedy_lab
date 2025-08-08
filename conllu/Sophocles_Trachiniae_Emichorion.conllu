@@ -1,3 +1,16 @@
 # sentence: ξύνες δὲ τήνδʼ ὡς κατηφὴς καὶ συνωφρυωμένη χωρεῖ πρὸς ἡμᾶς γραῖα σημανοῦσά τι.
-1	ξύνες	συνίημι	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	[]	advcl	_	_
+1	ξύνες	συνίημι	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	[]	advcl	_	IsStop:False|IsPunct:False
+2	δὲ	δέ	ADV	Df	_	[]	discourse	_	IsStop:True|IsPunct:False
+3	τήνδʼ	ὅδε	ADJ	Pd	Case=Acc|Gender=Fem|Number=Sing	[]	obj	_	IsStop:False|IsPunct:False
+4	ὡς	ὡς	ADV	Df	_	[4]	advmod	_	IsStop:True|IsPunct:False
+5	κατηφὴς	κατηφής	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem,Masc|Number=Sing	[2]	amod	_	IsStop:False|IsPunct:False
+6	καὶ	καί	CCONJ	C-	_	[4]	cc	_	IsStop:True|IsPunct:False
+7	συνωφρυωμένη	συνοφρυόομαι	VERB	V-	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	[4]	conj	_	IsStop:False|IsPunct:False
+8	χωρεῖ	χωρέω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	[7]	ROOT	_	IsStop:False|IsPunct:False
+9	πρὸς	πρός	ADP	R-	_	[9]	case	_	IsStop:True|IsPunct:False
+10	ἡμᾶς	ἡμεῖς	PRON	Pp	Case=Acc|Gender=Masc|Number=Plur|Person=1|PronType=Prs	[7]	obl	_	IsStop:True|IsPunct:False
+11	γραῖα	γραῖος	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	[7]	nsubj	_	IsStop:False|IsPunct:False
+12	σημανοῦσά	σημαίνω	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Fut|VerbForm=Part|Voice=Act	[7]	advcl	_	IsStop:False|IsPunct:False
+13	τι	τίς	ADJ	Px	Case=Acc|Gender=Neut|Number=Sing	[11]	obj	_	IsStop:True|IsPunct:False
+14	.	.	PUNCT	Z	_	[7]	punct	_	IsStop:False|IsPunct:True
 # sentence: 

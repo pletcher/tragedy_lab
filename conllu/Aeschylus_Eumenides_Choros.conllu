@@ -1,11 +1,29 @@
 # sentence: πολλαὶ μέν ἐσμεν, λέξομεν δὲ συντόμως.
-1	πολλαὶ	πολύς	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	[]	ROOT	_	_
+1	πολλαὶ	πολύς	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	[0]	ROOT	_	IsStop:False|IsPunct:False
+2	μέν	μέν	ADV	Df	_	[0]	discourse	_	IsStop:True|IsPunct:False
+3	ἐσμεν	εἰμί	AUX	V-	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	[0]	cop	_	IsStop:True|IsPunct:False
+4	,	,	PUNCT	Z	_	[0]	nsubj	_	IsStop:False|IsPunct:True
+5	λέξομεν	λέγω	VERB	V-	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	[0]	conj	_	IsStop:False|IsPunct:False
+6	δὲ	δέ	ADV	Df	_	[4]	discourse	_	IsStop:True|IsPunct:False
+7	συντόμως	συντόμως	ADV	Df	Degree=Pos	[4]	advmod	_	IsStop:False|IsPunct:False
+8	.	.	PUNCT	Z	_	[0]	punct	_	IsStop:False|IsPunct:True
 # sentence: ἔπος δʼ ἀμείβου πρὸς ἔπος ἐν μέρει τιθείς
-1	ἔπος	ἔπος	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	[2]	obj	_	_
+1	ἔπος	ἔπος	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	[2]	obj	_	IsStop:False|IsPunct:False
+2	δʼ	δέ	ADV	Df	_	[2]	discourse	_	IsStop:False|IsPunct:False
+3	ἀμείβου	ἀμείβω	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Mid	[]	conj	_	IsStop:False|IsPunct:False
+4	πρὸς	πρός	ADP	R-	_	[4]	case	_	IsStop:True|IsPunct:False
+5	ἔπος	ἔπος	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	[7]	obl	_	IsStop:False|IsPunct:False
+6	ἐν	ἐν	ADP	R-	_	[6]	case	_	IsStop:True|IsPunct:False
+7	μέρει	μέρος	NOUN	Nb	Case=Dat|Gender=Neut|Number=Sing	[7]	obl	_	IsStop:False|IsPunct:False
+8	τιθείς	τίθημι	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	[2]	advcl	_	IsStop:False|IsPunct:False
 # sentence: τὴν
-1	τὴν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	[]	ROOT	_	_
+1	τὴν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	[0]	ROOT	_	IsStop:True|IsPunct:False
 # sentence: μητέρʼ
-1	μητέρʼ	μήτηρ	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	[]	ROOT	_	_
+1	μητέρʼ	μήτηρ	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	[0]	ROOT	_	IsStop:False|IsPunct:False
 # sentence: εἰπὲ πρῶτον εἰ κατέκτονας.
-1	εἰπὲ	λέγω	VERB	V-	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	[]	ROOT	_	_
+1	εἰπὲ	λέγω	VERB	V-	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	[0]	ROOT	_	IsStop:False|IsPunct:False
+2	πρῶτον	πρῶτος	ADJ	Mo	Case=Acc|Gender=Neut|Number=Sing	[0]	advmod	_	IsStop:False|IsPunct:False
+3	εἰ	εἰ	SCONJ	G-	_	[3]	mark	_	IsStop:True|IsPunct:False
+4	κατέκτονας	κατακτείνω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	[0]	ccomp	_	IsStop:False|IsPunct:False
+5	.	.	PUNCT	Z	_	[0]	punct	_	IsStop:False|IsPunct:True
 # sentence: 

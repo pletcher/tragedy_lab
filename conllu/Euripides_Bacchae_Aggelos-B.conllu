@@ -1,5 +1,41 @@
 # sentence: ὦ δῶμʼ ὃ πρίν ποτʼ εὐτύχεις ἀνʼ Ἑλλάδα,
-1	ὦ	ὦ	INTJ	I-		[1]	discourse	_	_
+1	ὦ	ὦ	INTJ	I-	_	[1]	discourse	_	IsStop:True|IsPunct:False
+2	δῶμʼ	δῶμα	NOUN	Nb	Case=Voc|Gender=Masc|Number=Sing	[5]	vocative	_	IsStop:False|IsPunct:False
+3	ὃ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	[5]	det	_	IsStop:True|IsPunct:False
+4	πρίν	πρίν	ADV	Df	_	[5]	advmod	_	IsStop:False|IsPunct:False
+5	ποτʼ	πρός	ADV	Df	_	[5]	advmod	_	IsStop:False|IsPunct:False
+6	εὐτύχεις	εὐτυχέω	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	[5]	ROOT	_	IsStop:False|IsPunct:False
+7	ἀνʼ	ἀνά	ADP	R-	_	[5]	obl	_	IsStop:False|IsPunct:False
+8	Ἑλλάδα	Ἑλλάς	PROPN	Ne	Case=Acc|Gender=Fem|Number=Sing	[5]	obl	_	IsStop:False|IsPunct:False
+9	,	,	PUNCT	Z	_	[5]	advmod	_	IsStop:False|IsPunct:True
 # sentence: Σιδωνίου γέροντος, ὃς τὸ γηγενὲς δράκοντος ἔσπειρʼ Ὄφεος ἐν γαίᾳ θέρος, ὥς σε στενάζω, δοῦλος ὢν μέν, ἀλλʼ ὅμως χρηστοῖσι δούλοις συμφορὰ τὰ δεσποτῶν.
-1	Σιδωνίου	Σιδώνιος	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	[1]	amod	_	_
+1	Σιδωνίου	Σιδώνιος	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	[1]	amod	_	IsStop:False|IsPunct:False
+2	γέροντος	γέρων	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	[17]	nsubj	_	IsStop:False|IsPunct:False
+3	,	,	PUNCT	Z	_	[7]	amod	_	IsStop:False|IsPunct:True
+4	ὃς	ὅς	PRON	Pr	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	[]	nsubj	_	IsStop:True|IsPunct:False
+5	τὸ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	[5]	det	_	IsStop:True|IsPunct:False
+6	γηγενὲς	γηγενής	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	[]	obj	_	IsStop:False|IsPunct:False
+7	δράκοντος	δράκων	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	[7]	nmod	_	IsStop:False|IsPunct:False
+8	ἔσπειρʼ	σπείρω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	[1]	acl	_	IsStop:False|IsPunct:False
+9	Ὄφεος	ὄφις	PROPN	Nb	Case=Gen|Gender=Masc|Number=Sing	[7]	nmod	_	IsStop:False|IsPunct:False
+10	ἐν	ἐν	ADP	R-	_	[10]	case	_	IsStop:True|IsPunct:False
+11	γαίᾳ	γῆ	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	[7]	obl	_	IsStop:False|IsPunct:False
+12	θέρος	θέρος	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	[7]	appos	_	IsStop:False|IsPunct:False
+13	,	,	PUNCT	Z	_	[1]	appos	_	IsStop:False|IsPunct:True
+14	ὥς	ὡς	ADV	Dq	PronType=Rel	[15]	advmod	_	IsStop:True|IsPunct:False
+15	σε	σύ	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=2|PronType=Prs	[15]	obj	_	IsStop:True|IsPunct:False
+16	στενάζω	στενάζω	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	[15]	ROOT	_	IsStop:False|IsPunct:False
+17	,	,	PUNCT	Z	_	[15]	advmod	_	IsStop:False|IsPunct:True
+18	δοῦλος	δοῦλος	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	[15]	advcl	_	IsStop:False|IsPunct:False
+19	ὢν	εἰμί	AUX	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	[17]	cop	_	IsStop:True|IsPunct:False
+20	μέν	μέν	ADV	Df	_	[17]	discourse	_	IsStop:True|IsPunct:False
+21	,	,	PUNCT	Z	_	[15]	advcl	_	IsStop:False|IsPunct:True
+22	ἀλλʼ	ἀλλά	CCONJ	C-	_	[20]	cc	_	IsStop:False|IsPunct:False
+23	ὅμως	ὅμως	ADV	Df	_	[]	advmod	_	IsStop:False|IsPunct:False
+24	χρηστοῖσι	χρηστός	ADJ	A-	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	[24]	amod	_	IsStop:False|IsPunct:False
+25	δούλοις	δοῦλος	NOUN	Nb	Case=Dat|Gender=Masc|Number=Plur	[]	obl	_	IsStop:False|IsPunct:False
+26	συμφορὰ	συμφορά	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	[15]	advcl	_	IsStop:False|IsPunct:False
+27	τὰ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Dem	[27]	det	_	IsStop:True|IsPunct:False
+28	δεσποτῶν	δεσπότης	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	[25]	nmod	_	IsStop:False|IsPunct:False
+29	.	.	PUNCT	Z	_	[15]	punct	_	IsStop:False|IsPunct:True
 # sentence: 

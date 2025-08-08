@@ -1,3 +1,17 @@
 # sentence: ἠχεῖ τις οὐκ ἄσημον, ἀλλὰ δυστυχῆ κωκυτὸν εἴσω, καί τι καινίζει στέγη.
-1	ἠχεῖ	ἠχέω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	[]	ROOT	_	_
+1	ἠχεῖ	ἠχέω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	[0]	ROOT	_	IsStop:False|IsPunct:False
+2	τις	τίς	ADJ	Px	Case=Nom|Gender=Masc|Number=Sing	[0]	nsubj	_	IsStop:True|IsPunct:False
+3	οὐκ	οὐ	ADV	Df	Polarity=Neg	[3]	advmod	_	IsStop:True|IsPunct:False
+4	ἄσημον	ἄσημος	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	[0]	amod	_	IsStop:False|IsPunct:False
+5	,	,	PUNCT	Z	_	[0]	advmod	_	IsStop:False|IsPunct:True
+6	ἀλλὰ	ἀλλά	CCONJ	C-	_	[4]	cc	_	IsStop:True|IsPunct:False
+7	δυστυχῆ	δυστυχής	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	[4]	conj	_	IsStop:False|IsPunct:False
+8	κωκυτὸν	κωκυτός	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	[]	obj	_	IsStop:False|IsPunct:False
+9	εἴσω	εἴσω	ADV	Df	_	[]	advmod	_	IsStop:False|IsPunct:False
+10	,	,	PUNCT	Z	_	[0]	dep	_	IsStop:False|IsPunct:True
+11	καί	καί	CCONJ	C-	_	[0]	cc	_	IsStop:True|IsPunct:False
+12	τι	τίς	PRON	Pi	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	[12]	obl	_	IsStop:True|IsPunct:False
+13	καινίζει	καινίζω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	[0]	conj	_	IsStop:False|IsPunct:False
+14	στέγη	στέγη	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	[12]	nsubj	_	IsStop:False|IsPunct:False
+15	.	.	PUNCT	Z	_	[0]	punct	_	IsStop:False|IsPunct:True
 # sentence: 

@@ -1,11 +1,26 @@
 # sentence: ποῦ δὴ τὰ λοιπὰ Λοξίου μαντεύματα
-1	ποῦ	ποῦ	ADV	Du	PronType=Int	[]	ROOT	_	_
+1	ποῦ	ποῦ	ADV	Du	PronType=Int	[0]	ROOT	_	IsStop:False|IsPunct:False
+2	δὴ	δή	ADV	Df	_	[0]	discourse	_	IsStop:True|IsPunct:False
+3	τὰ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Dem	[5]	det	_	IsStop:True|IsPunct:False
+4	λοιπὰ	λοιπός	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	[5]	amod	_	IsStop:False|IsPunct:False
+5	Λοξίου	Λοξίας	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	[5]	nmod	_	IsStop:False|IsPunct:False
+6	μαντεύματα	μάντευμα	NOUN	Nb	Case=Nom|Gender=Neut|Number=Plur	[0]	nsubj	_	IsStop:False|IsPunct:False
 # sentence: τὰ πυθόχρηστα
-1	τὰ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Dem	[1]	det	_	_
+1	τὰ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Dem	[1]	det	_	IsStop:True|IsPunct:False
+2	πυθόχρηστα	Πυθόχρηστος	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	[1]	ROOT	_	IsStop:False|IsPunct:False
 # sentence: , πιστὰ δʼ εὐορκώματα
-1	,	,	PUNCT	Z	Case=Nom|Gender=Neut|Number=Plur	[]	ROOT	_	_
+1	,	,	PUNCT	Z	_	[0]	ROOT	_	IsStop:False|IsPunct:True
+2	πιστὰ	πιστός	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	[3]	amod	_	IsStop:False|IsPunct:False
+3	δʼ	δέ	ADV	Df	_	[3]	discourse	_	IsStop:False|IsPunct:False
+4	εὐορκώματα	εὐόρκωμα	NOUN	Nb	Case=Nom|Gender=Neut|Number=Plur	[0]	conj	_	IsStop:False|IsPunct:False
 # sentence: ;
-1	;	;	PUNCT	Z		[]	ROOT	_	_
+1	;	;	PUNCT	Z	_	[0]	ROOT	_	IsStop:False|IsPunct:True
 # sentence: ἅπαντας ἐχθροὺς τῶν θεῶν ἡγοῦ πλέον.
-1	ἅπαντας	ἅπας	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	[5]	amod	_	_
+1	ἅπαντας	ἅπας	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	[5]	amod	_	IsStop:False|IsPunct:False
+2	ἐχθροὺς	ἐχθρός	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	[4]	nsubj	_	IsStop:False|IsPunct:False
+3	τῶν	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	[3]	det	_	IsStop:True|IsPunct:False
+4	θεῶν	θεός	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	[1]	iobj	_	IsStop:False|IsPunct:False
+5	ἡγοῦ	ἡγέομαι	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	[4]	ROOT	_	IsStop:False|IsPunct:False
+6	πλέον	πολύς	ADJ	A-	Case=Acc|Degree=Cmp|Gender=Neut|Number=Sing	[4]	obj	_	IsStop:False|IsPunct:False
+7	.	.	PUNCT	Z	_	[4]	punct	_	IsStop:False|IsPunct:True
 # sentence: 

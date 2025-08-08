@@ -1,5 +1,21 @@
 # sentence: ταὐτὸν πεπόνθατ’ ἆρ’ ἐμοί·
-1	ταὐτὸν	αὐτός	ADJ	A-	Case=Acc|Gender=Neut|Number=Sing	[1]	obj	_	_
+1	ταὐτὸν	αὐτός	ADJ	A-	Case=Acc|Gender=Neut|Number=Sing	[1]	obj	_	IsStop:True|IsPunct:False
+2	πεπόνθατ	πεπόνθατ	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Pass	[1]	ROOT	_	IsStop:False|IsPunct:False
+3	’	’	CCONJ	C-	_	[1]	dep	_	IsStop:False|IsPunct:True
+4	ἆρ	ἆρ	ADV	Df	_	[1]	discourse	_	IsStop:False|IsPunct:False
+5	’	’	CCONJ	C-	_	[1]	cc	_	IsStop:False|IsPunct:True
+6	ἐμοί	ἐγώ	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs	[1]	iobj	_	IsStop:True|IsPunct:False
+7	·	·	PUNCT	Z	_	[1]	punct	_	IsStop:False|IsPunct:True
 # sentence: τοὺς γὰρ πόδας ἑστῶτες ἐσπάσθημεν οὐκ οἶδ’ ἐξ ὅτου.
-1	τοὺς	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	[2]	det	_	_
+1	τοὺς	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	[2]	det	_	IsStop:True|IsPunct:False
+2	γὰρ	γάρ	ADV	Df	_	[]	discourse	_	IsStop:True|IsPunct:False
+3	πόδας	πούς	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	[]	obj	_	IsStop:False|IsPunct:False
+4	ἑστῶτες	ἵστημι	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	[4]	advcl	_	IsStop:False|IsPunct:False
+5	ἐσπάσθημεν	ἐσπάσθημεν	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Pass	[4]	ROOT	_	IsStop:False|IsPunct:False
+6	οὐκ	οὐ	ADV	Df	Polarity=Neg	[6]	advmod	_	IsStop:True|IsPunct:False
+7	οἶδ	οἶδ	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	[4]	dep	_	IsStop:False|IsPunct:False
+8	’	’	CCONJ	C-	_	[4]	dep	_	IsStop:False|IsPunct:True
+9	ἐξ	ἐκ	ADP	R-	_	[9]	case	_	IsStop:True|IsPunct:False
+10	ὅτου	ὅστις	PRON	Pr	Case=Gen|Gender=Neut|Number=Sing|PronType=Rel	[4]	obl	_	IsStop:True|IsPunct:False
+11	.	.	PUNCT	Z	_	[4]	punct	_	IsStop:False|IsPunct:True
 # sentence: 
