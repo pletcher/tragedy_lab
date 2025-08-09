@@ -98,5 +98,5 @@ def write_speeches_to_docs():
             f.write("\n".join(lines))
 
 def write_speeches_to_conllu():
-	to_conllu("./homeric_corpus")
+	to_conllu("./homeric_corpus", "./homeric_conllu")
 

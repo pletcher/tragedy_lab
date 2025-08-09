@@ -1,0 +1,67 @@
+# sentence: Ἴλιον Ἴλιον
+1	Ἴλιον	Ἴλιος	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	[0]	ROOT	_	IsStop=No|IsPunct=No
+2	Ἴλιον	Ἴλιος	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	[0]	appos	_	IsStop=No|IsPunct=No
+# sentence: ,
+1	,	,	PUNCT	Z	_	[0]	ROOT	_	IsStop=No|IsPunct=Yes
+# sentence: ὤμοι μοι,
+1	ὤμοι	ὤμοι	INTJ	I-	_	[2]	vocative	_	IsStop=No|IsPunct=No
+2	μοι	ἐγώ	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs	[0]	iobj	_	IsStop=Yes|IsPunct=No
+3	,	,	PUNCT	Z	_	[]	amod	_	IsStop=No|IsPunct=Yes
+# sentence: Φρύγιον ἄστυ καὶ καλλίβωλον Ἴ-
+1	Φρύγιον	Φρύγιος	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	[1]	amod	_	IsStop=No|IsPunct=No
+2	ἄστυ	ἄστυ	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	[1]	ROOT	_	IsStop=No|IsPunct=No
+3	καὶ	καί	CCONJ	C-	_	[1]	cc	_	IsStop=Yes|IsPunct=No
+4	καλλίβωλον	καλλίβωλος	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc,Neut|Number=Sing	[1]	conj	_	IsStop=No|IsPunct=No
+5	Ἴ	Ἴ	PROPN	Ne	Case=Nom|Gender=Fem|Number=Sing	[1]	conj	_	IsStop=No|IsPunct=No
+6	-	-	PROPN	Ne	_	[4]	appos	_	IsStop=No|IsPunct=Yes
+# sentence: δας ὄρος ἱερόν, ὥς σʼ ὀλόμενον στένω ἁρμάτειον ἁρμάτειον μέλος βαρβάρῳ βοᾷ διʼ ὀρνιθόγονον ὄμμα κυκνοπτέρου καλλοσύνας, Λήδας σκύμνου
+1	δας	δας	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	[]	nsubj	_	IsStop=No|IsPunct=No
+2	ὄρος	ὄρος	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	[0]	appos	_	IsStop=No|IsPunct=No
+3	ἱερόν	ἱερόν	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	[1]	amod	_	IsStop=No|IsPunct=No
+4	,	,	PUNCT	Z	_	[0]	orphan	_	IsStop=No|IsPunct=Yes
+5	ὥς	ὡς	SCONJ	G-	_	[7]	advmod	_	IsStop=Yes|IsPunct=No
+6	σʼ	σύ	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=2|PronType=Prs	[7]	obj	_	IsStop=No|IsPunct=No
+7	ὀλόμενον	ὄλλυμι	VERB	V-	Case=Nom|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	[7]	advcl	_	IsStop=No|IsPunct=No
+8	στένω	στένω	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	[0]	orphan	_	IsStop=No|IsPunct=No
+9	ἁρμάτειον	ἁρμάτειος	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	[10]	amod	_	IsStop=No|IsPunct=No
+10	ἁρμάτειον	ἁρμάτειος	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	[10]	amod	_	IsStop=No|IsPunct=No
+11	μέλος	μέλος	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	[]	nsubj	_	IsStop=No|IsPunct=No
+12	βαρβάρῳ	βάρβαρος	ADJ	A-	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	[12]	advmod	_	IsStop=No|IsPunct=No
+13	βοᾷ	βοάω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	[]	advcl	_	IsStop=No|IsPunct=No
+14	διʼ	διά	ADP	R-	_	[]	case	_	IsStop=No|IsPunct=No
+15	ὀρνιθόγονον	ὀρνιθόγονος	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc,Neut|Number=Sing	[]	amod	_	IsStop=No|IsPunct=No
+16	ὄμμα	ὄμμα	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	[12]	obl	_	IsStop=No|IsPunct=No
+17	κυκνοπτέρου	κυκνοπτέρον	ADJ	A-	Case=Gen|Degree=Cmp|Gender=Masc|Number=Sing	[17]	amod	_	IsStop=No|IsPunct=No
+18	καλλοσύνας	καλλοσύνω	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	[15]	nmod	_	IsStop=No|IsPunct=No
+19	,	,	PUNCT	Z	_	[12]	advmod	_	IsStop=No|IsPunct=Yes
+20	Λήδας	Λήδα	PROPN	Ne	Case=Gen|Gender=Fem|Number=Sing	[]	nmod	_	IsStop=No|IsPunct=No
+21	σκύμνου	σκύμνον	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	[]	dep	_	IsStop=No|IsPunct=No
+# sentence: , δυσελένας δυσελένας
+1	,	,	PUNCT	Z	_	[1]	det	_	IsStop=No|IsPunct=Yes
+2	δυσελένας	δυσελένη	ADJ	V-	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	[1]	ROOT	_	IsStop=No|IsPunct=No
+3	δυσελένας	δυσελένη	ADJ	V-	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	[1]	conj	_	IsStop=No|IsPunct=No
+# sentence: ,
+1	,	,	PUNCT	Z	_	[0]	ROOT	_	IsStop=No|IsPunct=Yes
+# sentence: ξεστῶν περγάμων Ἀπολλωνίων ἐρινύν
+1	ξεστῶν	ξέστης	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	[3]	nmod	_	IsStop=No|IsPunct=No
+2	περγάμων	περγάμος	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	[0]	nmod	_	IsStop=No|IsPunct=No
+3	Ἀπολλωνίων	Ἀπολλωνῖος	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	[0]	nmod	_	IsStop=No|IsPunct=No
+4	ἐρινύν	Ἐρινύς	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	[]	obj	_	IsStop=No|IsPunct=No
+# sentence: ·
+1	·	·	PUNCT	Z	_	[0]	ROOT	_	IsStop=No|IsPunct=Yes
+# sentence: ὀττοτοῖ·
+1	ὀττοτοῖ	ὀττοτώ	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	[0]	ROOT	_	IsStop=No|IsPunct=No
+2	·	·	PUNCT	Z	_	[0]	cop	_	IsStop=No|IsPunct=Yes
+# sentence: 
+# sentence: ἰαλέμων ἰαλέμων Δαρδανία τλᾶμον Γανυμήδεος
+1	ἰαλέμων	ἰαλέμων	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	[]	nmod	_	IsStop=No|IsPunct=No
+2	ἰαλέμων	ἰαλέμων	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	[0]	nmod	_	IsStop=No|IsPunct=No
+3	Δαρδανία	Δαρδανία	PROPN	Ne	Case=Nom|Gender=Neut|Number=Plur	[]	nsubj	_	IsStop=No|IsPunct=No
+4	τλᾶμον	τλήμων	PROPN	Ne	Case=Nom|Gender=Neut|Number=Sing	[2]	appos	_	IsStop=No|IsPunct=No
+5	Γανυμήδεος	Γανυμήδης	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	[3]	nmod	_	IsStop=No|IsPunct=No
+# sentence: ἱπποσύνᾳ, Διὸς εὐνέτα.
+1	ἱπποσύνᾳ	ἱπποσύνᾳ	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	[0]	ROOT	_	IsStop=No|IsPunct=No
+2	,	,	PUNCT	Z	_	[0]	nmod	_	IsStop=No|IsPunct=Yes
+3	Διὸς	Ζεύς	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	[3]	nmod	_	IsStop=No|IsPunct=No
+4	εὐνέτα	εὐνέτα	PROPN	Nb	Case=Nom|Gender=Neut|Number=Plur	[0]	appos	_	IsStop=No|IsPunct=No
+5	.	.	PUNCT	Z	_	[0]	punct	_	IsStop=No|IsPunct=Yes

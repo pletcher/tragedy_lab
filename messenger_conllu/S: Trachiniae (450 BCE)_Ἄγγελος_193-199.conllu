@@ -1,0 +1,59 @@
+# sentence: οὐκ εὐμαρείᾳ χρώμενος πολλῇ
+1	οὐκ	οὐ	ADV	Df	Polarity=Neg	[1]	advmod	_	IsStop=Yes|IsPunct=No
+2	εὐμαρείᾳ	εὐμάρεια	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	[2]	iobj	_	IsStop=No|IsPunct=No
+3	χρώμενος	χράω	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	[2]	ROOT	_	IsStop=No|IsPunct=No
+4	πολλῇ	πολύς	ADJ	A-	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	[2]	dep	_	IsStop=No|IsPunct=No
+# sentence: , γύναι.
+1	,	,	PUNCT	Z	_	[0]	ROOT	_	IsStop=No|IsPunct=Yes
+2	γύναι	γυνή	NOUN	Nb	Case=Voc|Gender=Fem|Number=Sing	[0]	vocative	_	IsStop=No|IsPunct=No
+3	.	.	PUNCT	Z	_	[0]	punct	_	IsStop=No|IsPunct=Yes
+# sentence: κύκλῳ γὰρ αὐτὸν Μηλιεὺς ἅπας λεὼς κρίνει παραστάς, οὐδʼ ἔχει βῆναι πρόσω·
+1	κύκλῳ	κύκλος	ADV	Df	_	[]	advmod	_	IsStop=No|IsPunct=No
+2	γὰρ	γάρ	ADV	Df	_	[]	discourse	_	IsStop=Yes|IsPunct=No
+3	αὐτὸν	αὐτός	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	[]	obj	_	IsStop=Yes|IsPunct=No
+4	Μηλιεὺς	Μηλιεύς	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	[5]	det	_	IsStop=No|IsPunct=No
+5	ἅπας	ἅπας	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	[5]	amod	_	IsStop=No|IsPunct=No
+6	λεὼς	λαός	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	[]	nsubj	_	IsStop=No|IsPunct=No
+7	κρίνει	κρίνω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	[6]	ROOT	_	IsStop=No|IsPunct=No
+8	παραστάς	παρίστημι	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	[6]	advcl	_	IsStop=No|IsPunct=No
+9	,	,	PUNCT	Z	_	[6]	dep	_	IsStop=No|IsPunct=Yes
+10	οὐδʼ	οὐδέ	CCONJ	C-	_	[6]	cc	_	IsStop=No|IsPunct=No
+11	ἔχει	ἔχω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	[6]	conj	_	IsStop=No|IsPunct=No
+12	βῆναι	βαίνω	VERB	V-	Aspect=Perf|Tense=Past|VerbForm=Inf|Voice=Act	[10]	ccomp	_	IsStop=No|IsPunct=No
+13	πρόσω	πρόσω	ADV	Df	Degree=Pos	[11]	advmod	_	IsStop=No|IsPunct=No
+14	·	·	PUNCT	Z	_	[6]	punct	_	IsStop=No|IsPunct=Yes
+# sentence: τὸ γὰρ ποθοῦν ἕκαστος ἐκμαθεῖν θέλων οὐκ ἂν μεθεῖτο
+1	τὸ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	[]	det	_	IsStop=Yes|IsPunct=No
+2	γὰρ	γάρ	ADV	Df	_	[]	discourse	_	IsStop=Yes|IsPunct=No
+3	ποθοῦν	ποθέω	VERB	V-	Case=Acc|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	[5]	xcomp	_	IsStop=No|IsPunct=No
+4	ἕκαστος	ἕκαστος	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	[5]	nsubj	_	IsStop=No|IsPunct=No
+5	ἐκμαθεῖν	ἐκμανθάνω	VERB	V-	Aspect=Perf|Tense=Past|VerbForm=Inf|Voice=Act	[5]	xcomp	_	IsStop=No|IsPunct=No
+6	θέλων	ἐθέλω	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	[]	advcl	_	IsStop=No|IsPunct=No
+7	οὐκ	οὐ	ADV	Df	Polarity=Neg	[8]	advmod	_	IsStop=Yes|IsPunct=No
+8	ἂν	ἄν	ADV	Df	_	[8]	advmod	_	IsStop=Yes|IsPunct=No
+9	μεθεῖτο	μεθίημι	VERB	V-	Aspect=Perf|Mood=Opt|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Mid	[8]	ROOT	_	IsStop=No|IsPunct=No
+# sentence: , πρὶν καθʼ ἡδονὴν κλύειν
+1	,	,	PUNCT	Z	_	[0]	ROOT	_	IsStop=No|IsPunct=Yes
+2	πρὶν	πρίν	SCONJ	G-	_	[4]	mark	_	IsStop=No|IsPunct=No
+3	καθʼ	κατά	ADP	R-	_	[3]	case	_	IsStop=No|IsPunct=No
+4	ἡδονὴν	ἡδονή	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	[4]	obl	_	IsStop=No|IsPunct=No
+5	κλύειν	κλύω	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	[0]	ccomp	_	IsStop=No|IsPunct=No
+# sentence: .
+1	.	.	PUNCT	Z	_	[0]	ROOT	_	IsStop=No|IsPunct=Yes
+# sentence: οὕτως ἐκεῖνος οὐχ ἑκών, ἑκοῦσι δὲ ξύνεστιν·
+1	οὕτως	οὕτως	ADV	Df	_	[]	advmod	_	IsStop=Yes|IsPunct=No
+2	ἐκεῖνος	ἐκεῖνος	ADJ	Pd	Case=Nom|Gender=Masc|Number=Sing	[]	nsubj	_	IsStop=No|IsPunct=No
+3	οὐχ	οὐ	ADV	Df	Polarity=Neg	[3]	advmod	_	IsStop=Yes|IsPunct=No
+4	ἑκών	ἑκών	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	[]	advmod	_	IsStop=No|IsPunct=No
+5	,	,	PUNCT	Z	_	[3]	cc	_	IsStop=No|IsPunct=Yes
+6	ἑκοῦσι	ἑκών	ADJ	A-	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	[3]	conj	_	IsStop=No|IsPunct=No
+7	δὲ	δέ	ADV	Df	_	[]	discourse	_	IsStop=Yes|IsPunct=No
+8	ξύνεστιν	σύνειμι	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	[7]	ROOT	_	IsStop=No|IsPunct=No
+9	·	·	PUNCT	Z	_	[7]	punct	_	IsStop=No|IsPunct=Yes
+# sentence: ὄψει δʼ αὐτὸν αὐτίκʼ ἐμφανῆ.
+1	ὄψει	ὄψος	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	[0]	ROOT	_	IsStop=No|IsPunct=No
+2	δʼ	δέ	ADV	Df	_	[0]	discourse	_	IsStop=No|IsPunct=No
+3	αὐτὸν	αὐτός	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	[0]	obj	_	IsStop=Yes|IsPunct=No
+4	αὐτίκʼ	αὐτίκα	ADV	Df	_	[0]	advmod	_	IsStop=No|IsPunct=No
+5	ἐμφανῆ	ἐμφανής	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	[0]	advmod	_	IsStop=No|IsPunct=No
+6	.	.	PUNCT	Z	_	[0]	punct	_	IsStop=No|IsPunct=Yes

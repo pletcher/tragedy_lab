@@ -8,6 +8,10 @@ from src.homeric_speeches import (
     write_speeches_to_conllu,
     write_speeches_to_docs,
 )
+from src.messenger_speeches import (
+    write_messenger_speeches_to_conllu,
+    write_messenger_speeches_to_docs,
+)
 
 if __name__ == "__main__":
-    plot()
+    plot("messenger_conllu")

@@ -67,6 +67,6 @@ def to_conllu(directory: str = "./tragic_corpus", out_directory: str = "./tragic
 
             out = Path(f"./{out_directory}/{txt.name.replace('.txt', '.conllu')}")
 
-            with out.open("w+") as g:
+            with out.open("w") as g:
                 for sent in doc.sents:
                     write_sentence_to_conllu(g, sent)

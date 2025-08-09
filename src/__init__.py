@@ -180,12 +180,14 @@ def iter_tragedy_lines(title, urn, tree):
                     dramatist = get_dramatist(urn)
 
                     row = {
-                        "n": n[0],
                         "urn": urn,
                         "dramatist": dramatist,
                         "title": TITLES[title],
                         "speaker": speaker,
                         "gender": get_gender(dramatist or "", title, speaker),
+                        # coerce line numbers to ints -- this causes some duplication
+                        # for half-lines, but it makes it easier to get lines later on
+                        "n": int(re.sub(r"\D+", "", n[0])),
                         "text": text,
                         "tokens": tokens,
                     }
@@ -231,7 +233,7 @@ def write_homer_df():
 def write_tragedy_df():
     df = create_tragedy_df()
 
-    df.write_parquet("./greek-tragedy-by-line_with-gender.parquet")
+    df.write_parquet("./tragedy.parquet")
 
 
 def write_corpus():

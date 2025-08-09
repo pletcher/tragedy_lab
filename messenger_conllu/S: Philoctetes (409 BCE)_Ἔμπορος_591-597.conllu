@@ -1,0 +1,56 @@
+# sentence: λέγω.
+1	λέγω	λέγω	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	[0]	ROOT	_	IsStop=No|IsPunct=No
+2	.	.	PUNCT	Z	_	[0]	punct	_	IsStop=No|IsPunct=Yes
+# sentence: 
+# sentence: ʼπὶ τοῦτον ἄνδρε τώδʼ ὥπερ κλύεις,
+1	ʼπὶ	ἐπί	PROPN	Ne	Case=Voc|Gender=Masc|Number=Sing	[6]	vocative	_	IsStop=No|IsPunct=No
+2	τοῦτον	οὗτος	ADJ	Pd	Case=Acc|Gender=Masc|Number=Sing	[2]	det	_	IsStop=Yes|IsPunct=No
+3	ἄνδρε	ἀνήρ	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	[0]	iobj	_	IsStop=No|IsPunct=No
+4	τώδʼ	ὅδε	DET	Pd	Case=Dat|Gender=Masc|Number=Sing	[2]	det	_	IsStop=No|IsPunct=No
+5	ὥπερ	ὅς	PRON	Pr	Case=Dat|Gender=Masc|Number=Sing|PronType=Rel	[5]	iobj	_	IsStop=No|IsPunct=No
+6	κλύεις	κλύω	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	[2]	acl	_	IsStop=No|IsPunct=No
+7	,	,	PUNCT	Z	_	[6]	ROOT	_	IsStop=No|IsPunct=Yes
+# sentence: ὁ Τυδέως παῖς ἥ τʼ Ὀδυσσέως βία, διώμοτοι πλέουσιν ἦ μὴν ἢ λόγῳ πείσαντες ἄξειν ἢ πρὸς ἰσχύος κράτος.
+1	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	[2]	det	_	IsStop=Yes|IsPunct=No
+2	Τυδέως	Τυδεύς	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	[2]	nmod	_	IsStop=No|IsPunct=No
+3	παῖς	παῖς	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	[9]	nsubj	_	IsStop=No|IsPunct=No
+4	ἥ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	[2]	dep	_	IsStop=Yes|IsPunct=No
+5	τʼ	τε	CCONJ	C-	_	[6]	det	_	IsStop=No|IsPunct=No
+6	Ὀδυσσέως	Ὀδυσσεύς	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	[6]	nmod	_	IsStop=No|IsPunct=No
+7	βία	βία	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	[2]	conj	_	IsStop=No|IsPunct=No
+8	,	,	PUNCT	Z	_	[2]	appos	_	IsStop=No|IsPunct=Yes
+9	διώμοτοι	διώμοτος	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	[9]	advmod	_	IsStop=No|IsPunct=No
+10	πλέουσιν	πλέω	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	[9]	ROOT	_	IsStop=No|IsPunct=No
+11	ἦ	ἦ	CCONJ	C-	_	[]	cc	_	IsStop=Yes|IsPunct=No
+12	μὴν	μείς	ADV	Df	_	[]	discourse	_	IsStop=No|IsPunct=No
+13	ἢ	ἤ	CCONJ	C-	_	[13]	cc	_	IsStop=Yes|IsPunct=No
+14	λόγῳ	λόγος	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	[]	obl	_	IsStop=No|IsPunct=No
+15	πείσαντες	πείθω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	[15]	advcl	_	IsStop=No|IsPunct=No
+16	ἄξειν	ἄγω	VERB	V-	Tense=Fut|VerbForm=Inf|Voice=Act	[]	ccomp	_	IsStop=No|IsPunct=No
+17	ἢ	ἤ	CCONJ	C-	_	[15]	cc	_	IsStop=Yes|IsPunct=No
+18	πρὸς	πρός	ADP	R-	_	[19]	case	_	IsStop=Yes|IsPunct=No
+19	ἰσχύος	ἰσχύς	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	[19]	nmod	_	IsStop=No|IsPunct=No
+20	κράτος	κράτος	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	[15]	conj	_	IsStop=No|IsPunct=No
+21	.	.	PUNCT	Z	_	[9]	punct	_	IsStop=No|IsPunct=Yes
+# sentence: 
+# sentence: καὶ ταῦτʼ Ἀχαιοὶ πάντες ἤκουον σαφῶς Ὀδυσσέως λέγοντος·
+1	καὶ	καί	CCONJ	C-	_	[4]	cc	_	IsStop=Yes|IsPunct=No
+2	ταῦτʼ	οὗτος	ADJ	Pd	Case=Acc|Gender=Neut|Number=Plur	[4]	obj	_	IsStop=No|IsPunct=No
+3	Ἀχαιοὶ	Ἀχαιός	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	[4]	nsubj	_	IsStop=No|IsPunct=No
+4	πάντες	πᾶς	DET	Px	Case=Nom|Gender=Masc|Number=Plur	[2]	det	_	IsStop=No|IsPunct=No
+5	ἤκουον	ἀκούω	VERB	V-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	[4]	ROOT	_	IsStop=No|IsPunct=No
+6	σαφῶς	σαφής	ADV	Df	Degree=Pos	[4]	advmod	_	IsStop=No|IsPunct=No
+7	Ὀδυσσέως	Ὀδυσσεύς	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	[7]	iobj	_	IsStop=No|IsPunct=No
+8	λέγοντος	λέγω	VERB	V-	Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	[]	xcomp	_	IsStop=No|IsPunct=No
+9	·	·	PUNCT	Z	_	[4]	punct	_	IsStop=No|IsPunct=Yes
+# sentence: οὗτος γὰρ πλέον τὸ θάρσος εἶχε θατέρου δράσειν τάδε.
+1	οὗτος	οὗτος	ADJ	Pd	Case=Nom|Gender=Masc|Number=Sing	[]	nsubj	_	IsStop=Yes|IsPunct=No
+2	γὰρ	γάρ	ADV	Df	_	[]	discourse	_	IsStop=Yes|IsPunct=No
+3	πλέον	πολύς	ADJ	A-	Case=Acc|Degree=Cmp|Gender=Neut|Number=Sing	[]	amod	_	IsStop=No|IsPunct=No
+4	τὸ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	[4]	det	_	IsStop=Yes|IsPunct=No
+5	θάρσος	θάρσος	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	[5]	obj	_	IsStop=No|IsPunct=No
+6	εἶχε	ἔχω	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	[5]	ROOT	_	IsStop=No|IsPunct=No
+7	θατέρου	ἕτερος	ADJ	A-	Case=Gen|Gender=Masc|Number=Sing	[5]	dep	_	IsStop=No|IsPunct=No
+8	δράσειν	δράσω	VERB	V-	Tense=Fut|VerbForm=Inf|Voice=Act	[5]	advcl	_	IsStop=No|IsPunct=No
+9	τάδε	ὅδε	ADJ	Pd	Case=Acc|Gender=Neut|Number=Plur	[7]	obj	_	IsStop=Yes|IsPunct=No
+10	.	.	PUNCT	Z	_	[5]	punct	_	IsStop=No|IsPunct=Yes

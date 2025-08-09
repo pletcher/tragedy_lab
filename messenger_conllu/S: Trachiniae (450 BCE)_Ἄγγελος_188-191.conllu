@@ -1,0 +1,32 @@
+# sentence: ἐν βουθερεῖ λειμῶνι
+1	ἐν	ἐν	ADP	R-	_	[2]	case	_	IsStop=Yes|IsPunct=No
+2	βουθερεῖ	βουθερής	ADJ	A-	Case=Dat|Degree=Pos|Gender=Masc,Neut|Number=Sing	[2]	amod	_	IsStop=No|IsPunct=No
+3	λειμῶνι	λειμών	NOUN	Nb	Case=Dat|Gender=Neut|Number=Sing	[2]	ROOT	_	IsStop=No|IsPunct=No
+# sentence: πρὸς πολλοὺς θροεῖ Λίχας ὁ κῆρυξ ταῦτα·
+1	πρὸς	πρός	ADP	R-	_	[1]	case	_	IsStop=Yes|IsPunct=No
+2	πολλοὺς	πολύς	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	[2]	obl	_	IsStop=No|IsPunct=No
+3	θροεῖ	θροέω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	[2]	ROOT	_	IsStop=No|IsPunct=No
+4	Λίχας	Λίχας	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	[]	nsubj	_	IsStop=No|IsPunct=No
+5	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	[5]	det	_	IsStop=Yes|IsPunct=No
+6	κῆρυξ	κῆρυξ	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	[3]	appos	_	IsStop=No|IsPunct=No
+7	ταῦτα	οὗτος	ADJ	Pd	Case=Acc|Gender=Neut|Number=Plur	[]	obj	_	IsStop=Yes|IsPunct=No
+8	·	·	PUNCT	Z	_	[2]	punct	_	IsStop=No|IsPunct=Yes
+# sentence: τοῦδʼ ἐγὼ κλύων ἀπῇξʼ, ὅπως τοι πρῶτος ἀγγείλας τάδε πρὸς σοῦ τι κερδάναιμι καὶ κτῴμην χάριν.
+1	τοῦδʼ	ὅδε	ADJ	Pd	Case=Gen|Gender=Neut|Number=Sing	[2]	iobj	_	IsStop=No|IsPunct=No
+2	ἐγὼ	ἐγώ	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	[]	nsubj	_	IsStop=Yes|IsPunct=No
+3	κλύων	κλύω	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	[]	advcl	_	IsStop=No|IsPunct=No
+4	ἀπῇξʼ	ἀπαίσσω	VERB	V-	Aspect=Perf|Mood=Opt|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	[3]	ROOT	_	IsStop=No|IsPunct=No
+5	,	,	PUNCT	Z	_	[3]	xcomp	_	IsStop=No|IsPunct=Yes
+6	ὅπως	ὅπως	SCONJ	G-	_	[]	mark	_	IsStop=No|IsPunct=No
+7	τοι	σύ	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=2|PronType=Prs	[]	iobj	_	IsStop=Yes|IsPunct=No
+8	πρῶτος	πρῶτος	ADJ	Mo	Case=Nom|Gender=Masc|Number=Sing	[8]	xcomp	_	IsStop=No|IsPunct=No
+9	ἀγγείλας	ἀγγέλλω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	[]	advcl	_	IsStop=No|IsPunct=No
+10	τάδε	ὅδε	ADJ	Pd	Case=Acc|Gender=Neut|Number=Plur	[8]	obj	_	IsStop=Yes|IsPunct=No
+11	πρὸς	πρός	ADP	R-	_	[11]	case	_	IsStop=Yes|IsPunct=No
+12	σοῦ	σύ	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=2|PronType=Prs	[13]	obl	_	IsStop=Yes|IsPunct=No
+13	τι	τίς	PRON	Pi	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	[13]	obj	_	IsStop=Yes|IsPunct=No
+14	κερδάναιμι	κερδαίνω	VERB	V-	Aspect=Perf|Mood=Opt|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	[]	conj	_	IsStop=No|IsPunct=No
+15	καὶ	καί	CCONJ	C-	_	[13]	cc	_	IsStop=Yes|IsPunct=No
+16	κτῴμην	κτάομαι	VERB	V-	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	[13]	conj	_	IsStop=No|IsPunct=No
+17	χάριν	χάρις	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	[15]	obj	_	IsStop=No|IsPunct=No
+18	.	.	PUNCT	Z	_	[3]	punct	_	IsStop=No|IsPunct=Yes

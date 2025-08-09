@@ -2,7 +2,7 @@ import unicodedata
 
 from pathlib import Path
 from time import time
-from typing import Dict
+from typing import Dict, Literal
 
 import pyconll
 import matplotlib.pyplot as plt
@@ -12,10 +12,6 @@ from sklearn.decomposition import NMF, LatentDirichletAllocation, MiniBatchNMF
 from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
 
 from .util.stop_words import HARD_CODED_STOPS
-
-CONLLU_DIR = Path("./conllu")
-CONLLU_FILES = [f for f in CONLLU_DIR.iterdir() if f.suffix == ".conllu"]
-
 
 # source and inspiration:
 # https://scikit-learn.org/stable/auto_examples/applications/plot_topics_extraction_with_nmf_lda.html#sphx-glr-auto-examples-applications-plot-topics-extraction-with-nmf-lda-py
@@ -46,7 +42,7 @@ def _should_include_token(token: Token) -> bool:
 
 
 def plot_top_words(model, feature_names, n_top_words, title):
-    fig, axes = plt.subplots(2, 5, figsize=(30, 15), sharex=True)
+    fig, axes = plt.subplots(2, 5, figsize=(15, 10), sharex=True)
     axes = axes.flatten()
 
     for topic_idx, topic in enumerate(model.components_):
@@ -69,10 +65,10 @@ def plot_top_words(model, feature_names, n_top_words, title):
     plt.show()
 
 
-def load_corpus(fs: list[Path] = CONLLU_FILES) -> Dict[str, list[Token]]:
+def load_corpus(fs: list[Path]) -> Dict[str, list[Token]]:
     corpus = {}
 
-    for f in CONLLU_FILES:
+    for f in fs:
         sentences = pyconll.load_from_file(f)  # type: ignore
 
         corpus_key = f.name.replace(f.suffix, "")
@@ -106,9 +102,12 @@ def vectorize_with_tfidf(samples):
     return tfidf_vectorizer.fit_transform(samples)
 
 
-def plot():
+def plot(directory: Literal["homeric_conllu", "messenger_conllu", "tragic_conllu"]):
+    CONLLU_DIR = Path(directory)
+    CONLLU_FILES = [f for f in CONLLU_DIR.iterdir() if f.suffix == ".conllu"]
+
     t0 = time()
-    corpus = load_corpus()
+    corpus = load_corpus(CONLLU_FILES)
     print("Corpus loaded in %0.3fs" % (time() - t0))
 
     samples = []
@@ -136,3 +135,17 @@ def plot():
         n_top_words,
         "Topics in NMF model (Frobenius norm)",
     )
+
+    lda = LatentDirichletAllocation(
+        n_components=n_components,
+        max_iter=50,
+        learning_method="online",
+        learning_offset=50.0,
+        random_state=0,
+    )
+    t0 = time()
+    lda.fit(tf)
+    print("done in %0.3fs." % (time() - t0))
+
+    tf_feature_names = tf_vectorizer.get_feature_names_out()
+    plot_top_words(lda, tf_feature_names, n_top_words, "Topics in LDA model")
