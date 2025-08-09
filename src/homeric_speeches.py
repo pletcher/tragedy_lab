@@ -6,7 +6,7 @@ from typing import Literal
 import polars as pl
 import requests
 
-from .lemmatize import lemmatize
+from .normalization import to_conllu
 
 
 class DICESClient:
@@ -41,7 +41,7 @@ class DICESClient:
 
 
 def get_lines_from_dataframe(
-    df: pl.DataFrame, title: str, lines: list[int]
+    df: pl.DataFrame, title: str, lines: list[list[int]]
 ):
     rows = (
         df.filter(
@@ -98,5 +98,5 @@ def write_speeches_to_docs():
             f.write("\n".join(lines))
 
 def write_speeches_to_conllu():
-	lemmatize("./homeric_corpus")
+	to_conllu("./homeric_corpus")
 

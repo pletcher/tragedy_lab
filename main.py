@@ -1,7 +1,8 @@
 import json
 
 from src import write_homer_df, write_tragedy_df, write_corpus
-from src.lemmatize import lemmatize
+from src.lda import plot
+from src.normalization import to_conllu
 from src.homeric_speeches import (
     DICESClient,
     write_speeches_to_conllu,
@@ -9,4 +10,4 @@ from src.homeric_speeches import (
 )
 
 if __name__ == "__main__":
-    write_speeches_to_conllu()
+    plot()
