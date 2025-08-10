@@ -1,0 +1,50 @@
+# sentence: θάρσει,
+1	θάρσει	θαρσέω	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	[0]	ROOT	_	IsStop=No|IsPunct=No
+2	,	,	PUNCT	Z	_	[0]	advmod	_	IsStop=No|IsPunct=Yes
+# sentence: Ἰκαρίου κούρη τηλεκλειτοῖο·
+1	Ἰκαρίου	Ἰκάριος	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	[1]	amod	_	IsStop=No|IsPunct=No
+2	κούρη	κόρη	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	[3]	vocative	_	IsStop=No|IsPunct=No
+3	τηλεκλειτοῖο	τηλεκλειτός	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	[1]	nmod	_	IsStop=No|IsPunct=No
+4	·	·	PUNCT	Z	_	[3]	ROOT	_	IsStop=No|IsPunct=Yes
+# sentence: οὐκ ὄναρ, ἀλλʼ ὕπαρ ἐσθλόν,
+1	οὐκ	οὐ	ADV	Df	Polarity=Neg	[1]	advmod	_	IsStop=Yes|IsPunct=No
+2	ὄναρ	ὄναρ	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	[]	dislocated	_	IsStop=No|IsPunct=No
+3	,	,	PUNCT	Z	_	[1]	advmod	_	IsStop=No|IsPunct=Yes
+4	ἀλλʼ	ἀλλά	CCONJ	C-	_	[2]	cc	_	IsStop=No|IsPunct=No
+5	ὕπαρ	ὕπαρ	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	[2]	conj	_	IsStop=No|IsPunct=No
+6	ἐσθλόν	ἐσθλός	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	[4]	amod	_	IsStop=No|IsPunct=No
+7	,	,	PUNCT	Z	_	[1]	advmod	_	IsStop=No|IsPunct=Yes
+# sentence: ὅ τοι τετελεσμένον ἔσται.
+1	ὅ	ὅς	PRON	Pr	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	[2]	nsubj	_	IsStop=Yes|IsPunct=No
+2	τοι	σύ	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=2|PronType=Prs	[2]	iobj	_	IsStop=Yes|IsPunct=No
+3	τετελεσμένον	τελέω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	[2]	ROOT	_	IsStop=No|IsPunct=No
+4	ἔσται	εἰμί	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	[2]	cop	_	IsStop=Yes|IsPunct=No
+5	.	.	PUNCT	Z	_	[2]	punct	_	IsStop=No|IsPunct=Yes
+# sentence: χῆνες μὲν μνηστῆρες,
+1	χῆνες	χήν	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	[2]	nsubj	_	IsStop=No|IsPunct=No
+2	μὲν	μέν	ADV	Df	_	[2]	discourse	_	IsStop=Yes|IsPunct=No
+3	μνηστῆρες	μνηστήρ	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	[]	conj	_	IsStop=No|IsPunct=No
+4	,	,	PUNCT	Z	_	[2]	punct	_	IsStop=No|IsPunct=Yes
+# sentence: ἐγὼ δέ τοι αἰετὸς ὄρνις ἦα πάρος, νῦν αὖτε τεὸς πόσις εἰλήλουθα,
+1	ἐγὼ	ἐγώ	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	[]	nsubj	_	IsStop=Yes|IsPunct=No
+2	δέ	δέ	ADV	Df	_	[]	discourse	_	IsStop=Yes|IsPunct=No
+3	τοι	σύ	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=2|PronType=Prs	[]	iobj	_	IsStop=Yes|IsPunct=No
+4	αἰετὸς	ἀετός	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	[]	dep	_	IsStop=No|IsPunct=No
+5	ὄρνις	ὄρνις	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	[3]	appos	_	IsStop=No|IsPunct=No
+6	ἦα	εἰμί	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	[]	cop	_	IsStop=Yes|IsPunct=No
+7	πάρος	πάρος	ADV	Df	_	[5]	advmod	_	IsStop=No|IsPunct=No
+8	,	,	PUNCT	Z	_	[]	appos	_	IsStop=No|IsPunct=Yes
+9	νῦν	νῦν	ADV	Df	_	[12]	advmod	_	IsStop=No|IsPunct=No
+10	αὖτε	αὖτε	ADV	Df	_	[12]	discourse	_	IsStop=No|IsPunct=No
+11	τεὸς	τεός	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	[11]	amod	_	IsStop=No|IsPunct=No
+12	πόσις	πόσις	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	[12]	nsubj	_	IsStop=No|IsPunct=No
+13	εἰλήλουθα	ἔρχομαι	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	[7]	conj	_	IsStop=No|IsPunct=No
+14	,	,	PUNCT	Z	_	[7]	advmod	_	IsStop=No|IsPunct=Yes
+# sentence: ὃς πᾶσι μνηστῆρσιν ἀεικέα πότμον ἐφήσω.
+1	ὃς	ὅς	PRON	Pr	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	[5]	nsubj	_	IsStop=Yes|IsPunct=No
+2	πᾶσι	πᾶς	DET	Px	Case=Dat|Gender=Masc|Number=Plur	[2]	det	_	IsStop=No|IsPunct=No
+3	μνηστῆρσιν	μνηστήρ	NOUN	Nb	Case=Dat|Gender=Masc|Number=Plur	[5]	iobj	_	IsStop=No|IsPunct=No
+4	ἀεικέα	ἀεικής	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	[4]	amod	_	IsStop=No|IsPunct=No
+5	πότμον	πότμος	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	[5]	obj	_	IsStop=No|IsPunct=No
+6	ἐφήσω	ἐφίημι	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	[5]	ROOT	_	IsStop=No|IsPunct=No
+7	.	.	PUNCT	Z	_	[5]	punct	_	IsStop=No|IsPunct=Yes

@@ -1,0 +1,53 @@
+# sentence: ἰὼ ἰώ·
+1	ἰὼ	ἰώ	INTJ	I-	_	[0]	ROOT	_	IsStop=No|IsPunct=No
+2	ἰώ	ἰώ	INTJ	Ne	_	[0]	vocative	_	IsStop=No|IsPunct=No
+3	·	·	PUNCT	Z	_	[0]	punct	_	IsStop=No|IsPunct=Yes
+# sentence: μεγάλαι μεγάλων εὐδαιμονίαι
+1	μεγάλαι	μέγας	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	[]	amod	_	IsStop=No|IsPunct=No
+2	μεγάλων	μέγας	ADJ	A-	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	[]	amod	_	IsStop=No|IsPunct=No
+3	εὐδαιμονίαι	εὐδαιμονία	NOUN	Nb	Case=Nom|Gender=Fem|Number=Plur	[2]	ROOT	_	IsStop=No|IsPunct=No
+# sentence: ·
+1	·	·	PUNCT	Z	_	[0]	ROOT	_	IsStop=No|IsPunct=Yes
+# sentence: τὴν τοῦ βασιλέως ἴδετʼ Ἰφιγένειαν, ἄνασσαν ἐμήν,
+1	τὴν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	[2]	det	_	IsStop=Yes|IsPunct=No
+2	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	[2]	det	_	IsStop=Yes|IsPunct=No
+3	βασιλέως	βασιλεύς	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	[]	nmod	_	IsStop=No|IsPunct=No
+4	ἴδετʼ	εἶδον	VERB	V-	Case=Acc|Gender=Masc|Number=Sing|Tense=Fut|VerbForm=Part|Voice=Act	[3]	ROOT	_	IsStop=No|IsPunct=No
+5	Ἰφιγένειαν	Ἰφιγένεια	PROPN	Ne	Case=Acc|Gender=Fem|Number=Sing	[3]	obj	_	IsStop=No|IsPunct=No
+6	,	,	PUNCT	Z	_	[3]	cc	_	IsStop=No|IsPunct=Yes
+7	ἄνασσαν	ἄνασσα	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	[3]	conj	_	IsStop=No|IsPunct=No
+8	ἐμήν	ἐμός	ADJ	Ps	Case=Acc|Gender=Fem|Number=Sing|Person=1|Poss=Yes	[6]	nmod	_	IsStop=Yes|IsPunct=No
+9	,	,	PUNCT	Z	_	[3]	dep	_	IsStop=No|IsPunct=Yes
+# sentence: τὴν Τυνδάρεω τε Κλυταιμήστραν
+1	τὴν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	[3]	det	_	IsStop=Yes|IsPunct=No
+2	Τυνδάρεω	Τυνδάρεος	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	[0]	dep	_	IsStop=No|IsPunct=No
+3	τε	τε	CCONJ	C-	_	[0]	cc	_	IsStop=Yes|IsPunct=No
+4	Κλυταιμήστραν	Κλυταιμήστρα	PROPN	Ne	Case=Acc|Gender=Fem|Number=Sing	[3]	ROOT	_	IsStop=No|IsPunct=No
+# sentence: ·
+1	·	·	PUNCT	Z	_	[0]	ROOT	_	IsStop=No|IsPunct=Yes
+# sentence: ὡς ἐκ μεγάλων ἐβλαστήκασʼ ἐπί τʼ εὐμήκεις ἥκουσι τύχας
+1	ὡς	ὡς	SCONJ	G-	_	[3]	mark	_	IsStop=Yes|IsPunct=No
+2	ἐκ	ἐκ	ADP	R-	_	[2]	case	_	IsStop=Yes|IsPunct=No
+3	μεγάλων	μέγας	ADJ	A-	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	[3]	obl	_	IsStop=No|IsPunct=No
+4	ἐβλαστήκασʼ	ἐβλαστήκασʼ	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	[]	advcl	_	IsStop=No|IsPunct=No
+5	ἐπί	ἐπί	ADP	R-	_	[8]	case	_	IsStop=Yes|IsPunct=No
+6	τʼ	τε	CCONJ	C-	_	[7]	cc	_	IsStop=No|IsPunct=No
+7	εὐμήκεις	εὐμήκης	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	[7]	amod	_	IsStop=No|IsPunct=No
+8	ἥκουσι	ἥκω	VERB	V-	Case=Dat|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	[7]	ROOT	_	IsStop=No|IsPunct=No
+9	τύχας	τύχη	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	[7]	obl	_	IsStop=No|IsPunct=No
+# sentence: .
+1	.	.	PUNCT	Z	_	[0]	ROOT	_	IsStop=No|IsPunct=Yes
+# sentence: θεοί γʼ οἱ κρείσσους οἵ τʼ ὀλβοφόροι τοῖς οὐκ εὐδαίμοσι θνητῶν.
+1	θεοί	θεός	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	[3]	nsubj	_	IsStop=No|IsPunct=No
+2	γʼ	γε	ADV	Df	_	[0]	discourse	_	IsStop=No|IsPunct=No
+3	οἱ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	[3]	det	_	IsStop=Yes|IsPunct=No
+4	κρείσσους	κρείσσων	ADJ	A-	Case=Nom|Degree=Cmp|Gender=Masc|Number=Plur	[]	nsubj	_	IsStop=No|IsPunct=No
+5	οἵ	ὅς	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	[3]	dep	_	IsStop=Yes|IsPunct=No
+6	τʼ	τε	CCONJ	C-	_	[3]	cc	_	IsStop=No|IsPunct=No
+7	ὀλβοφόροι	ὀλβοφόρος	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	[3]	conj	_	IsStop=No|IsPunct=No
+8	τοῖς	ὁ	DET	S-	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	[9]	det	_	IsStop=Yes|IsPunct=No
+9	οὐκ	οὐ	ADV	Df	Polarity=Neg	[9]	advmod	_	IsStop=Yes|IsPunct=No
+10	εὐδαίμοσι	εὐδαίμων	ADJ	A-	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	[]	advmod	_	IsStop=No|IsPunct=No
+11	θνητῶν	θνητός	NOUN	Nb	Case=Gen|Gender=Neut|Number=Plur	[9]	nmod	_	IsStop=No|IsPunct=No
+12	.	.	PUNCT	Z	_	[]	punct	_	IsStop=No|IsPunct=Yes
+# sentence: 

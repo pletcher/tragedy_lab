@@ -1,0 +1,69 @@
+# sentence: γαμβρὸς ἐμὸς θυγάτηρ τε, τίθεσθʼ ὄνομʼ ὅττι κεν εἴπω·
+1	γαμβρὸς	γαμβρός	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	[5]	xcomp	_	IsStop=No|IsPunct=No
+2	ἐμὸς	ἐμός	ADJ	Ps	Case=Nom|Gender=Masc|Number=Sing|Person=1|Poss=Yes	[0]	nmod	_	IsStop=Yes|IsPunct=No
+3	θυγάτηρ	θυγάτηρ	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	[0]	conj	_	IsStop=No|IsPunct=No
+4	τε	τε	CCONJ	C-	_	[0]	cc	_	IsStop=Yes|IsPunct=No
+5	,	,	PUNCT	Z	_	[0]	dep	_	IsStop=No|IsPunct=Yes
+6	τίθεσθʼ	τίθημι	VERB	V-	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Mid	[5]	ROOT	_	IsStop=No|IsPunct=No
+7	ὄνομʼ	ὄνομα	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	[5]	obj	_	IsStop=No|IsPunct=No
+8	ὅττι	ὅστις	SCONJ	G-	_	[9]	mark	_	IsStop=Yes|IsPunct=No
+9	κεν	ἄν	ADV	Df	_	[9]	advmod	_	IsStop=Yes|IsPunct=No
+10	εἴπω	λέγω	VERB	V-	Aspect=Perf|Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	[6]	acl	_	IsStop=No|IsPunct=No
+11	·	·	PUNCT	Z	_	[5]	punct	_	IsStop=No|IsPunct=Yes
+# sentence: πολλοῖσιν γὰρ ἐγώ γε ὀδυσσάμενος τόδʼ ἱκάνω, ἀνδράσιν ἠδὲ γυναιξὶν ἀνὰ χθόνα πουλυβότειραν·
+1	πολλοῖσιν	πολύς	ADJ	A-	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur	[4]	iobj	_	IsStop=No|IsPunct=No
+2	γὰρ	γάρ	ADV	Df	_	[6]	discourse	_	IsStop=Yes|IsPunct=No
+3	ἐγώ	ἐγώ	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	[6]	nsubj	_	IsStop=Yes|IsPunct=No
+4	γε	γε	ADV	Df	_	[6]	discourse	_	IsStop=Yes|IsPunct=No
+5	ὀδυσσάμενος	ὀδύσσομαι	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Mid	[6]	advcl	_	IsStop=No|IsPunct=No
+6	τόδʼ	ὅδε	ADJ	Pd	Case=Acc|Gender=Neut|Number=Sing	[6]	obj	_	IsStop=No|IsPunct=No
+7	ἱκάνω	ἱκάνω	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	[6]	ROOT	_	IsStop=No|IsPunct=No
+8	,	,	PUNCT	Z	_	[6]	dep	_	IsStop=No|IsPunct=Yes
+9	ἀνδράσιν	ἀνήρ	NOUN	Nb	Case=Dat|Gender=Masc|Number=Plur	[]	iobj	_	IsStop=No|IsPunct=No
+10	ἠδὲ	ἠδέ	CCONJ	C-	_	[8]	cc	_	IsStop=No|IsPunct=No
+11	γυναιξὶν	γυνή	NOUN	Nb	Case=Dat|Gender=Fem|Number=Plur	[8]	conj	_	IsStop=No|IsPunct=No
+12	ἀνὰ	ἀνά	ADP	R-	_	[12]	case	_	IsStop=No|IsPunct=No
+13	χθόνα	χθών	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	[8]	dep	_	IsStop=No|IsPunct=No
+14	πουλυβότειραν	πουλυβότειρα	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	[12]	amod	_	IsStop=No|IsPunct=No
+15	·	·	PUNCT	Z	_	[6]	punct	_	IsStop=No|IsPunct=Yes
+# sentence: τῷ δʼ Ὀδυσεὺς ὄνομʼ ἔστω ἐπώνυμον·
+1	τῷ	ὁ	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	[5]	iobj	_	IsStop=Yes|IsPunct=No
+2	δʼ	δέ	ADV	Df	_	[5]	discourse	_	IsStop=No|IsPunct=No
+3	Ὀδυσεὺς	Ὀδυσσεύς	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	[5]	nsubj	_	IsStop=No|IsPunct=No
+4	ὄνομʼ	ὄνομα	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	[5]	nsubj	_	IsStop=No|IsPunct=No
+5	ἔστω	εἰμί	AUX	V-	Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	[5]	cop	_	IsStop=Yes|IsPunct=No
+6	ἐπώνυμον	ἐπώνυμος	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	[]	xcomp	_	IsStop=No|IsPunct=No
+7	·	·	PUNCT	Z	_	[5]	punct	_	IsStop=No|IsPunct=Yes
+# sentence: αὐτὰρ ἐγώ γε,
+1	αὐτὰρ	ἀτάρ	ADV	Df	_	[3]	discourse	_	IsStop=No|IsPunct=No
+2	ἐγώ	ἐγώ	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	[3]	nsubj	_	IsStop=Yes|IsPunct=No
+3	γε	γε	ADV	Df	_	[3]	discourse	_	IsStop=Yes|IsPunct=No
+4	,	,	PUNCT	Z	_	[]	orphan	_	IsStop=No|IsPunct=Yes
+# sentence: ὁππότʼ ἂν ἡβήσας μητρώϊον ἐς μέγα δῶμα ἔλθῃ Παρνησόνδʼ
+1	ὁππότʼ	ὁπότε	SCONJ	G-	_	[]	dep	_	IsStop=No|IsPunct=No
+2	ἂν	ἄν	ADV	Df	_	[]	advmod	_	IsStop=Yes|IsPunct=No
+3	ἡβήσας	ἡβάω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	[]	advcl	_	IsStop=No|IsPunct=No
+4	μητρώϊον	μητρῷος	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	[6]	amod	_	IsStop=No|IsPunct=No
+5	ἐς	εἰς	ADP	R-	_	[6]	case	_	IsStop=Yes|IsPunct=No
+6	μέγα	μέγας	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	[6]	amod	_	IsStop=No|IsPunct=No
+7	δῶμα	δῶμα	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	[2]	obl	_	IsStop=No|IsPunct=No
+8	ἔλθῃ	ἔρχομαι	VERB	V-	Aspect=Perf|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	[7]	ROOT	_	IsStop=No|IsPunct=No
+9	Παρνησόνδʼ	Παρνασός	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	[7]	obl	_	IsStop=No|IsPunct=No
+# sentence: , ὅθι πού μοι κτήματʼ ἔασι,
+1	,	,	PUNCT	Z	_	[6]	cc	_	IsStop=No|IsPunct=Yes
+2	ὅθι	ὅθι	ADV	Dq	PronType=Rel	[6]	advmod	_	IsStop=No|IsPunct=No
+3	πού	πού	ADV	Df	_	[1]	discourse	_	IsStop=No|IsPunct=No
+4	μοι	ἐγώ	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs	[4]	nmod	_	IsStop=Yes|IsPunct=No
+5	κτήματʼ	κτῆμα	NOUN	Nb	Case=Nom|Gender=Neut|Number=Plur	[1]	nsubj	_	IsStop=No|IsPunct=No
+6	ἔασι	εἰμί	AUX	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	[1]	cop	_	IsStop=Yes|IsPunct=No
+7	,	,	PUNCT	Z	_	[6]	ROOT	_	IsStop=No|IsPunct=Yes
+# sentence: τῶν οἱ ἐγὼ δώσω καί μιν χαίροντʼ ἀποπέμψω.
+1	τῶν	ὁ	PRON	Pr	Case=Gen|Gender=Neut|Number=Plur|PronType=Rel	[5]	nmod	_	IsStop=Yes|IsPunct=No
+2	οἱ	ὁ	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	[3]	iobj	_	IsStop=Yes|IsPunct=No
+3	ἐγὼ	ἐγώ	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	[3]	nsubj	_	IsStop=Yes|IsPunct=No
+4	δώσω	δίδωμι	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	[3]	ROOT	_	IsStop=No|IsPunct=No
+5	καί	καί	CCONJ	C-	_	[3]	cc	_	IsStop=Yes|IsPunct=No
+6	μιν	μιν	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	[7]	obj	_	IsStop=No|IsPunct=No
+7	χαίροντʼ	χαίρω	VERB	V-	Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	[7]	advcl	_	IsStop=No|IsPunct=No
+8	ἀποπέμψω	ἀποπέμπω	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	[3]	conj	_	IsStop=No|IsPunct=No
+9	.	.	PUNCT	Z	_	[3]	punct	_	IsStop=No|IsPunct=Yes

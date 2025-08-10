@@ -1,0 +1,41 @@
+# sentence: ξείνω δή τινε τώδε, διοτρεφὲς ὦ Μενέλαε, ἄνδρε δύω, γενεῇ δὲ Διὸς μεγάλοιο ἔικτον.
+1	ξείνω	ξένος	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	[16]	iobj	_	IsStop=No|IsPunct=No
+2	δή	δή	ADV	Df	_	[0]	discourse	_	IsStop=Yes|IsPunct=No
+3	τινε	τις	PROPN	Px	Case=Dat|Gender=Masc|Number=Sing	[0]	dep	_	IsStop=No|IsPunct=No
+4	τώδε	ὅδε	DET	Pd	Case=Dat|Gender=Masc|Number=Sing	[0]	det	_	IsStop=Yes|IsPunct=No
+5	,	,	PUNCT	Z	_	[0]	dep	_	IsStop=No|IsPunct=Yes
+6	διοτρεφὲς	διοτρεφής	ADJ	A-	Case=Voc|Degree=Pos|Gender=Masc|Number=Sing	[0]	vocative	_	IsStop=No|IsPunct=No
+7	ὦ	ὦ	INTJ	I-	_	[7]	discourse	_	IsStop=Yes|IsPunct=No
+8	Μενέλαε	Μενέλαος	PROPN	Ne	Case=Voc|Gender=Masc|Number=Sing	[0]	vocative	_	IsStop=No|IsPunct=No
+9	,	,	PUNCT	Z	_	[0]	dep	_	IsStop=No|IsPunct=Yes
+10	ἄνδρε	ἀνήρ	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	[]	iobj	_	IsStop=No|IsPunct=No
+11	δύω	δύο	NUM	Ma	Case=Dat|Gender=Masc|Number=Sing	[9]	nummod	_	IsStop=No|IsPunct=No
+12	,	,	PUNCT	Z	_	[0]	punct	_	IsStop=No|IsPunct=Yes
+13	γενεῇ	γενεά	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	[16]	iobj	_	IsStop=No|IsPunct=No
+14	δὲ	δέ	ADV	Df	_	[16]	discourse	_	IsStop=Yes|IsPunct=No
+15	Διὸς	Ζεύς	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	[16]	iobj	_	IsStop=No|IsPunct=No
+16	μεγάλοιο	μέγας	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	[14]	amod	_	IsStop=No|IsPunct=No
+17	ἔικτον	ἔοικα	VERB	A-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	[16]	ROOT	_	IsStop=No|IsPunct=No
+18	.	.	PUNCT	Z	_	[16]	punct	_	IsStop=No|IsPunct=Yes
+# sentence: 
+# sentence: ἀλλʼ εἴπʼ, ἤ σφωιν καταλύσομεν ὠκέας ἵππους,
+1	ἀλλʼ	ἀλλά	CCONJ	C-	_	[1]	cc	_	IsStop=No|IsPunct=No
+2	εἴπʼ	λέγω	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	[1]	ROOT	_	IsStop=No|IsPunct=No
+3	,	,	PUNCT	Z	_	[1]	advmod	_	IsStop=No|IsPunct=Yes
+4	ἤ	ἤ	CCONJ	C-	_	[5]	cc	_	IsStop=Yes|IsPunct=No
+5	σφωιν	σφεῖς	PRON	Pp	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	[5]	iobj	_	IsStop=No|IsPunct=No
+6	καταλύσομεν	καταλύω	VERB	V-	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	[1]	ccomp	_	IsStop=No|IsPunct=No
+7	ὠκέας	ὠκύς	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	[7]	amod	_	IsStop=No|IsPunct=No
+8	ἵππους	ἵππος	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	[5]	obj	_	IsStop=No|IsPunct=No
+9	,	,	PUNCT	Z	_	[1]	advcl	_	IsStop=No|IsPunct=Yes
+# sentence: ἦ
+1	ἦ	ἦ	CCONJ	C-	_	[0]	ROOT	_	IsStop=Yes|IsPunct=No
+# sentence: ἄλλον πέμπωμεν ἱκανέμεν, ὅς κε φιλήσῃ.
+1	ἄλλον	ἄλλος	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	[1]	obj	_	IsStop=Yes|IsPunct=No
+2	πέμπωμεν	πέμπω	VERB	V-	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	[1]	ROOT	_	IsStop=No|IsPunct=No
+3	ἱκανέμεν	ἱκάνω	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	[1]	xcomp	_	IsStop=No|IsPunct=No
+4	,	,	PUNCT	Z	_	[1]	advcl	_	IsStop=No|IsPunct=Yes
+5	ὅς	ὅς	PRON	Pr	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	[6]	nsubj	_	IsStop=Yes|IsPunct=No
+6	κε	ἄν	ADV	Df	_	[6]	advmod	_	IsStop=Yes|IsPunct=No
+7	φιλήσῃ	φιλέω	VERB	V-	Aspect=Perf|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	[0]	acl	_	IsStop=No|IsPunct=No
+8	.	.	PUNCT	Z	_	[1]	punct	_	IsStop=No|IsPunct=Yes

@@ -51,14 +51,17 @@ def plot_top_words(model, feature_names, n_top_words, title):
         weights = topic[top_features_ind]
 
         ax = axes[topic_idx]
-        ax.barh(top_features, weights, height=1)
+        p = ax.barh(top_features, weights, height=1)
         ax.set_title(f"Topic {topic_idx + 1}", fontdict={"fontsize": "x-small"})
         ax.tick_params(axis="both", which="major", labelsize=10)
 
         for i in "top right left".split():
             ax.spines[i].set_visible(False)
 
+        ax.bar_label(p)
+
         ax.figure.autofmt_xdate()
+        ax.autoscale()
         fig.suptitle(title, fontsize=20)
 
     plt.subplots_adjust(top=0.90, bottom=0.05, wspace=0.90, hspace=0.3)
@@ -138,7 +141,7 @@ def plot(directory: Literal["homeric_conllu", "messenger_conllu", "tragic_conllu
 
     lda = LatentDirichletAllocation(
         n_components=n_components,
-        max_iter=50,
+        max_iter=100,
         learning_method="online",
         learning_offset=50.0,
         random_state=0,

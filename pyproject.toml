@@ -12,6 +12,7 @@ dependencies = [
     "pip>=25.2",
     "polars>=1.32.0",
     "pyconll>=3.2.0",
+    "pydracor>=2.0.0",
     "requests>=2.32.4",
     "scikit-learn>=1.7.1",
     "spacy>=3.8.7",
@@ -19,5 +20,7 @@ dependencies = [
 
 [dependency-groups]
 dev = [
+    "jupyterlab>=4.4.5",
+    "python-lsp-server[all,yapf]>=1.13.0",
     "tqdm>=4.67.1",
 ]

@@ -1,0 +1,78 @@
+# sentence: δεῦρʼ ἴθι νύμφα φίλη, ἵνα θέσκελα ἔργα ἴδηαι
+1	δεῦρʼ	δεῦρο	INTJ	I-	_	[1]	vocative	_	IsStop=No|IsPunct=No
+2	ἴθι	εἶμι	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	[]	parataxis	_	IsStop=No|IsPunct=No
+3	νύμφα	νύμφη	NOUN	Ne	Case=Voc|Gender=Neut|Number=Plur	[1]	vocative	_	IsStop=No|IsPunct=No
+4	φίλη	φίλος	ADJ	A-	Case=Voc|Degree=Pos|Gender=Fem|Number=Sing	[2]	amod	_	IsStop=No|IsPunct=No
+5	,	,	PUNCT	Z	_	[1]	parataxis	_	IsStop=No|IsPunct=Yes
+6	ἵνα	ἵνα	SCONJ	G-	_	[8]	mark	_	IsStop=No|IsPunct=No
+7	θέσκελα	θέσκελος	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	[7]	amod	_	IsStop=No|IsPunct=No
+8	ἔργα	ἔργον	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	[8]	obj	_	IsStop=No|IsPunct=No
+9	ἴδηαι	εἶδον	VERB	V-	Aspect=Perf|Mood=Sub|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Mid	[1]	advcl	_	IsStop=No|IsPunct=No
+# sentence: Τρώων
+1	Τρώων	Τρώς	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	[0]	ROOT	_	IsStop=No|IsPunct=No
+# sentence: θʼ
+1	θʼ	τε	CCONJ	C-	_	[0]	ROOT	_	IsStop=No|IsPunct=No
+# sentence: ἱπποδάμων καὶ Ἀχαιῶν χαλκοχιτώνων
+1	ἱπποδάμων	ἱππόδαμος	NOUN	A-	Case=Gen|Gender=Masc|Number=Plur	[0]	ROOT	_	IsStop=No|IsPunct=No
+2	καὶ	καί	CCONJ	C-	_	[0]	cc	_	IsStop=Yes|IsPunct=No
+3	Ἀχαιῶν	Ἀχαιός	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	[0]	conj	_	IsStop=No|IsPunct=No
+4	χαλκοχιτώνων	χαλκοχίτων	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	[2]	amod	_	IsStop=No|IsPunct=No
+# sentence: ,
+1	,	,	PUNCT	Z	_	[0]	ROOT	_	IsStop=No|IsPunct=Yes
+# sentence: οἳ πρὶν ἐπʼ ἀλλήλοισι φέρον πολύδακρυν Ἄρηα ἐν πεδίῳ ὀλοοῖο λιλαιόμενοι πολέμοιο·
+1	οἳ	ὁ	PRON	Pr	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	[4]	nsubj	_	IsStop=Yes|IsPunct=No
+2	πρὶν	πρίν	ADV	Df	_	[4]	advmod	_	IsStop=No|IsPunct=No
+3	ἐπʼ	ἐπί	ADP	R-	_	[3]	case	_	IsStop=No|IsPunct=No
+4	ἀλλήλοισι	ἀλλήλων	PRON	Pc	Case=Dat|Gender=Masc|Number=Plur|PronType=Rcp	[4]	obl	_	IsStop=No|IsPunct=No
+5	φέρον	φέρω	VERB	V-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	[4]	ROOT	_	IsStop=No|IsPunct=No
+6	πολύδακρυν	πολύδακρυς	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	[6]	amod	_	IsStop=No|IsPunct=No
+7	Ἄρηα	Ἄρης	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	[4]	obj	_	IsStop=No|IsPunct=No
+8	ἐν	ἐν	ADP	R-	_	[8]	case	_	IsStop=Yes|IsPunct=No
+9	πεδίῳ	πεδίον	NOUN	Nb	Case=Dat|Gender=Neut|Number=Sing	[]	obl	_	IsStop=No|IsPunct=No
+10	ὀλοοῖο	ὀλοός	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	[10]	amod	_	IsStop=No|IsPunct=No
+11	λιλαιόμενοι	λιλαίομαι	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	[4]	advcl	_	IsStop=No|IsPunct=No
+12	πολέμοιο	πόλεμος	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	[10]	iobj	_	IsStop=No|IsPunct=No
+13	·	·	PUNCT	Z	_	[4]	punct	_	IsStop=No|IsPunct=Yes
+# sentence: οἳ δὴ νῦν ἕαται σιγῇ,
+1	οἳ	ὁ	PRON	Pr	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	[3]	nsubj:pass	_	IsStop=Yes|IsPunct=No
+2	δὴ	δή	ADV	Df	_	[3]	discourse	_	IsStop=Yes|IsPunct=No
+3	νῦν	νῦν	ADV	Df	_	[3]	advmod	_	IsStop=No|IsPunct=No
+4	ἕαται	ἧμαι	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	[]	ccomp	_	IsStop=No|IsPunct=No
+5	σιγῇ	σιγή	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	[3]	nsubj:pass	_	IsStop=No|IsPunct=No
+6	,	,	PUNCT	Z	_	[3]	punct	_	IsStop=No|IsPunct=Yes
+# sentence: πόλεμος δὲ πέπαυται, ἀσπίσι κεκλιμένοι, παρὰ δʼ ἔγχεα μακρὰ πέπηγεν
+1	πόλεμος	πόλεμος	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	[2]	nsubj	_	IsStop=No|IsPunct=No
+2	δὲ	δέ	ADV	Df	_	[2]	discourse	_	IsStop=Yes|IsPunct=No
+3	πέπαυται	παύω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Mid	[2]	ROOT	_	IsStop=No|IsPunct=No
+4	,	,	PUNCT	Z	_	[2]	obl	_	IsStop=No|IsPunct=Yes
+5	ἀσπίσι	ἀσπίς	NOUN	Nb	Case=Dat|Gender=Fem|Number=Plur	[5]	obl	_	IsStop=No|IsPunct=No
+6	κεκλιμένοι	κλίνω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	[11]	advcl	_	IsStop=No|IsPunct=No
+7	,	,	PUNCT	Z	_	[4]	cc	_	IsStop=No|IsPunct=Yes
+8	παρὰ	παρά	ADP	R-	_	[9]	case	_	IsStop=Yes|IsPunct=No
+9	δʼ	δέ	ADV	Df	_	[11]	discourse	_	IsStop=No|IsPunct=No
+10	ἔγχεα	ἔγχος	NOUN	Nb	Case=Nom|Gender=Neut|Number=Plur	[11]	obl	_	IsStop=No|IsPunct=No
+11	μακρὰ	μακρός	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	[9]	amod	_	IsStop=No|IsPunct=No
+12	πέπηγεν	πήγνυμι	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	[2]	conj	_	IsStop=No|IsPunct=No
+# sentence: .
+1	.	.	PUNCT	Z	_	[0]	ROOT	_	IsStop=No|IsPunct=Yes
+# sentence: αὐτὰρ Ἀλέξανδρος καὶ ἀρηΐφιλος Μενέλαος μακρῇς ἐγχείῃσι μαχήσονται περὶ σεῖο·
+1	αὐτὰρ	ἀτάρ	ADV	Df	_	[7]	discourse	_	IsStop=No|IsPunct=No
+2	Ἀλέξανδρος	Ἀλέξανδρος	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	[7]	nsubj	_	IsStop=No|IsPunct=No
+3	καὶ	καί	CCONJ	C-	_	[1]	cc	_	IsStop=Yes|IsPunct=No
+4	ἀρηΐφιλος	ἀρηίφιλος	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	[4]	amod	_	IsStop=No|IsPunct=No
+5	Μενέλαος	Μενέλαος	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	[1]	conj	_	IsStop=No|IsPunct=No
+6	μακρῇς	μακρός	ADJ	A-	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	[6]	amod	_	IsStop=No|IsPunct=No
+7	ἐγχείῃσι	ἐγχείη	NOUN	Nb	Case=Dat|Gender=Fem|Number=Plur	[7]	iobj	_	IsStop=No|IsPunct=No
+8	μαχήσονται	μάχομαι	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	[7]	ROOT	_	IsStop=No|IsPunct=No
+9	περὶ	περί	ADP	R-	_	[9]	case	_	IsStop=Yes|IsPunct=No
+10	σεῖο	σύ	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=2|PronType=Prs	[7]	obl	_	IsStop=Yes|IsPunct=No
+11	·	·	PUNCT	Z	_	[7]	punct	_	IsStop=No|IsPunct=Yes
+# sentence: τῷ δέ κε νικήσαντι φίλη κεκλήσῃ ἄκοιτις.
+1	τῷ	ὁ	DET	S-	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	[3]	det	_	IsStop=Yes|IsPunct=No
+2	δέ	δέ	ADV	Df	_	[5]	discourse	_	IsStop=Yes|IsPunct=No
+3	κε	ἄν	ADV	Df	_	[5]	advmod	_	IsStop=Yes|IsPunct=No
+4	νικήσαντι	νικάω	VERB	V-	Aspect=Perf|Case=Dat|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	[5]	iobj	_	IsStop=No|IsPunct=No
+5	φίλη	φίλος	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	[6]	amod	_	IsStop=No|IsPunct=No
+6	κεκλήσῃ	καλέω	VERB	V-	Aspect=Perf|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	[5]	ROOT	_	IsStop=No|IsPunct=No
+7	ἄκοιτις	ἄκοιτις	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	[5]	nsubj	_	IsStop=No|IsPunct=No
+8	.	.	PUNCT	Z	_	[5]	punct	_	IsStop=No|IsPunct=Yes

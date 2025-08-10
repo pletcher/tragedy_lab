@@ -1,0 +1,63 @@
+# sentence: ὦ φίλʼ, ἐπεὶ νόστησας ἐελδομένοισι μάλʼ ἡμῖν οὐδʼ ἔτʼ ὀϊομένοισι, θεοὶ δέ σʼ ἀνήγαγον αὐτοί
+1	ὦ	ὦ	INTJ	I-	_	[1]	discourse	_	IsStop=Yes|IsPunct=No
+2	φίλʼ	φίλος	ADJ	A-	Case=Voc|Degree=Pos|Gender=Masc|Number=Sing	[2]	vocative	_	IsStop=No|IsPunct=No
+3	,	,	PUNCT	Z	_	[15]	obj	_	IsStop=No|IsPunct=Yes
+4	ἐπεὶ	ἐπεί	SCONJ	G-	_	[]	mark	_	IsStop=No|IsPunct=No
+5	νόστησας	νοστέω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	[]	advcl	_	IsStop=No|IsPunct=No
+6	ἐελδομένοισι	ἔλδομαι	VERB	V-	Case=Dat|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	[4]	advcl	_	IsStop=No|IsPunct=No
+7	μάλʼ	μάλα	ADV	Df	_	[5]	advmod	_	IsStop=No|IsPunct=No
+8	ἡμῖν	ἡμεῖς	PRON	Pp	Case=Dat|Gender=Masc|Number=Plur|Person=1|PronType=Prs	[5]	iobj	_	IsStop=Yes|IsPunct=No
+9	οὐδʼ	οὐδέ	CCONJ	C-	_	[10]	advmod	_	IsStop=No|IsPunct=No
+10	ἔτʼ	ἔτι	ADV	Df	_	[10]	advmod	_	IsStop=No|IsPunct=No
+11	ὀϊομένοισι	οἴομαι	VERB	V-	Case=Dat|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	[]	dep	_	IsStop=No|IsPunct=No
+12	,	,	PUNCT	Z	_	[15]	advmod	_	IsStop=No|IsPunct=Yes
+13	θεοὶ	θεός	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	[15]	nsubj	_	IsStop=No|IsPunct=No
+14	δέ	δέ	ADV	Df	_	[15]	discourse	_	IsStop=Yes|IsPunct=No
+15	σʼ	σύ	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=2|PronType=Prs	[15]	obj	_	IsStop=No|IsPunct=No
+16	ἀνήγαγον	ἀνάγω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	[15]	ROOT	_	IsStop=No|IsPunct=No
+17	αὐτοί	αὐτός	ADJ	Pd	Case=Nom|Gender=Masc|Number=Plur	[12]	det	_	IsStop=Yes|IsPunct=No
+# sentence: ,
+1	,	,	PUNCT	Z	_	[0]	ROOT	_	IsStop=No|IsPunct=Yes
+# sentence: 
+# sentence: οὖλέ τε καὶ μάλα χαῖρε
+1	οὖλέ	οὔλω	ADJ	A-	Case=Voc|Degree=Pos|Gender=Masc|Number=Sing	[0]	ROOT	_	IsStop=No|IsPunct=No
+2	τε	τε	CCONJ	C-	_	[0]	cc	_	IsStop=Yes|IsPunct=No
+3	καὶ	καί	CCONJ	C-	_	[0]	cc	_	IsStop=Yes|IsPunct=No
+4	μάλα	μάλα	ADV	Df	Degree=Pos	[4]	advmod	_	IsStop=No|IsPunct=No
+5	χαῖρε	χαίρω	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	[0]	conj	_	IsStop=No|IsPunct=No
+# sentence: , θεοὶ δέ τοι ὄλβια δοῖεν.
+1	,	,	PUNCT	Z	_	[5]	advmod	_	IsStop=No|IsPunct=Yes
+2	θεοὶ	θεός	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	[5]	nsubj	_	IsStop=No|IsPunct=No
+3	δέ	δέ	ADV	Df	_	[5]	discourse	_	IsStop=Yes|IsPunct=No
+4	τοι	σύ	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=2|PronType=Prs	[5]	iobj	_	IsStop=Yes|IsPunct=No
+5	ὄλβια	ὄλβιος	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	[5]	obj	_	IsStop=No|IsPunct=No
+6	δοῖεν	δίδωμι	VERB	V-	Aspect=Perf|Mood=Opt|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	[5]	ROOT	_	IsStop=No|IsPunct=No
+7	.	.	PUNCT	Z	_	[5]	punct	_	IsStop=No|IsPunct=Yes
+# sentence: καί μοι τοῦτʼ ἀγόρευσον ἐτήτυμον, ὄφρʼ ἐῢ εἰδῶ,
+1	καί	καί	CCONJ	C-	_	[3]	cc	_	IsStop=Yes|IsPunct=No
+2	μοι	ἐγώ	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs	[3]	iobj	_	IsStop=Yes|IsPunct=No
+3	τοῦτʼ	οὗτος	ADJ	Pd	Case=Acc|Gender=Neut|Number=Sing	[3]	obj	_	IsStop=No|IsPunct=No
+4	ἀγόρευσον	ἀγορεύω	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	[3]	ROOT	_	IsStop=No|IsPunct=No
+5	ἐτήτυμον	ἐτήτυμος	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	[2]	amod	_	IsStop=No|IsPunct=No
+6	,	,	PUNCT	Z	_	[3]	dep	_	IsStop=No|IsPunct=Yes
+7	ὄφρʼ	ὄφρα	SCONJ	G-	_	[8]	mark	_	IsStop=No|IsPunct=No
+8	ἐῢ	εὖ	ADV	Df	_	[8]	advmod	_	IsStop=No|IsPunct=No
+9	εἰδῶ	οἶδα	VERB	V-	Aspect=Perf|Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	[3]	advcl	_	IsStop=No|IsPunct=No
+10	,	,	PUNCT	Z	_	[3]	dep	_	IsStop=No|IsPunct=Yes
+# sentence: 
+# sentence: ἢ ἤδη σάφα οἶδε περίφρων Πηνελόπεια νοστήσαντά σε δεῦρʼ
+1	ἢ	ἤ	CCONJ	C-	_	[3]	mark	_	IsStop=Yes|IsPunct=No
+2	ἤδη	ἤδη	ADV	Df	_	[3]	advmod	_	IsStop=No|IsPunct=No
+3	σάφα	σάφα	ADV	Df	Degree=Pos	[3]	advmod	_	IsStop=No|IsPunct=No
+4	οἶδε	οἶδα	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	[3]	ROOT	_	IsStop=No|IsPunct=No
+5	περίφρων	περίφρων	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	[5]	amod	_	IsStop=No|IsPunct=No
+6	Πηνελόπεια	Πηνελόπεια	PROPN	Ne	Case=Nom|Gender=Fem|Number=Sing	[3]	nsubj	_	IsStop=No|IsPunct=No
+7	νοστήσαντά	νοστέω	VERB	V-	Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	[3]	advcl	_	IsStop=No|IsPunct=No
+8	σε	σύ	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=2|PronType=Prs	[6]	obj	_	IsStop=Yes|IsPunct=No
+9	δεῦρʼ	δεῦρο	ADV	Df	_	[6]	obl	_	IsStop=No|IsPunct=No
+# sentence: , ἦ ἄγγελον ὀτρύνωμεν.
+1	,	,	PUNCT	Z	_	[0]	ROOT	_	IsStop=No|IsPunct=Yes
+2	ἦ	ἦ	CCONJ	C-	_	[3]	cc	_	IsStop=Yes|IsPunct=No
+3	ἄγγελον	ἄγγελος	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	[3]	xcomp	_	IsStop=No|IsPunct=No
+4	ὀτρύνωμεν	ὀτρύνω	VERB	V-	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	[0]	conj	_	IsStop=No|IsPunct=No
+5	.	.	PUNCT	Z	_	[3]	punct	_	IsStop=No|IsPunct=Yes
