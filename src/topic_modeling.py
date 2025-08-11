@@ -1,3 +1,4 @@
+import json
 import unicodedata
 
 from pathlib import Path
@@ -26,7 +27,6 @@ tf_vectorizer = CountVectorizer(max_df=0.95, min_df=2, max_features=n_features)
 # filter stop words based on the IsStop MISC value in the CoNLL-U files
 tfidf_vectorizer = TfidfVectorizer(
     max_df=0.95,
-    min_df=2,
     max_features=n_features,
 )
 
@@ -41,14 +41,18 @@ def _should_include_token(token: Token) -> bool:
     )
 
 
-def plot_top_words(model, feature_names, n_top_words, title):
+def plot_top_words(model, feature_names, n_top_words, title, plotname):
     fig, axes = plt.subplots(2, 5, figsize=(15, 10), sharex=True)
     axes = axes.flatten()
+
+    topics = {}
 
     for topic_idx, topic in enumerate(model.components_):
         top_features_ind = topic.argsort()[-n_top_words:]
         top_features = feature_names[top_features_ind]
         weights = topic[top_features_ind]
+
+        topics[topic_idx + 1] = list(zip(top_features, weights))
 
         ax = axes[topic_idx]
         p = ax.barh(top_features, weights, height=1)
@@ -64,8 +68,11 @@ def plot_top_words(model, feature_names, n_top_words, title):
         ax.autoscale()
         fig.suptitle(title, fontsize=20)
 
+    with open(f"{plotname}.json", "w") as f:
+        json.dump(topics, f, indent=2, ensure_ascii=False)
+
     plt.subplots_adjust(top=0.90, bottom=0.05, wspace=0.90, hspace=0.3)
-    plt.show()
+    plt.savefig(f"{plotname}.png")
 
 
 def load_corpus(fs: list[Path]) -> Dict[str, list[Token]]:
@@ -94,6 +101,7 @@ def run_nmf(tfidf, beta_loss="frobenius"):
         alpha_W=0.00005,
         alpha_H="same",
         l1_ratio=1,
+        max_iter=500,
     ).fit(tfidf)
 
 
@@ -108,6 +116,8 @@ def vectorize_with_tfidf(samples):
 def plot(directory: Literal["homeric_conllu", "messenger_conllu", "tragic_conllu"]):
     CONLLU_DIR = Path(directory)
     CONLLU_FILES = [f for f in CONLLU_DIR.iterdir() if f.suffix == ".conllu"]
+
+    corpus_name = directory.split("_")[0]
 
     t0 = time()
     corpus = load_corpus(CONLLU_FILES)
@@ -136,7 +146,8 @@ def plot(directory: Literal["homeric_conllu", "messenger_conllu", "tragic_conllu
         nmf_frobenius,
         tfidf_feature_names,
         n_top_words,
-        "Topics in NMF model (Frobenius norm)",
+        f"Topics in {corpus_name.title()} NMF model (Frobenius norm)",
+        f"{corpus_name}-topics_NMF",
     )
 
     lda = LatentDirichletAllocation(
@@ -151,4 +162,11 @@ def plot(directory: Literal["homeric_conllu", "messenger_conllu", "tragic_conllu
     print("done in %0.3fs." % (time() - t0))
 
     tf_feature_names = tf_vectorizer.get_feature_names_out()
-    plot_top_words(lda, tf_feature_names, n_top_words, "Topics in LDA model")
+
+    plot_top_words(
+        lda,
+        tf_feature_names,
+        n_top_words,
+        f"Topics in {corpus_name.title()} LDA model",
+        f"{corpus_name}-topics_LDA",
+    )

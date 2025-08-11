@@ -1,6 +1,7 @@
 import unicodedata
 
 _stops = {
+    "αβγ",
     "ἀλλά",
     "ἀλλ",
     "ἀλλ'",
