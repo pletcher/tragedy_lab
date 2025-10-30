@@ -20,4 +20,4 @@ if __name__ == "__main__":
     df = prepare_dataframe()
     df = rank_dataframe(df)
 
-    print(df)
+    df.to_csv("./ranked_dracor_networks_in_tragedy.csv")
